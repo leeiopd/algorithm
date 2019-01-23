@@ -20,37 +20,24 @@ for test_case in range(1, T+1):
     long = list(map(int, input().split()))
     cnt = 0
 
-    while cnt != blocks:
+    while cnt <= blocks:
         cnt += 1
-        max = 0
-        min = 100
+        max_box = 0
+        min_box = 100
 
         for i in range(len(long)):
-            if long[i] > max:
-                max = long[i]
+            if long[i] > max_box:
+                max_box = long[i]
                 max_cnt = i
 
-            elif long[i] < min:
-                min = long[i]
+            if long[i] < min_box:
+                min_box = long[i]
                 min_cnt = i
-
-        if long[max_cnt] - long[min_cnt] <= 1:
-            print(f'max: long[max_cnt]')
-            print(f'min: long[min_cnt]')
-            break;
-
+        
         long[max_cnt] -= 1
         long[min_cnt] += 1
-
-
-    for i in range(len(long)):
-        if long[i] > max:
-            max = long[i]
-            max_cnt = i
-
-        elif long[i] < min:
-            min = long[i]
-            min_cnt = i
-
-
-    print(max - min)
+        
+        if long[max_cnt] - long[min_cnt] <= 1:
+            break
+    result = max_box - min_box
+    print(f'#{test_case} {result}')
