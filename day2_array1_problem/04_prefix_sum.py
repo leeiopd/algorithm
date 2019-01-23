@@ -25,7 +25,8 @@ for test_case in range(1, T + 1):
     # 구간 길이
     l_side = l_count - 1
 
-    # 한칸씩 이동하며 구간이 지나온 칸을 빼고 새로 받은 칸을 더하기
+    # 한칸씩 이동하며 구간이 지나온 칸을 빼고 새로 받은 칸을 더하기,
+    # 최대값 최소값 비교 결정.
     for i in range(1, len(nums) - l_side):
         add = add - nums[i-1] + nums[i+l_side]
 
