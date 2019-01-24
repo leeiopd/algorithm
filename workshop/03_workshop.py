@@ -5,7 +5,6 @@
 
 
 import sys
-import pprint
 
 sys.stdin = open("03_input.txt", "r")
 

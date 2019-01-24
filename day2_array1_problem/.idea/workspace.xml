@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a49880b-ee69-4aad-bf70-039c63e7e84c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/03_num_card.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_num_card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_prefix_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_prefix_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/01_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/01_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/01_색칠하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/02_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/02_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/02_부분집합의합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/03_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/03_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/03_이진탐색.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/04_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/04_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/특별한정렬.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3_array2_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day3_array2_study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day3_array2_study/연습2_부분집합의합.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day3_array2_study/연습2_부분집합의합.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,11 +80,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04_prefix_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
+            <state relative-caret-position="814">
               <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_output.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -137,7 +159,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../workshop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -330,13 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_bus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -381,8 +396,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04_prefix_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
+        <state relative-caret-position="814">
           <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
