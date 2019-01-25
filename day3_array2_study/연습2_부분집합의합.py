@@ -13,7 +13,7 @@ for i in range(1, 1 << n):
     add = 0
     for j in range(n):
         if i & (1<<j):
-            print(arr[j])
+            add += arr[j]
 
     if add == 0:
         cnt+=1
