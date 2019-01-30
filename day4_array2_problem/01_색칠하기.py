@@ -33,6 +33,7 @@ for i in range(1, T+1):
         lists.append(list(map(int, input().split())))
 
     maps = [[0 for _ in range(10)] for _ in range(10)]
+    # map = [[0] * 10 for i in range(10)]
 
     for paints in lists:
         if paints[4] == 1:
@@ -49,6 +50,12 @@ for i in range(1, T+1):
                         continue
                     else:
                         maps[y][x] += 2
+    # for k in range (n):
+    #     r1, c1, r2, c2, color = map(int, input().split())
+    #     for i in range(r1, r2 + 1):
+    #         for j in range(c, c2+1):
+    #             data[i][j] += color
+
 
     cnt = 0
     for y in range(10):

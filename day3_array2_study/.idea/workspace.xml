@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a0929b-de97-4b29-b6f4-9571e65c029a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/01_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/01_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/01_색칠하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/02_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/02_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/02_부분집합의합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/03_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/03_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/03_이진탐색.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/04_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/04_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day4_array2_problem/04_정렬.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day2_array1_problem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day2_array1_problem/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/연습문제_달팽이정렬_강사님.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/연습2_부분집합의합.py" beforeDir="false" afterPath="$PROJECT_DIR$/연습2_부분집합의합.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/연습문제.py" beforeDir="false" afterPath="$PROJECT_DIR$/연습문제_달팽이정렬.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_array2_problem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_array2_problem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_array2_problem/01_색칠하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_array2_problem/01_색칠하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_array2_problem/02_부분집합의합.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_array2_problem/02_부분집합의합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_array2_problem/03_이진탐색.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_array2_problem/03_이진탐색.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,15 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2차원 순회.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2차원 입력.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,11 +92,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/연습문제_달팽이정렬.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="396">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/연습문제_달팽이정렬_강사님.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -146,6 +136,7 @@
         <option value="$PROJECT_DIR$/선택정렬.py" />
         <option value="$PROJECT_DIR$/연습문제.py" />
         <option value="$PROJECT_DIR$/연습문제_달팽이정렬.py" />
+        <option value="$PROJECT_DIR$/연습문제_달팽이정렬_강사님.py" />
       </list>
     </option>
   </component>
@@ -160,38 +151,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="day3_array2_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day3_array2_study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day3_array2_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="day3_array2_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (day3_array2_study) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="day3_array2_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (day3_array2_study) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day4_array2_problem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -369,8 +332,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.17702845" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.17702845" />
       <window_info id="Structure" order="1" sideWeight="0.50180507" side_tool="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" sideWeight="0.5010846" side_tool="true" weight="0.17702845" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -388,6 +352,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.17702845" />
+      <window_info id="Structure" order="1" sideWeight="0.50180507" side_tool="true" weight="0.24973656" />
+      <window_info id="Favorites" order="2" sideWeight="0.5010846" side_tool="true" weight="0.17702845" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -476,8 +459,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/연습문제_달팽이정렬.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/연습문제_달팽이정렬_강사님.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>

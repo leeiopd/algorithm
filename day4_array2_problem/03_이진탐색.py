@@ -22,6 +22,7 @@ T = int(input())
 
 for case in range(1, T + 1):
     P, Pa, Pb = map(int, input().split())
+
     cnt_a = 0
     l = 1
     r = P

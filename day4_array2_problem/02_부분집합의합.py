@@ -21,7 +21,10 @@ T = int(input())
 for case in range(1, T+1):
     N, K = map(int, input().split())
     cnt = 0
+
     setA = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    # setA = list(range(1, 13))
+
     n = len(setA)
     s_setA = []
     for i in range(1<<n):
@@ -31,10 +34,27 @@ for case in range(1, T+1):
                 mem.append(setA[j])
         if len(mem) == N:
             add = 0
-            for i in mem:
-                add += i
+            for j in mem:
+                add += j
             if add == K:
                 cnt += 1
+
+    # cnt_1 = 0
+    # sum = 0
+    # cnt = 0
+    # for j in range(n+1):
+    #     if i & (1 << j):
+    #         sum += setA[j]
+    #         cnt_1 += 1
+    #     if sum == K and cnt == N:
+    #         cnt += 1
+
+
+
+
+
+
+
 
     print(f'#{case} {cnt}')
 
