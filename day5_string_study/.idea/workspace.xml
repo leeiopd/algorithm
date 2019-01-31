@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6d5a9aa-ca79-480a-ac5b-1a0ac6a51dc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day3_array2_study/연습문제_달팽이정렬_강사님.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atoi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bit별의암호화.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itoa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/고지식한패턴검색.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/문자열뒤집기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/문자열비교.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workshop/05_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workshop/05_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workshop/05_workshop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day3_array2_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day3_array2_study/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4_array2_problem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_array2_problem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4_array2_problem/01_색칠하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_array2_problem/01_색칠하기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4_array2_problem/02_부분집합의합.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_array2_problem/02_부분집합의합.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4_array2_problem/03_이진탐색.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_array2_problem/03_이진탐색.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../workshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a6d5a9aa-ca79-480a-ac5b-1a0ac6a51dc8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/atoi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -77,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/고지식한패턴검색.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -86,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/bit별의암호화.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -287,6 +269,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18335089" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -346,10 +329,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bit별의암호화.py">
+    <entry file="file://$PROJECT_DIR$/문자열뒤집기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -360,10 +343,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/고지식한패턴검색.py">
+    <entry file="file://$PROJECT_DIR$/atoi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="308">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -374,17 +357,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atoi.py">
+    <entry file="file://$PROJECT_DIR$/고지식한패턴검색.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/문자열뒤집기.py">
+    <entry file="file://$PROJECT_DIR$/bit별의암호화.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

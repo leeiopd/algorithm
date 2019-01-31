@@ -2,22 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f714348-0023-4479-b129-c7f88b14dadb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day3_array2_study/연습문제_달팽이정렬_강사님.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day5_string_study/atoi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day5_string_study/bit별의암호화.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day5_string_study/itoa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day5_string_study/replace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day5_string_study/고지식한패턴검색.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day5_string_study/문자열뒤집기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day5_string_study/문자열비교.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_workshop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day3_array2_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day3_array2_study/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4_array2_problem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_array2_problem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4_array2_problem/01_색칠하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_array2_problem/01_색칠하기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4_array2_problem/02_부분집합의합.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_array2_problem/02_부분집합의합.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4_array2_problem/03_이진탐색.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_array2_problem/03_이진탐색.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6_string_problem/01_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6_string_problem/01_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6_string_problem/01_문자열비교.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6_string_problem/02_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6_string_problem/02_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6_string_problem/02_회문.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6_string_problem/03_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6_string_problem/03_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6_string_problem/03_글자수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_workshop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day5_string_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day5_string_study/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,37 +26,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05_workshop.py">
+        <entry file="file://$PROJECT_DIR$/06_workshop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="388">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_input.txt">
+        <entry file="file://$PROJECT_DIR$/06_input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_output.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04_workshop.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -99,6 +87,9 @@
         <option value="$PROJECT_DIR$/05_output.txt" />
         <option value="$PROJECT_DIR$/05_input.txt" />
         <option value="$PROJECT_DIR$/05_workshop.py" />
+        <option value="$PROJECT_DIR$/06_output.txt" />
+        <option value="$PROJECT_DIR$/06_input.txt" />
+        <option value="$PROJECT_DIR$/06_workshop.py" />
       </list>
     </option>
   </component>
@@ -114,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,10 +116,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day5_string_study" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,28 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.05_workshop">
-    <configuration name="01workshop" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="workshop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01workshop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.06_workshop">
     <configuration name="02workshop" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,13 +219,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="06_workshop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="workshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_workshop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.06_workshop" />
         <item itemvalue="Python.05_workshop" />
         <item itemvalue="Python.04_workshop" />
         <item itemvalue="Python.03_workshop" />
         <item itemvalue="Python.02workshop" />
-        <item itemvalue="Python.01workshop" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +265,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -306,7 +296,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -388,9 +378,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/05_workshop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04_workshop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
+        <state relative-caret-position="828">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
@@ -402,17 +406,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_input.txt">
+    <entry file="file://$PROJECT_DIR$/06_workshop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="388">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_workshop.py">
+    <entry file="file://$PROJECT_DIR$/06_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="154">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
