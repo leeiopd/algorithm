@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae80fa3e-c233-484e-a629-068c0973ee80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bb596199-3e44-4cc0-b76a-c539abaf87ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtrack_permutaition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtrack_powerset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quick_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/연습문제1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/연습문제2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/연습문제2_가지치기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day7_stack_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day7_stack_study/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day8_stack_problem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day8_stack_problem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../workshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -13,84 +20,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stack1.py">
+        <entry file="file://$PROJECT_DIR$/연습문제1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="66">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/괄호검사.py">
+        <entry file="file://$PROJECT_DIR$/backtrack_powerset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="17" column="27" lean-forward="true" selection-end-line="33" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factorial.py">
+        <entry file="file://$PROJECT_DIR$/연습문제2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fibo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/memoization_fibo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dp_fibo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="436">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DFS_재귀.py">
+        <entry file="file://$PROJECT_DIR$/quick_sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="440">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DFS재귀_input.txt">
+        <entry file="file://$PROJECT_DIR$/연습문제2_가지치기.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+            <state relative-caret-position="374">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stack2.py">
+        <entry file="file://$PROJECT_DIR$/backtrack_permutaition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+            <state relative-caret-position="396">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -110,15 +90,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/stack.py" />
-        <option value="$PROJECT_DIR$/stack1.py" />
-        <option value="$PROJECT_DIR$/괄호검사.py" />
-        <option value="$PROJECT_DIR$/factorial.py" />
-        <option value="$PROJECT_DIR$/fibo.py" />
-        <option value="$PROJECT_DIR$/memoization_fibo.py" />
-        <option value="$PROJECT_DIR$/dp_fibo.py" />
-        <option value="$PROJECT_DIR$/DFS재귀_input.txt" />
-        <option value="$PROJECT_DIR$/DFS_재귀.py" />
+        <option value="$PROJECT_DIR$/연습문제1.py" />
+        <option value="$PROJECT_DIR$/backtrack_powerset.py" />
+        <option value="$PROJECT_DIR$/연습문제2_가지치기.py" />
+        <option value="$PROJECT_DIR$/backtrack_permutaition.py" />
+        <option value="$PROJECT_DIR$/연습문제2.py" />
+        <option value="$PROJECT_DIR$/quick_sort.py" />
       </list>
     </option>
   </component>
@@ -138,8 +115,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="day7_stack_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day7_stack_study" type="462c0819:PsiDirectoryNode" />
+              <item name="day9_stack2_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day9_stack2_study" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,9 +139,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DFS_재귀">
-    <configuration name="DFS_재귀" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="day7_stack_study" />
+  <component name="RunManager" selected="Python.quick_sort">
+    <configuration name="연습문제2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day9_stack2_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -175,7 +152,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS_재귀.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/연습문제2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,8 +161,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dp_fibo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="day7_stack_study" />
+    <configuration name="연습문제2_가지치기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day9_stack2_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -196,7 +173,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dp_fibo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/연습문제2_가지치기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,8 +182,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="factorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="day7_stack_study" />
+    <configuration name="backtrack_permutaition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day9_stack2_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -217,7 +194,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/factorial.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtrack_permutaition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,8 +203,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fibo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="day7_stack_study" />
+    <configuration name="backtrack_powerset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day9_stack2_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -238,7 +215,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fibo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtrack_powerset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,8 +224,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="memoization_fibo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="day7_stack_study" />
+    <configuration name="quick_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day9_stack2_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -259,7 +236,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/memoization_fibo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quick_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.DFS_재귀" />
-        <item itemvalue="Python.dp_fibo" />
-        <item itemvalue="Python.memoization_fibo" />
-        <item itemvalue="Python.fibo" />
-        <item itemvalue="Python.factorial" />
+        <item itemvalue="Python.quick_sort" />
+        <item itemvalue="Python.backtrack_permutaition" />
+        <item itemvalue="Python.연습문제2_가지치기" />
+        <item itemvalue="Python.연습문제2" />
+        <item itemvalue="Python.backtrack_powerset" />
       </list>
     </recent_temporary>
   </component>
@@ -283,19 +260,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ae80fa3e-c233-484e-a629-068c0973ee80" name="Default Changelist" comment="" />
-      <created>1550022282127</created>
+      <changelist id="bb596199-3e44-4cc0-b76a-c539abaf87ba" name="Default Changelist" comment="" />
+      <created>1550621779604</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1550022282127</updated>
+      <updated>1550621779604</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -315,66 +291,52 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stack1.py">
+    <entry file="file://$PROJECT_DIR$/연습문제1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="66">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/괄호검사.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factorial.py">
+    <entry file="file://$PROJECT_DIR$/연습문제2_가지치기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fibo.py">
+    <entry file="file://$PROJECT_DIR$/backtrack_permutaition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="396">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/memoization_fibo.py">
+    <entry file="file://$PROJECT_DIR$/backtrack_powerset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="374">
+          <caret line="17" column="27" lean-forward="true" selection-end-line="33" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dp_fibo.py">
+    <entry file="file://$PROJECT_DIR$/연습문제2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="436">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DFS재귀_input.txt">
+    <entry file="file://$PROJECT_DIR$/quick_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stack2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DFS_재귀.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
