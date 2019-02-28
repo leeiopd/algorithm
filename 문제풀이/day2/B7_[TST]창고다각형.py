@@ -34,41 +34,81 @@ sys.stdin = open("B7_input.txt")
 
 N = int(input())
 
-maps = [ [0 for x in range(1002)] for y in range(1000)]
+maps = [ [0 for x in range(1003)] for y in range(1001)]
 max_h = 0
+box_list = [0] * 1002
 for n in range(N):
     l, h = map(int, input().split())
-    for y in range(999, 999-h, -1):
-        for x in range(l, l+1):
-            maps[y][x] = 1
     if max_h < h:
         max_h = h
         max_x = l
+    box_list[l] = h
 
-def start(maps):
-    for y in range(999, 999-h, -1):
-        for x in range(1, 1001):
-            if maps[y][x] == 1:
-                return x, y
+high = 0
+for x in range(max_x):
+    if box_list[x] > high:
+        high = box_list[x]
+    else:
+        box_list[x] = 0
 
-x, y = start(maps) # 시작점 찾기
+high = 0
+for x in range(1001, max_x, -1):
+    if box_list[x] > high:
+        high = box_list[x]
+    else:
+        box_list[x] = 0
 
 
-def check(x, y):
-    for x in range(x, max_x):
-        if maps[y][x] == 1:
-            next_x = x
 
-    for y in range(999, -1, -1):
-        if maps[y][x] == 0:
-            high_y = y
+def start1(box_list):
+    for x in range(max_x):
+        if box_list[x] != 0:
+            return x
+    return 0
+
+def start2(box_list):
+    for x in range(1001, max_x, -1):
+        if box_list[x] != 0:
+            return x
+    return 1000
+
+
+x = start1(box_list)
+while True:
+    if x == max_x+1:
+        break
+    if box_list[x] == 0:
+        x += 1
+        continue
     
-    return next_x, high_y     # 다음 블록 위치, 지금 높이  + 지금 높이랑 비교하는것도 필요함
+    high_y = 1000 - box_list[x]
 
+    for y in range(high_y+1, 1001):
+        for i in range(x, max_x+1):
+            maps[y][i] = 1
+    x += 1
 
+x = start2(box_list)
 while True:
     if x == max_x:
         break
+    if box_list[x] == 0:
+        x -= 1
+        continue
     
-    next_x, high_y = check(x, y)
-    
+    high_y = 1000 - box_list[x]
+
+    for y in range(high_y+1, 1001):
+        for i in range(x, max_x-1, -1):
+            maps[y][i] = 1
+    x -= 1
+
+
+cnt = 0
+for y in range(1001):
+    for x in range(1003):
+        if maps[y][x] == 1:
+            cnt += 1
+
+
+print(cnt)
