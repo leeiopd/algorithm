@@ -10,8 +10,6 @@
 아래 그림은 이런 그래프의 한 예다.
 
 
-
-
 이 그래프에서 작업 1은 작업 4가 끝나야 시작할 수 있다.
 
 작업 6은 작업 5와 작업 7이 끝나야 할 수 있다.
@@ -76,18 +74,41 @@ import sys
 sys.stdin = open('08_input.txt')
 
 
+# def work(maps, start):
+#     global V, result, visited, in_check
+#     if visited[start] == 0:
+#         visited[start] += 1
+#         result.append(start)
+
+#     for i in range(1, V+1):
+#         if maps[i][start] == 1 and in_check[i] != 0:
+#             in_check[i] -= 1
+#             maps[i][start] -= 1
+#             start = i
+#             work(maps, start)
+
+# 0 1 0
+# 0 0 0
+# 1 0 0
+
+# 1 0 1
+
+# 2 -> 1 -> 3
+
 def work(maps, start):
     global V, result, visited, in_check
-    if visited[start] == 0:
-        visited[start] += 1
-        result.append(start)
 
-    for i in range(1, V+1):
-        if maps[i][start] == 1 and in_check[i] != 0:
-            in_check[i] -= 1
-            maps[i][start] -= 1
+    if visited[start] == 1 or len(result) == V:
+        return
+
+    visited[start] = 1
+    result.append(start)
+    for i in range(1,V+1):
+        if maps[i][start] == 1:
             start = i
+            in_check[i] -= 1
             work(maps, start)
+
 
 
 T = 10
@@ -111,7 +132,7 @@ for t in range(1, T+1):
     visited = [0] * (V+1)
     while len(result) < V:
         for i in range(1, V+1):
-            if in_check[i] == 0:
+            if in_check[i] == 0 and visited[i] != 1:
                 work(maps, i)
 
     ans = ' '.join(map(str, result))

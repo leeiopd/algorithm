@@ -26,6 +26,16 @@ N개의 피자를 동시에 구울 수 있는 화덕이 있다. 피자는 치즈
 [출력]
 
 각 줄마다 "#T" (T는 테스트 케이스 번호)를 출력한 뒤, 번호를 출력한다.
+
+3
+3 5
+7 2 6 5 3
+5 10
+5 9 3 9 9 2 5 8 7 1
+5 10
+20 4 5 7 3 15 2 1 2 2
+
+출력 : 화덕에 가장 마지막까지 남아있는 피자 번호
 '''
 import sys
 
@@ -38,3 +48,16 @@ for case in range(1, T+1):
 
     ci = list(map(int, input().split()))
 
+    queue = [0] * N
+
+    q_n = N
+
+    top = 0
+    ci_top = 0
+    while True:
+        if queue[top] == 0:
+            queue[top] = ci[top]
+            top += 1
+            ci[top] += 1
+        if top // N == 0:
+            
