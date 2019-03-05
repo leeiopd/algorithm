@@ -46,18 +46,21 @@ T = int(input())
 for case in range(1, T+1):
     N, M = map(int, input().split())
 
-    ci = list(map(int, input().split()))
+    ci = [0] + list(map(int, input().split()))
+    index_ci = []
+    for x in range(1, len(ci)):
+        index_ci.append(x)
+    pizza = []
 
-    queue = [0] * N
+    while len(index_ci) > 0:
+        if len(pizza) < 3:
+            pizza.append(index_ci.pop(0))
+        else:
+            if ci(pizza[0]) > 0:
+                ci = ci(pizza[0])//2
+                pizza.append(pizza.pop(0))
+            elif ci(pizza[0]) > 0:
+                pizza.pop(0)
+                result = ci.pop(0)
 
-    q_n = N
-
-    top = 0
-    ci_top = 0
-    while True:
-        if queue[top] == 0:
-            queue[top] = ci[top]
-            top += 1
-            ci[top] += 1
-        if top // N == 0:
-            
+    print(result)

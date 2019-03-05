@@ -2,31 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58746c66-bcc0-40fb-8582-6f70f6371348" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day11_Queue1_study/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day11_Queue1_study/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day11_Queue1_study/BFS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day11_Queue1_study/연습1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day11_Queue1_study/연습2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day11_Queue1_study/원형큐.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_회전.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_미로의 거리.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_피자 굽기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workshop/10_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workshop/10_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workshop/10_workshop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workshop/10_workshop2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workshop/11_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workshop/11_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workshop/11_workshop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/day4/C5_[TEST] 반나누기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/day4/C5_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/day4/C5_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/day4/C7_[TST]소수의 개수와 최대 최소 구하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/day4/C7_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/day4/C7_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/day4/C8_[TEST] 원안의 마을.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/day4/C8_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/day4/C8_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/day4/C9_[PY-TST] 도약.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/day4/C9_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/day4/D0_[PY-TST]회전 초밥(중).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/day4/D0_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/day12_queue1_problem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/day12_queue1_problem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_피자 굽기.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_피자 굽기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workshop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workshop/.idea/workshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop/.idea/workshop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../workshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../문제풀이/day2/B7_[TST]창고다각형.py" beforeDir="false" afterPath="$PROJECT_DIR$/../문제풀이/day2/B7_[TST]창고다각형.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../문제풀이/day2/B7_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../문제풀이/day2/B7_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workshop/aaa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문제풀이/day3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../문제풀이/day3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +34,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-327423581">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="522" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="522" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.9">
+    <splitter split-orientation="horizontal" split-proportion="0.5542241">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/02_input.txt">
               <provider selected="true" editor-type-id="text-editor">
@@ -50,8 +71,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/03_피자 굽기.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                <state relative-caret-position="586">
+                  <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
@@ -59,12 +80,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/03_input.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="133">
+                  <caret line="7" selection-start-line="7" selection-end-line="7" />
                 </state>
               </provider>
             </entry>
@@ -72,8 +93,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/03_output.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="66">
-                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                <state relative-caret-position="57">
+                  <caret line="3" selection-start-line="3" selection-end-line="3" />
                 </state>
               </provider>
             </entry>
@@ -118,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,10 +151,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -147,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.02_미로의 거리">
+  <component name="RunManager" selected="Python.03_피자 굽기">
     <configuration name="01_회전" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day12_queue1_problem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,8 +212,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="03_피자 굽기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day12_queue1_problem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_피자 굽기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.01_회전" />
+      <item itemvalue="Python.02_미로의 거리" />
+      <item itemvalue="Python.03_피자 굽기" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03_피자 굽기" />
         <item itemvalue="Python.02_미로의 거리" />
         <item itemvalue="Python.01_회전" />
       </list>
@@ -212,21 +261,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12065332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -250,6 +300,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -316,13 +369,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="266" selection-start-line="266" selection-end-line="266" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/02_미로의 거리.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2178">
@@ -337,6 +384,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../python101/html/html/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/02_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -344,27 +394,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../python101/html/html/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/03_output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03_피자 굽기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="586">
+          <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
         </state>
       </provider>
     </entry>

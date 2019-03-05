@@ -6,34 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dc8d397-aa35-4d27-b57c-e6147a963c3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B7_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B7_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B8_[TST]미로탈출 로봇중간 단계.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B8_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B8_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B9_[TST]연속부분최대곱.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B9_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B9_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0_[TST]덧셈(Plus).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C1_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C1_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C1_사냥꾼.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C2_[TEST] 구슬 굴리기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C2_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C2_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C3_[TEST] 과수원.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C3_[TST]스파이 조직.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C3_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C3_스파이.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C4_[TST] 도약.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C4_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C4_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C6_[TST] 월동준비.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C6_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop/11_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop/11_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop/11_workshop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workshop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../workshop/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workshop/.idea/workshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../workshop/.idea/workshop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../workshop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workshop/aaa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,10 +25,11 @@
     <session id="-1584404458">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -94,7 +75,7 @@
             <entry file="file://$PROJECT_DIR$/C4_input.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="38">
-                  <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+                  <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -111,7 +92,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/C3_[TST]스파이 조직.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
+                <state relative-caret-position="532">
                   <caret line="28" selection-start-line="28" selection-end-line="60" selection-end-column="13" />
                 </state>
               </provider>
@@ -120,8 +101,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/C6_[TST] 월동준비.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="586">
-                  <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+                <state relative-caret-position="587">
+                  <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -129,7 +110,7 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/C3_스파이.txt">
               <provider selected="true" editor-type-id="text-editor">
@@ -199,8 +180,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="x" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -210,6 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,12 +202,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/student/Desktop/이주호/algorithm/문제풀이/day3/C4_[TST] 도약.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workshop" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -599,20 +579,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C1_[TEST] 사냥꾼" />
-    <entry file="file://$PROJECT_DIR$/f.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C1_[TEST] 사냥꾼.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/f.py" />
+    <entry file="file://$PROJECT_DIR$/C1_[TEST] 사냥꾼.py" />
     <entry file="file://$PROJECT_DIR$/C1_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -675,24 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C6_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3_[TST]스파이 조직.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="28" selection-start-line="28" selection-end-line="60" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C4_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -703,17 +657,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C3_스파이.txt">
+    <entry file="file://$PROJECT_DIR$/C3_[TST]스파이 조직.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="118" selection-start-column="118" selection-end-column="118" />
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="60" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C6_[TST] 월동준비.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="587">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3_스파이.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="73" selection-start-column="73" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
