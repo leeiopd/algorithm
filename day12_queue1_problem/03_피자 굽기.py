@@ -47,20 +47,20 @@ for case in range(1, T+1):
     N, M = map(int, input().split())
 
     ci = [0] + list(map(int, input().split()))
-    index_ci = []
-    for x in range(1, len(ci)):
-        index_ci.append(x)
+    index_ci = [x for x in range(1, len(ci))]
     pizza = []
-
-    while len(index_ci) > 0:
-        if len(pizza) < 3:
+    
+    while sum(ci) > 0:
+        if len(pizza) < N and len(index_ci) > 0:
             pizza.append(index_ci.pop(0))
         else:
-            if ci(pizza[0]) > 0:
-                ci = ci(pizza[0])//2
-                pizza.append(pizza.pop(0))
-            elif ci(pizza[0]) > 0:
-                pizza.pop(0)
-                result = ci.pop(0)
+            if ci[pizza[0]] > 0:
+                ci[pizza[0]] = ci[pizza[0]]//2
+                if ci[pizza[0]] == 0:
+                    result = pizza.pop(0)
 
-    print(result)
+                else:
+                    pizza.append(pizza.pop(0))
+                
+
+    print(f'#{case} {result}')

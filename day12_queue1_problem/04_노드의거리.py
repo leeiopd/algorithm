@@ -33,19 +33,15 @@ import sys
 sys.stdin = open("04_input.txt")
 
 def go(S):
-    global visited, route, result
+    global visited, result
     if S == G:
-        result.append(route[S])
-        route[S] = 0
-        visited[S] = 0
         return
     
     
 
     for i in range(1, V+1):
         if maps[S][i] == 1 and visited[i] == 0:
-            route[i] = route[S] + 1
-            visited[i] = 1
+            visited[i] = visited[S] + 1
             go(i)
 
 
@@ -62,7 +58,6 @@ for case in range(1, T+1):
     
     S, G = map(int, input().split())
     visited= [0] * (V+1)
-    route = [0] * (V+1)
     visited[S] = 1
     result = []
     go(S)
