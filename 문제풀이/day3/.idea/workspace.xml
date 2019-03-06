@@ -6,14 +6,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dc8d397-aa35-4d27-b57c-e6147a963c3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../workshop/11_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workshop/11_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workshop/11_workshop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workshop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../workshop/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workshop/.idea/workshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../workshop/.idea/workshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day13_Tree_study/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day13_Tree_study/heap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day13_Tree_study/이진트리_정렬&amp;표기_연습문제1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop/12_1_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop/12_2_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop/12_2_workshop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home/D3_[TST]나는 학급회장이다.(투표).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home/D3_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/.idea/day11_Queue1_study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/BFS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/연습1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/연습2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/원형큐.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/.idea/day12_queue1_problem.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/01_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/01_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/01_회전.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/02_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/02_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/02_미로의 거리.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/03_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/03_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/03_피자 굽기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/04_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/04_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/04_노드의거리.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../workshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../workshop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workshop/aaa.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C6_[TST] 월동준비.py" beforeDir="false" afterPath="$PROJECT_DIR$/C6_[TST] 월동준비.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4/C7_[TST]소수의 개수와 최대 최소 구하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/C7_[TST]소수의 개수와 최대 최소 구하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4/D0_[PY-TST]회전 초밥(중).py" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/D0_[PY-TST]회전 초밥(중).py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,84 +59,57 @@
     <session id="-1584404458">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="25" />
-          <entry key="txt" value="37" />
+          <entry key="py" value="32" />
+          <entry key="txt" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="20" />
+          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="9116" />
+          <entry key="py" value="9328" />
           <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="9096" />
+          <entry key="Python" value="9308" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.71630293">
+    <splitter split-orientation="horizontal" split-proportion="0.8215661">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/C3_스파이.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="118" selection-start-column="118" selection-end-column="118" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/C4_input.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/C3_input.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="57">
-                  <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/C3_[TST]스파이 조직.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="532">
-                  <caret line="28" selection-start-line="28" selection-end-line="60" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../day4/D0_[PY-TST]회전 초밥(중).py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="434">
+                  <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/C6_[TST] 월동준비.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="587">
-                  <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+                <state relative-caret-position="169">
+                  <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -111,20 +118,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/C3_스파이.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="73" selection-start-column="73" selection-end-column="73" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/C6_input.txt">
+            <entry file="file://$PROJECT_DIR$/../day4/D0_input.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
-                  <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+                <state relative-caret-position="152">
+                  <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -176,11 +174,13 @@
         <option value="$PROJECT_DIR$/C3_스파이.txt" />
         <option value="$PROJECT_DIR$/C3_[TST]스파이 조직.py" />
         <option value="$PROJECT_DIR$/C6_[TST] 월동준비.py" />
+        <option value="$PROJECT_DIR$/../day4/D0_[PY-TST]회전 초밥(중).py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="58" />
+    <option name="y" value="-18" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -206,7 +206,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/student/Desktop/이주호/algorithm/문제풀이/day3/C4_[TST] 도약.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workshop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../home" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -221,28 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.C6_[TST] 월동준비">
-    <configuration name="C2_[TEST] 구슬 굴리기" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="day3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/C2_[TEST] 구슬 굴리기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.D0_[PY-TST]회전 초밥(중)">
     <configuration name="C3_[TEST] 과수원" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -327,20 +306,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="D0_[PY-TST]회전 초밥(중)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../day4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../day4/D0_[PY-TST]회전 초밥(중).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.C4_[TST] 도약" />
-      <item itemvalue="Python.C2_[TEST] 구슬 굴리기" />
       <item itemvalue="Python.C3_[TEST] 과수원" />
       <item itemvalue="Python.C6_[TST] 월동준비" />
       <item itemvalue="Python.C3_[TST]스파이 조직" />
+      <item itemvalue="Python.D0_[PY-TST]회전 초밥(중)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.D0_[PY-TST]회전 초밥(중)" />
         <item itemvalue="Python.C6_[TST] 월동준비" />
         <item itemvalue="Python.C3_[TST]스파이 조직" />
         <item itemvalue="Python.C4_[TST] 도약" />
         <item itemvalue="Python.C3_[TEST] 과수원" />
-        <item itemvalue="Python.C2_[TEST] 구슬 굴리기" />
       </list>
     </recent_temporary>
   </component>
@@ -416,19 +416,36 @@
           <line>59</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/C6_[TST] 월동준비.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../../회전초밥중.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="maps" language="Python" />
-        <watch expression="deep" language="Python" />
-        <watch expression="sets" language="Python" />
-        <watch expression="result" language="Python" />
+        <watch expression="kinds[:35]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>kinds[:35]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>chk</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>result</expression-string>
         <language-id>Python</language-id>
@@ -466,11 +483,6 @@
       </expression>
       <expression>
         <expression-string>visited</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>num_list</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -643,6 +655,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_IM_day4.zip/IM_day4/회전초밥중.py" />
+    <entry file="file://$PROJECT_DIR$/C3_스파이.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="73" selection-start-column="73" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/C4_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -664,24 +691,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../day4/D0_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/C6_[TST] 월동준비.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="169">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C3_스파이.txt">
+    <entry file="file://$PROJECT_DIR$/../../../../회전초밥중.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="73" selection-start-column="73" selection-end-column="73" />
+        <state relative-caret-position="76">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C6_input.txt">
+    <entry file="file://$PROJECT_DIR$/../day4/D0_[PY-TST]회전 초밥(중).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="434">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
         </state>
       </provider>
     </entry>

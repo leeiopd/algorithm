@@ -32,15 +32,12 @@ for n in nums:
     if n > 0:
         smart += n
 add = 0
-for start_n in range(N):
-    if nums[start_n] < 0:
-        continue
-    for n in range(start_n, N):
-        add += nums[n]
-        if add <= 0:
-            break
+for n in nums:
+    if n + add >= add:
+        add += n
+    else:
         if add > stupid:
             stupid = add
-    add = 0
+        add = n
 
 print(stupid, smart)

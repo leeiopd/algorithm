@@ -32,38 +32,33 @@ import sys
 
 sys.stdin = open("04_input.txt")
 
-def go(S):
-    global visited, result
-    if S == G:
-        return
-    
-    
-
-    for i in range(1, V+1):
-        if maps[S][i] == 1 and visited[i] == 0:
-            visited[i] = visited[S] + 1
-            go(i)
-
-
-
 T = int(input())
-for case in range(1, T+1):
-    
+for case in range(1, T + 1):
+
     V, E = map(int, input().split())
-    maps = [[ 0 for x in range(V+1)] for y in range(V+1)]
+    maps = [[0 for x in range(V + 1)] for y in range(V + 1)]
     for e in range(E):
-        A, B = map(int,input().split())
+        A, B = map(int, input().split())
         maps[A][B] = 1
         maps[B][A] = 1
-    
+
     S, G = map(int, input().split())
-    visited= [0] * (V+1)
+    visited = [0] * (V + 1)
     visited[S] = 1
-    result = []
-    go(S)
-    result.sort()
-    if result:
-        print(f'#{case} {result[0]}')
+    queue = [S]
+    flag = 0
+    route = []
+    while queue:
+        t = queue.pop(0)
+
+        for i in range(V + 1):
+            if maps[t][i] == 1 and visited[i] == 0:
+                queue.append(i)
+                visited[i] = visited[t] + 1
+
+    result = visited[G] - 1
+
+    if result != -1:
+        print(f'#{case} {result}')
     else:
-        print(f'#{case} ', end='')
-        print('0')
+        print(f'#{case} 0')

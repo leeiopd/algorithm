@@ -30,24 +30,23 @@ sys.stdin = open("D0_input.txt")
 
 N, d, k, c = map(int, input().split())
 
+kinds = [0] * 3001
 bob = []
 for n in range(N):
     bob.append(int(input()))
-
-bob = bob + bob
 result = 0
-cnt = 0
-visited = []
 for i in range(N):
-    cnt += 1
-    if bob[i] not in visited:
-        visited.append(bob[i])
+    for j in range(k):
+        kinds[bob[(i + j) % N]] = 1
 
-    if cnt == k:
-        if result < len(visited)
-            result = len(visited)
+    cnt = 0
+    if kinds[c] == 0:
+        cnt += 1
 
-
-
+    for k in range(1, d+1):
+        cnt += kinds[k]
+        kinds[k] = 0
+    if cnt > result:
+        result = cnt
 print(result)
 

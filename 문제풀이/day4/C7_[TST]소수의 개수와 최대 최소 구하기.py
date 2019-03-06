@@ -30,18 +30,19 @@ a, b = map(int, input().split())
 if a > b:
     a, b = b, a
 
-if a == 1:
-    a += 1
+
+def isPrime(num):
+    if num == 1: return False
+
+    n = int(num**0.5)
+    for k in range(2, n + 1):
+        if num % k == 0: return False
+    return True
+
 
 result = []
-for k in range(a, b+1):
-    cnt = 0
-    for j in range(1, k+1):
-        if k % j == 0:
-            cnt += 1
-        if cnt > 2:
-            break
-    if cnt == 2 and k not in result:
+for k in range(a, b + 1):
+    if isPrime(k):
         result.append(k)
 print(len(result))
 print(result[0] + result[-1])
