@@ -72,9 +72,8 @@ def check2(A):
 def check3(root_result):
     global cnt
     cnt += 1
-    if tree[root_result][0] != 0:
+    if root_result != 0:
         check3(tree[root_result][0])
-    if tree[root_result][1] != 0:
         check3(tree[root_result][1])
 
 
@@ -98,4 +97,5 @@ for case in range(1, T+1):
     root_result = check2(B)
     cnt = 0
     check3(root_result)
-    print(f'#{case} {root_result} {cnt}')
+    # print(f'#{case} {root_result} {cnt}')
+    print(cnt)

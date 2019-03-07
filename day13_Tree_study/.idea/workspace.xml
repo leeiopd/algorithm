@@ -2,41 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2927a98d-2a79-4835-9332-3dcb73be3c06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/이진트리_정렬&amp;표기_연습문제1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day11_Queue1_study/.idea/day11_Queue1_study.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day11_Queue1_study/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day11_Queue1_study/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day11_Queue1_study/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day11_Queue1_study/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day11_Queue1_study/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day11_Queue1_study/BFS.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day11_Queue1_study/연습1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day11_Queue1_study/연습2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day11_Queue1_study/원형큐.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/.idea/day12_queue1_problem.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/01_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/01_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/01_회전.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/02_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/02_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/02_미로의 거리.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/03_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/03_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/03_피자 굽기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/04_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/04_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day12_queue1_problem/04_노드의거리.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../문제풀이/day3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../문제풀이/day3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../문제풀이/day3/C6_[TST] 월동준비.py" beforeDir="false" afterPath="$PROJECT_DIR$/../문제풀이/day3/C6_[TST] 월동준비.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../문제풀이/day4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../문제풀이/day4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../문제풀이/day4/C7_[TST]소수의 개수와 최대 최소 구하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../문제풀이/day4/C7_[TST]소수의 개수와 최대 최소 구하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day14_Tree_problem/01_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day14_Tree_problem/01_subtree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day14_Tree_problem/02_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day14_Tree_problem/02_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day14_Tree_problem/02_이진탐색.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day14_Tree_problem/03_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day14_Tree_problem/03_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day14_Tree_problem/03_이진힙.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day14_Tree_problem/04_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day14_Tree_problem/04_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day14_Tree_problem/04_노드의합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day14_Tree_problem/venv/01_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/day13_Tree_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/day13_Tree_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workshop/12_2_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop/12_2_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workshop/12_2_workshop.py" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop/12_2_workshop.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,10 +31,10 @@
     <session id="384255731">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -92,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/heap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="228">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
                 <marker date="1551853208972" expanded="true" signature="12:17" ph="..." />
                 <marker date="1551853208972" expanded="true" signature="204:209" ph="..." />
@@ -123,9 +106,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -149,7 +132,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../workshop" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -240,8 +223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/heap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="228">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
             <marker date="1551853208972" expanded="true" signature="12:17" ph="..." />
             <marker date="1551853208972" expanded="true" signature="204:209" ph="..." />
