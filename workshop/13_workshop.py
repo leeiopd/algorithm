@@ -59,7 +59,7 @@ def formula(p, a, b):
 
 for case in range(1, 11):
     N = int(input())
-    tree = [[0,0,0,0] for x in range(N+1)]
+    tree = [[0, 0, 0, 0] for x in range(N+1)]
 
     postfix = []
     for n in range(N):

@@ -21,6 +21,7 @@ def check(X, Y):
     return True
 
 
+
 def go(x, y):
     global flag, maps
     if maps[y][x] == '3':
@@ -35,6 +36,7 @@ def go(x, y):
         Y = y + dy[i]
 
         if check(X, Y):
+
             go(X, Y)
 
 
@@ -42,6 +44,7 @@ for case in range(1, T+1):
     N = int(input())
     maps = []
     flag = False
+    visited = []
 
     dx = [1, -1, 0, 0]
     dy = [0, 0, 1, -1]
@@ -57,11 +60,5 @@ for case in range(1, T+1):
 
     if flag == True:
         print(f'#{case} 1')
-
     else:
         print(f'#{case} 0')
-
-
-
-
-
