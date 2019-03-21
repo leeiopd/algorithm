@@ -16,20 +16,6 @@ keys = {'0001101': 0,
         '0001011': 9,
         }
 
-def find_code(codes):
-    global password
-    for y in range(N):
-        for x in range(M):
-            if codes[y][x] != '0':
-                j = x
-                while True:
-                    if codes[y][j] == '0':
-                        break
-                    password += codes[y][j]
-                    codes[y][j] = '0'
-                    j += 1
-                return
-
 bool_table = {'0':'0000',
               '1':'0001',
               '2':'0010',
@@ -47,64 +33,94 @@ bool_table = {'0':'0000',
               'E':'1110',
               'F':'1111',
               }
-
+result_cnt = 0
 for case in range(1, T+1):
     N, M = map(int, input().split())
     codes = []
+    result = 0
     for n in range(N):
-        code = list(map(str, input()))
-        codes.append(code)
-    result_list = []
-    pass_list = []
+        ins = input()
+        if ins in codes:
+            continue
+        codes.append(ins)
 
-    while True:
+    password_list = []
+    for code in codes:
         password = ''
-        find_code(codes)
-        if not password:
-            break
-        if password not in pass_list:
-            pass_list.append(password)
+        for c in code:
+            password += bool_table[c]
 
-    while pass_list:
+        cnt = 0
+        in_code = ''
 
-        result = 0
+        flag = 0
+        for i in range(len(password)):
+            in_code += password[i]
+            if password[i-1] == '1' and password[i] == '0':
+                cnt +=1
+            if cnt != 0 and cnt % 16 == 0:
+                flag = 1
+            if flag == 1 and password[i] == '0':
+                if in_code not in password_list:
+                    password_list.append(in_code)
+                in_code = ''
+                flag = 0
+                cnt = 0
 
-        password = pass_list.pop(0)
-        password2 = ''
-        for p in password:
-            password2 += bool_table[p]
-        password3 = ''
-        for i in range(len(password2)-1, -1, -1):
-            if password2[i] != '0':
-                for j in range(i, i-56, -1):
-                    password3 += password2[j]
+
+
+    for i in range(len(password_list)):
+        cnt_f = 0
+        cnt_b = -1
+        while True:
+            if password_list[i][cnt_f] == '0':
+                cnt_f += 1
+            if password_list[i][cnt_b] == '0':
+                cnt_b -= 1
+            if password_list[i][cnt_f] != '0' and password_list[i][cnt_b] != '0':
+                password_list[i] = password_list[i][cnt_f:cnt_b+1]
                 break
-        password3 = password3[::-1]
+
+    password_list = list(set(password_list))
+
+    for password in password_list:
+        flag = 0
+        cnt_f = 0
+        while password[cnt_f] == '0':
+            cnt_f += 1
+        password = password[cnt_f:]
+
+
+        while len(password)%56 != 0:
+            password = '0' + password
+        password2 = ''
+        for i in range(0, len(password), len(password)//56):
+            password2 += password[i]
+        password = password2
+
+
+
         cnt = 0
         k = 1
-        result = 0
+        code_sum = 0
         odd = 0
         even = 0
-        while cnt < 56:
-            pass_code = password3[cnt:cnt+7]
-            if k == 8:
+        while cnt < len(password):
+            pass_code = password[cnt:cnt + 7]
+            print(keys[pass_code], end=', ')
+            if k != 0 and k % 8 == 0:
                 check_code = keys[pass_code]
             elif k % 2:
                 odd += keys[pass_code]
             else:
                 even += keys[pass_code]
 
-            result += keys[pass_code]
-
+            code_sum += keys[pass_code]
             cnt += 7
             k += 1
-
-        if (odd*3 + even + check_code) % 10 == 0:
-            if result not in result_list:
-                result_list.append(result)
-
-
-    if not result_list:
-        print(case, 0)
-    else:
-        print(case, sum(result_list))
+        print()
+        if (odd * 3 + even + check_code) % 10 == 0:
+            result_cnt += 1
+            result += code_sum
+    print(case, result)
+print(result_cnt)
