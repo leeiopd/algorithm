@@ -41,14 +41,13 @@ if need_total <= total_money:
     print(max(nums))
 
 else:
-    abs_money = need_total//N
-    for i in range(N-1):
-        for j in range(i, N):
-            if nums[i] > nums[j]:
-                nums[i], nums[j] = nums[j], nums[i]
-        if nums[i] > abs_money:
+    nums.sort()
+    for i in range(len(nums)):
+        if nums[i] * (N - i) < total_money:
+            total_money -= nums[i]
+        else:
             check = i
             break
-        total_money -= nums[i]
-    result = total_money//(N-check)
-print(0)
+
+    result = total_money//(N - i)
+    print(result)

@@ -14,13 +14,6 @@ sys.stdin = open("7_input.txt")
 둘째 줄부터는 지도상에 저글링들이 놓여있는 상황이 주어진다. 1은 저글링이 있는 곳의 표시이고 0은 없는 곳이다.
 마지막 줄에는 방사능오염을 가하는 위치가 가로 세로 위치로 주어진다.
  '''
-def count():
-    global maps
-    for y in range(Y):
-        for x in range(X):
-            if maps[y][x] != 0 and maps[y][x] != 1:
-                maps[y][x] -= 1
-
 
 X, Y = map(int, input().split())
 
@@ -53,5 +46,11 @@ while queue:
         if maps[next_y][next_x] == 1:
             maps[next_y][next_x] = 3
             queue.append([next_x, next_y, cnt])
+check = 0
+for y in range(Y+2):
+    for x in range(X+2):
+        if maps[y][x] == 1:
+            check += 1
 
 print(cnt)
+print(check)
