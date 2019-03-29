@@ -2,733 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f714348-0023-4479-b129-c7f88b14dadb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day18_SW응용2_study/babygin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day18_SW응용2_study/gkgk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day18_SW응용2_study/반복을이용한선택정렬.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day18_SW응용2_study/부분집합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day18_SW응용2_study/순열.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day18_SW응용2_study/순열2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day18_SW응용2_study/연습문제3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_output2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_workshop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_workshop_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/.idea/day16_SW응용.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/1_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/easy-install.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/EGG-INFO/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/EGG-INFO/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/EGG-INFO/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/EGG-INFO/not-zip-safe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/EGG-INFO/requires.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/EGG-INFO/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/basecommand.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/baseparser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/build_env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/cmdoptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/completion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/configuration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/download.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/freeze.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/hash.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/help.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/install.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/show.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/uninstall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/wheel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/configuration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/download.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/locations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/models/index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/operations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/operations/check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/operations/freeze.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/operations/prepare.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/pep425tags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/req/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/req/req_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/req/req_install.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/req/req_set.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/req/req_uninstall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/resolve.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/status_codes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/appdirs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/deprecation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/encoding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/filesystem.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/glibc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/hashes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/logging.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/misc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/outdated.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/packaging.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/setuptools_build.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/temp_dir.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/typing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/ui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/vcs/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/vcs/bazaar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/vcs/git.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/vcs/mercurial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/vcs/subversion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/wheel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/appdirs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/_cmd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/adapter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/caches/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/caches/file_cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/caches/redis_cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/controller.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/filewrapper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/heuristics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/serialize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/wrapper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/certifi/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/certifi/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/certifi/cacert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/certifi/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/big5freq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/big5prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/chardistribution.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/charsetgroupprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/charsetprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/cli/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/cli/chardetect.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/codingstatemachine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/cp949prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/enums.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/escprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/escsm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/eucjpprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/euckrfreq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/euckrprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/euctwfreq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/euctwprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/gb2312freq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/gb2312prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/hebrewprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/jisfreq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/jpcntx.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/langbulgarianmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/langcyrillicmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/langgreekmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/langhebrewmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/langhungarianmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/langthaimodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/langturkishmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/latin1prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/mbcharsetprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/mbcsgroupprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/mbcssm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/sbcharsetprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/sbcsgroupprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/sjisprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/universaldetector.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/utf8prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/colorama/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/colorama/ansi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/colorama/ansitowin32.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/colorama/initialise.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/colorama/win32.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/colorama/winterm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/_backport/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/_backport/misc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/_backport/shutil.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/_backport/sysconfig.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/_backport/sysconfig.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/_backport/tarfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/locators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/manifest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/markers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/metadata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/resources.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/scripts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/t32.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/t64.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/w32.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/w64.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/wheel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distro.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_ihatexml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_inputstream.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_tokenizer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_trie/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_trie/_base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_trie/datrie.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_trie/py.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/alphabeticalattributes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/inject_meta_charset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/lint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/optionaltags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/sanitizer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/whitespace.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/html5parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/serializer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treeadapters/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treeadapters/genshi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treeadapters/sax.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treebuilders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treebuilders/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treebuilders/dom.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treebuilders/etree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treebuilders/etree_lxml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treewalkers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treewalkers/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treewalkers/dom.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treewalkers/etree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treewalkers/etree_lxml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treewalkers/genshi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/codec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/idnadata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/intranges.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/package_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/uts46data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/ipaddress.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/lockfile/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/lockfile/linklockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/lockfile/mkdirlockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/lockfile/pidlockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/lockfile/sqlitelockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/lockfile/symlinklockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/msgpack/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/msgpack/_version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/msgpack/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/msgpack/fallback.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/__about__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/_compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/_structures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/markers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/requirements.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/specifiers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/pkg_resources/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/pkg_resources/py31compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/progress/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/progress/bar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/progress/counter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/progress/helpers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/progress/spinner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/pyparsing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/pytoml/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/pytoml/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/pytoml/parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/pytoml/writer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/__version__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/_internal_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/adapters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/auth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/certs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/cookies.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/help.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/hooks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/packages.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/sessions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/status_codes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/structures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/retrying.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/six.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/_collections.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/connectionpool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/appengine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/ntlmpool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/pyopenssl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/securetransport.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/socks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/filepost.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/packages/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/packages/backports/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/packages/backports/makefile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/packages/ordered_dict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/packages/six.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/poolmanager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/retry.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/selectors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/ssl_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/timeout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/url.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/wait.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/webencodings/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/webencodings/labels.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/webencodings/mklabels.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/webencodings/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/webencodings/x_user_defined.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/setuptools-39.1.0-py3.5.egg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/site-packages/setuptools.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Lib/tcl8.6/init.tcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_bz2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_ctypes.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_ctypes_test.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_decimal.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_elementtree.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_hashlib.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_lzma.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_msi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_multiprocessing.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_overlapped.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_socket.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_sqlite3.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_ssl.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_testbuffer.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_testcapi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_testimportmultiple.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_testmultiphase.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/_tkinter.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/easy_install-3.5-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/easy_install-3.5.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/easy_install-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/easy_install.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/pip-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/pip.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/pip3-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/pip3.5-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/pip3.5.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/pip3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/pyexpat.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/python3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/python35.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/select.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/tcl86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/tk86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/unicodedata.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/vcruntime140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/Scripts/winsound.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/pyvenv.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/venv/연습문제3선생님.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/비트연산예제1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/연습문제 3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/연습문제1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/연습문제2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/연습문제2선생님.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용/표준입출력.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/.idea/day16_SW응용_problem.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/01_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/01_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/01_이진수.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/02_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/02_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/easy-install.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/EGG-INFO/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/EGG-INFO/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/EGG-INFO/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/EGG-INFO/not-zip-safe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/EGG-INFO/requires.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/EGG-INFO/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/basecommand.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/baseparser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/build_env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/cmdoptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/completion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/configuration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/download.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/freeze.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/hash.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/help.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/install.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/show.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/uninstall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/commands/wheel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/configuration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/download.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/locations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/models/index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/operations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/operations/check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/operations/freeze.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/operations/prepare.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/pep425tags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/req/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/req/req_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/req/req_install.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/req/req_set.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/req/req_uninstall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/resolve.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/status_codes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/appdirs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/deprecation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/encoding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/filesystem.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/glibc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/hashes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/logging.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/misc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/outdated.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/packaging.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/setuptools_build.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/temp_dir.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/typing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/utils/ui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/vcs/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/vcs/bazaar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/vcs/git.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/vcs/mercurial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/vcs/subversion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_internal/wheel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/appdirs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/_cmd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/adapter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/caches/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/caches/file_cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/caches/redis_cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/controller.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/filewrapper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/heuristics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/serialize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/cachecontrol/wrapper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/certifi/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/certifi/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/certifi/cacert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/certifi/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/big5freq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/big5prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/chardistribution.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/charsetgroupprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/charsetprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/cli/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/cli/chardetect.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/codingstatemachine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/cp949prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/enums.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/escprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/escsm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/eucjpprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/euckrfreq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/euckrprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/euctwfreq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/euctwprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/gb2312freq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/gb2312prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/hebrewprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/jisfreq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/jpcntx.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/langbulgarianmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/langcyrillicmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/langgreekmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/langhebrewmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/langhungarianmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/langthaimodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/langturkishmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/latin1prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/mbcharsetprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/mbcsgroupprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/mbcssm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/sbcharsetprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/sbcsgroupprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/sjisprober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/universaldetector.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/utf8prober.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/chardet/version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/colorama/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/colorama/ansi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/colorama/ansitowin32.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/colorama/initialise.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/colorama/win32.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/colorama/winterm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/_backport/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/_backport/misc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/_backport/shutil.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/_backport/sysconfig.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/_backport/sysconfig.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/_backport/tarfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/locators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/manifest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/markers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/metadata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/resources.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/scripts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/t32.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/t64.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/w32.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/w64.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distlib/wheel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/distro.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_ihatexml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_inputstream.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_tokenizer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_trie/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_trie/_base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_trie/datrie.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_trie/py.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/alphabeticalattributes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/inject_meta_charset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/lint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/optionaltags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/sanitizer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/filters/whitespace.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/html5parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/serializer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treeadapters/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treeadapters/genshi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treeadapters/sax.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treebuilders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treebuilders/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treebuilders/dom.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treebuilders/etree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treebuilders/etree_lxml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treewalkers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treewalkers/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treewalkers/dom.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treewalkers/etree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treewalkers/etree_lxml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/html5lib/treewalkers/genshi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/codec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/idnadata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/intranges.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/package_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/idna/uts46data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/ipaddress.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/lockfile/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/lockfile/linklockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/lockfile/mkdirlockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/lockfile/pidlockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/lockfile/sqlitelockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/lockfile/symlinklockfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/msgpack/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/msgpack/_version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/msgpack/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/msgpack/fallback.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/__about__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/_compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/_structures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/markers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/requirements.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/specifiers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/packaging/version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/pkg_resources/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/pkg_resources/py31compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/progress/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/progress/bar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/progress/counter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/progress/helpers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/progress/spinner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/pyparsing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/pytoml/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/pytoml/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/pytoml/parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/pytoml/writer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/__version__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/_internal_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/adapters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/auth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/certs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/cookies.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/help.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/hooks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/packages.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/sessions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/status_codes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/structures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/requests/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/retrying.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/six.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/_collections.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/connectionpool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/appengine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/ntlmpool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/pyopenssl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/securetransport.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/contrib/socks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/filepost.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/packages/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/packages/backports/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/packages/backports/makefile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/packages/ordered_dict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/packages/six.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/poolmanager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/retry.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/selectors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/ssl_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/timeout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/url.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/urllib3/util/wait.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/webencodings/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/webencodings/labels.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/webencodings/mklabels.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/webencodings/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/pip-10.0.1-py3.5.egg/pip/_vendor/webencodings/x_user_defined.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/setuptools-39.1.0-py3.5.egg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/site-packages/setuptools.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Lib/tcl8.6/init.tcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_bz2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_ctypes.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_ctypes_test.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_decimal.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_elementtree.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_hashlib.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_lzma.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_msi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_multiprocessing.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_overlapped.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_socket.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_sqlite3.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_ssl.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_testbuffer.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_testcapi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_testimportmultiple.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_testmultiphase.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/_tkinter.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/easy_install-3.5-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/easy_install-3.5.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/easy_install-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/easy_install.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/pip-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/pip.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/pip3-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/pip3.5-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/pip3.5.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/pip3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/pyexpat.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/python3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/python35.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/select.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/tcl86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/tk86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/unicodedata.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/vcruntime140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/Scripts/winsound.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/venv/pyvenv.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day16_SW응용_problem/이진수2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/1_최소합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/2_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/2_전자카트.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/3_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/3_컨테이너운반.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/4_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/4_화물도크.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/5_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/5_베이비진 게임.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_workshop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/home/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/home/장기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/home/장기.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/home/장기2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day18_SW응용2_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day18_SW응용2_study/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../문제풀이/day6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../문제풀이/day6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문제풀이/home/.idea/home.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../문제풀이/home/.idea/home.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문제풀이/home/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../문제풀이/home/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -740,67 +33,87 @@
     <session id="46535578">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.0" value="7" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="6" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="15_input2" value="1" />
-          <entry key="py" value="23" />
-          <entry key="txt" value="24" />
+          <entry key="py" value="25" />
+          <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="25" />
-          <entry key="Python" value="23" />
+          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="Python" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="16618" />
-          <entry key="txt" value="73" />
+          <entry key="py" value="18931" />
+          <entry key="txt" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="73" />
-          <entry key="Python" value="16618" />
+          <entry key="PLAIN_TEXT" value="86" />
+          <entry key="Python" value="18931" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5561097">
+    <splitter split-orientation="horizontal" split-proportion="0.77369076">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/16_workshop.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="605">
-                  <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/16_workshop_2.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="760">
-                  <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="horizontal" split-proportion="0.8846774">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/17_workshop.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="510">
+                      <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+                      <folding>
+                        <marker date="1553762126697" expanded="true" signature="963:965" ph="..." />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/17_output.txt">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="152">
+                      <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/17_input.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="1" lean-forward="true" selection-start-column="1" selection-end-line="9" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/16_input2.txt">
               <provider selected="true" editor-type-id="text-editor">
@@ -828,7 +141,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/16_output.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="38">
@@ -859,9 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/02_input.txt" />
-        <option value="$PROJECT_DIR$/02workshop.py" />
-        <option value="$PROJECT_DIR$/03_input.txt" />
         <option value="$PROJECT_DIR$/03_output.txt" />
         <option value="$PROJECT_DIR$/03_workshop.py" />
         <option value="$PROJECT_DIR$/04_input.txt" />
@@ -910,6 +220,9 @@
         <option value="$PROJECT_DIR$/16_output2.txt" />
         <option value="$PROJECT_DIR$/16_workshop_2.py" />
         <option value="$PROJECT_DIR$/16_workshop.py" />
+        <option value="$PROJECT_DIR$/17_output.txt" />
+        <option value="$PROJECT_DIR$/17_workshop.py" />
+        <option value="$PROJECT_DIR$/17_input.txt" />
       </list>
     </option>
   </component>
@@ -924,7 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -936,6 +248,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -954,28 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.16_workshop">
-    <configuration name="14_workshop" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="workshop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_workshop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.17_workshop">
     <configuration name="15_workshop" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1060,20 +352,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="17_workshop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="workshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_workshop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.14_workshop" />
       <item itemvalue="Python.15_workshop" />
       <item itemvalue="Python.15_workshop2" />
       <item itemvalue="Python.16_workshop" />
       <item itemvalue="Python.16_workshop_2" />
+      <item itemvalue="Python.17_workshop" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17_workshop" />
         <item itemvalue="Python.16_workshop" />
         <item itemvalue="Python.16_workshop_2" />
         <item itemvalue="Python.15_workshop" />
         <item itemvalue="Python.15_workshop2" />
-        <item itemvalue="Python.14_workshop" />
       </list>
     </recent_temporary>
   </component>
@@ -1163,12 +476,29 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="twos_list" language="Python" />
+        <watch expression="nums[top]" language="Python" />
+        <watch expression="nums" language="Python" />
+        <watch expression="mmax" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>mmax</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nums</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nums[top]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>twos_list</expression-string>
         <language-id>Python</language-id>
@@ -1204,45 +534,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>codes</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>for i in range(N):codes[i]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>for i in range(N):</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="110" selection-start-line="9" selection-start-column="110" selection-end-line="9" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05_workshop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1521,31 +815,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16_workshop_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16_output2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/16_workshop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="606">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
@@ -1556,10 +829,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/16_output2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/16_output.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_workshop_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_workshop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <marker date="1553762126697" expanded="true" signature="963:965" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

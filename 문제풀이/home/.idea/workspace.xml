@@ -2,48 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="609576e0-ac68-4aae-8f14-86c9338ea857" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../day13_Tree_study/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day13_Tree_study/heap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day13_Tree_study/이진트리_정렬&amp;표기_연습문제1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workshop/12_1_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workshop/12_2_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workshop/12_2_workshop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D3_[TST]나는 학급회장이다.(투표).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D3_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/.idea/day11_Queue1_study.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/BFS.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/연습1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/연습2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day11_Queue1_study/원형큐.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/.idea/day12_queue1_problem.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/01_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/01_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/01_회전.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/02_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/02_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/02_미로의 거리.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/03_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/03_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/03_피자 굽기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/04_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/04_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day12_queue1_problem/04_노드의거리.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/1_최소합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/2_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/2_전자카트.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/3_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/3_컨테이너운반.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/4_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/4_화물도크.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/5_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/5_베이비진 게임.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop/17_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop/17_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop/17_workshop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/장기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/장기.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/장기2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day18_SW응용2_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day18_SW응용2_study/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../workshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../workshop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day3/C6_[TST] 월동준비.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day3/C6_[TST] 월동준비.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/C7_[TST]소수의 개수와 최대 최소 구하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/C7_[TST]소수의 개수와 최대 최소 구하기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day4/D0_[PY-TST]회전 초밥(중).py" beforeDir="false" afterPath="$PROJECT_DIR$/../day4/D0_[PY-TST]회전 초밥(중).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/home.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/home.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,56 +33,91 @@
     <session id="-2118355072">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="4" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="111" />
+          <entry key="py" value="1740" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="111" />
+          <entry key="Python" value="1740" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/D3_[TST]나는 학급회장이다.(투표).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D3_input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/D3_[TST]나는 학급회장이다.(투표).py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-19">
+                  <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/D3_input.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="114">
+                  <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/장기.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="629">
+                  <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/장기2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="513">
+                  <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/장기.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="19">
+                  <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,12 +134,14 @@
       <list>
         <option value="$PROJECT_DIR$/D3_input.txt" />
         <option value="$PROJECT_DIR$/D3_[TST]나는 학급회장이다.(투표).py" />
+        <option value="$PROJECT_DIR$/장기.txt" />
+        <option value="$PROJECT_DIR$/장기.py" />
+        <option value="$PROJECT_DIR$/장기2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="58" />
-    <option name="y" value="-18" />
+    <option name="x" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -151,8 +166,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workshop" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -166,7 +181,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.장기2">
+    <configuration name="장기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="home" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/장기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="장기2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="home" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/장기2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="D3_[TST]나는 학급회장이다.(투표)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="home" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,8 +245,15 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.D3_[TST]나는 학급회장이다.(투표)" />
+      <item itemvalue="Python.장기" />
+      <item itemvalue="Python.장기2" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.장기2" />
+        <item itemvalue="Python.장기" />
         <item itemvalue="Python.D3_[TST]나는 학급회장이다.(투표)" />
       </list>
     </recent_temporary>
@@ -211,20 +275,20 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -233,7 +297,39 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/장기2.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="maps" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>maps</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/D3_[TST]나는 학급회장이다.(투표).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/D3_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -241,10 +337,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D3_[TST]나는 학급회장이다.(투표).py">
+    <entry file="file://$PROJECT_DIR$/장기.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="19">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/장기2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/장기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
         </state>
       </provider>
     </entry>
