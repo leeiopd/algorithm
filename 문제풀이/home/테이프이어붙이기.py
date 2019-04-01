@@ -16,30 +16,28 @@ N개의 테이프 조각이 있다. (N은 짝수)
 '''
 N = int(input())
 tapes = list(map(int, input().split()))
-
+set_list = [0] * N
 
 def make_set(k=0):
     global tapes, result
-    if k == N//2:
-        add = 0
-        for i in range(N//2):
-            add += tapes[i] - tapes[N//2 + i]
-            if add < 0 or add > result :
-                return
-        if add >= 0 and add < result:
-            result = add
-            return
+
+    if k == N:
+        if sum(set_list) == N//2:
+            A = 0
+            B = 0
+            for i in range(N):
+                if set_list[i] == 1:
+                    A += tapes[i]
+                elif set_list[i] == 0:
+                    B += tapes[i]
+            if abs(A - B) < result:
+                result = abs(A-B)
 
     else:
-        add = 0
-        for i in range(k):
-            add += tapes[i] - tapes[N//2 + i]
-            if add < 0 or add > result :
-                return
-        for i in range(k, N):
-            tapes[k], tapes[i] = tapes[i], tapes[k]
+        for i in range(2):
+            set_list[k] = i
             make_set(k+1)
-            tapes[k], tapes[i] = tapes[i], tapes[k]
+
 
 result = 999999999999999999
 make_set()

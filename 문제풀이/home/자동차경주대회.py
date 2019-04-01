@@ -35,10 +35,14 @@ shop_t = list(map(int, input().split()))
 set_list = [0] * N
 result = 999999999999999
 
-def make_set(k, l_sum):
+def make_set(k, l_sum, time):
     global set_list, result
+
     if l_sum > max_L:
         return
+    if time > result:
+        return
+
     if k == N:
         add_l = maps[0]
         add_t = 0
@@ -58,19 +62,13 @@ def make_set(k, l_sum):
             return
 
     else:
-        add_t = 0
-        for i in range(k):
-            if set_list[i] == 1:
-                add_t += shop_t[i]
-                if add_t > result:
-                    return
         set_list[k] = 1
-        make_set(k+1, 0)
+        make_set(k+1, 0, time+shop_t[k])
         set_list[k] = 0
-        make_set(k+1, l_sum + maps[k+1])
+        make_set(k+1, l_sum + maps[k+1], time)
 
 if total_l <= max_L:
     print(0)
 else:
-    make_set(0, maps[0])
+    make_set(0, maps[0], 0)
     print(result)

@@ -2,26 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="609576e0-ac68-4aae-8f14-86c9338ea857" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/1_최소합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/2_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/2_전자카트.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/3_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/3_컨테이너운반.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/4_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/4_화물도크.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/5_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../day19_SW응용2_problem/5_베이비진 게임.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workshop/17_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workshop/17_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workshop/17_workshop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/장기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/장기.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/장기2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day18_SW응용2_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day18_SW응용2_study/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../workshop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/home.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/home.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/Nqueen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/Nqueen.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/기업투자.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/기업투자.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/도자기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/도자기.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/미사일.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/미사일.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/상자포장하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/상자포장하기.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/양팔저울.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/양팔저울.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/주사위던지기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/주사위던지기.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/치킨배달2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/치킨배달2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/토마토.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day7/토마토.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/로봇쿠키.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/로봇쿠키.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/자동차경주대회.py" beforeDir="false" afterPath="$PROJECT_DIR$/자동차경주대회.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/테이프이어붙이기.py" beforeDir="false" afterPath="$PROJECT_DIR$/테이프이어붙이기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/테이프이어붙이기.txt" beforeDir="false" afterPath="$PROJECT_DIR$/테이프이어붙이기.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,62 +37,65 @@
     <session id="-2118355072">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
-          <entry key="txt" value="3" />
+          <entry key="py" value="14" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="4" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1740" />
+          <entry key="py" value="2613" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1740" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="2613" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.7752809">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/D3_[TST]나는 학급회장이다.(투표).py">
+            <entry file="file://$PROJECT_DIR$/테이프이어붙이기.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-19">
-                  <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+                <state relative-caret-position="226">
+                  <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/D3_input.txt">
+            <entry file="file://$PROJECT_DIR$/로봇쿠키.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="114">
-                  <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+                <state relative-caret-position="418">
+                  <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/장기.py">
+            <entry file="file://$PROJECT_DIR$/자동차경주대회.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="629">
-                  <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+                <state relative-caret-position="567">
+                  <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -96,21 +103,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/장기2.py">
+            <entry file="file://$PROJECT_DIR$/테이프이어붙이기.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="513">
-                  <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+                <state relative-caret-position="19">
+                  <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/장기.txt">
+            <entry file="file://$PROJECT_DIR$/로봇쿠키.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
-                  <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+                <state relative-caret-position="38">
+                  <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -137,11 +144,17 @@
         <option value="$PROJECT_DIR$/장기.txt" />
         <option value="$PROJECT_DIR$/장기.py" />
         <option value="$PROJECT_DIR$/장기2.py" />
+        <option value="$PROJECT_DIR$/로봇쿠키.txt" />
+        <option value="$PROJECT_DIR$/로봇쿠키.py" />
+        <option value="$PROJECT_DIR$/테이프이어붙이기.txt" />
+        <option value="$PROJECT_DIR$/테이프이어붙이기.py" />
+        <option value="$PROJECT_DIR$/자동차경주대회.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="8" />
+    <option name="y" value="2" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -181,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.장기2">
+  <component name="RunManager" selected="Python.자동차경주대회">
     <configuration name="장기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="home" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,7 +237,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="D3_[TST]나는 학급회장이다.(투표)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="자동차경주대회" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="home" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,7 +249,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D3_[TST]나는 학급회장이다.(투표).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/자동차경주대회.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="테이프이어붙이기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="home" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/테이프이어붙이기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="로봇쿠키" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="home" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/로봇쿠키.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,15 +301,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.D3_[TST]나는 학급회장이다.(투표)" />
       <item itemvalue="Python.장기" />
       <item itemvalue="Python.장기2" />
+      <item itemvalue="Python.자동차경주대회" />
+      <item itemvalue="Python.테이프이어붙이기" />
+      <item itemvalue="Python.로봇쿠키" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.자동차경주대회" />
+        <item itemvalue="Python.테이프이어붙이기" />
+        <item itemvalue="Python.로봇쿠키" />
         <item itemvalue="Python.장기2" />
         <item itemvalue="Python.장기" />
-        <item itemvalue="Python.D3_[TST]나는 학급회장이다.(투표)" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +384,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/D3_[TST]나는 학급회장이다.(투표).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
+        <state relative-caret-position="152">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
@@ -337,24 +396,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/장기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/장기.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/장기2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="228">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/장기.py">
+    <entry file="file://$PROJECT_DIR$/../../day18_SW응용2_study/순열.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_대전_1반_이주호 (1).zip/3_로봇과자먹기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        <state relative-caret-position="-456" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_대전_1반_이주호.zip/3_로봇과자먹기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="79" column="31" lean-forward="true" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/로봇쿠키.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../day18_SW응용2_study/순열2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/로봇쿠키.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/테이프이어붙이기.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/테이프이어붙이기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/자동차경주대회.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
         </state>
       </provider>
     </entry>
