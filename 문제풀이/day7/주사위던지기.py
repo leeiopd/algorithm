@@ -18,10 +18,11 @@ N, M = map(int, input().split())
 
 set_list = [0] * N
 visited = []
-
+cnt = 0
 def game_1(k=0):
-
+    global cnt
     if k == N:
+        cnt += 1
         print(' '.join(map(str, set_list)))
 
     else:
@@ -31,6 +32,7 @@ def game_1(k=0):
             set_list[k] = 0
 
 def game_2(k=0):
+    global cnt
     if k == N:
         mem = [0] * N
         for i in range(N):
@@ -39,6 +41,7 @@ def game_2(k=0):
         if mem in visited:
             return
         else:
+            cnt += 1
             visited.append(mem)
             print(' '.join(map(str, mem)))
 
@@ -49,8 +52,10 @@ def game_2(k=0):
             set_list[k] = 0
 
 def game_3(k=0):
+    global cnt
 
     if k == N:
+        cnt += 1
         print(' '.join(map(str, set_list)))
 
     else:
@@ -62,9 +67,12 @@ def game_3(k=0):
 
 if M == 1:
     game_1()
+    print(cnt)
 
 elif M==2:
     game_2()
+    print(cnt)
 
 elif M==3:
     game_3()
+    print(cnt)

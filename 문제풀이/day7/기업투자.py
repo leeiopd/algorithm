@@ -21,23 +21,31 @@ sys.stdin  = open("기업투자.txt")
 '''
 M, N = map(int, input().split())
 
-fund = [0] * M
-
+invest_list = []
 for m in range(M):
-    money, A, B = map(int, input().split())
-    fund[m] = [money, A, B]
+    invest_list.append(list(map(int, input().split())))
 
-set_list = [0] * M
 
-def set_check(k=0):
+diff_list = [0] * N
+result = 0
+
+def diff_money(k=0):
+    global investment, result
     if k == N:
-        A_refund = sum(set_check)
-
-
+        if sum(diff_list) == M:
+            add = 0
+            for i in range(N):
+                if diff_list[i] != 0:
+                    add += invest_list[diff_list[i]-1][i+1]
+            if add > result:
+                result = add
 
     else:
-        for i in range(M):
-            set_list[k] = i
-            set_check(k+1)
+        for i in range(0, M+1):
+            diff_list[k] = i
+            diff_money(k+1)
+
+diff_money()
+print(result)
 
 
