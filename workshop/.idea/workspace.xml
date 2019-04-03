@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f714348-0023-4479-b129-c7f88b14dadb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/1_최소합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/2_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/2_전자카트.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/3_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/3_컨테이너운반.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/4_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/4_화물도크.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/5_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day19_SW응용2_problem/5_베이비진 게임.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_workshop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../문제풀이/home/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../문제풀이/home/장기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../문제풀이/home/장기.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../문제풀이/home/장기2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day18_SW응용2_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day18_SW응용2_study/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day20_SW응용3_study/1_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day20_SW응용3_study/1_최소 신장 트리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_workshop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/다익스트라.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/다익스트라.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/home/나무자르기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../문제풀이/home/나무자르기.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../문제풀이/home/.idea/home.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../문제풀이/home/.idea/home.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문제풀이/day8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../문제풀이/day8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../문제풀이/home/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../문제풀이/home/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,126 +24,62 @@
     <session id="46535578">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.0" value="8" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.0" value="9" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="6" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="15_input2" value="1" />
-          <entry key="py" value="25" />
-          <entry key="txt" value="30" />
+          <entry key="py" value="29" />
+          <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="25" />
+          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="Python" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="18931" />
-          <entry key="txt" value="86" />
+          <entry key="py" value="20143" />
+          <entry key="txt" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="86" />
-          <entry key="Python" value="18931" />
+          <entry key="PLAIN_TEXT" value="88" />
+          <entry key="Python" value="20143" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.77369076">
-      <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.8846774">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/17_workshop.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="510">
-                      <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-                      <folding>
-                        <marker date="1553762126697" expanded="true" signature="963:965" ph="..." />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/17_output.txt">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="152">
-                      <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/17_input.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="1" lean-forward="true" selection-start-column="1" selection-end-line="9" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/16_input2.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/16_output2.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/16_input.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="133">
-                  <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/16_output.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/18_workshop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/18_input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -172,10 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03_output.txt" />
-        <option value="$PROJECT_DIR$/03_workshop.py" />
-        <option value="$PROJECT_DIR$/04_input.txt" />
-        <option value="$PROJECT_DIR$/04_output.txt" />
         <option value="$PROJECT_DIR$/04_workshop.py" />
         <option value="$PROJECT_DIR$/05_output.txt" />
         <option value="$PROJECT_DIR$/05_input.txt" />
@@ -223,6 +146,10 @@
         <option value="$PROJECT_DIR$/17_output.txt" />
         <option value="$PROJECT_DIR$/17_workshop.py" />
         <option value="$PROJECT_DIR$/17_input.txt" />
+        <option value="$PROJECT_DIR$/다익스트라.txt" />
+        <option value="$PROJECT_DIR$/다익스트라.py" />
+        <option value="$PROJECT_DIR$/18_input.txt" />
+        <option value="$PROJECT_DIR$/18_workshop.py" />
       </list>
     </option>
   </component>
@@ -237,6 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,7 +176,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17_workshop">
+  <component name="RunManager" selected="Python.18_workshop">
     <configuration name="15_workshop" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,27 +208,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15_workshop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="15_workshop2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="workshop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15_workshop2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,20 +279,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="18_workshop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="workshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_workshop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.15_workshop" />
-      <item itemvalue="Python.15_workshop2" />
       <item itemvalue="Python.16_workshop" />
       <item itemvalue="Python.16_workshop_2" />
       <item itemvalue="Python.17_workshop" />
+      <item itemvalue="Python.18_workshop" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.18_workshop" />
         <item itemvalue="Python.17_workshop" />
         <item itemvalue="Python.16_workshop" />
         <item itemvalue="Python.16_workshop_2" />
         <item itemvalue="Python.15_workshop" />
-        <item itemvalue="Python.15_workshop2" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +341,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1548999" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -537,34 +463,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_workshop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05_output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07_output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2112">
@@ -822,6 +720,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/16_workshop_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_workshop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <marker date="1553762126697" expanded="true" signature="963:965" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/16_input2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -850,34 +779,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16_workshop_2.py">
+    <entry file="file://$PROJECT_DIR$/다익스트라.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="16" />
+        <state relative-caret-position="779">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17_output.txt">
+    <entry file="file://$PROJECT_DIR$/다익스트라.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="133">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17_input.txt">
+    <entry file="file://$PROJECT_DIR$/18_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-line="9" selection-end-column="8" />
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17_workshop.py">
+    <entry file="file://$PROJECT_DIR$/18_workshop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <marker date="1553762126697" expanded="true" signature="963:965" ph="..." />
-          </folding>
+        <state relative-caret-position="681">
+          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
         </state>
       </provider>
     </entry>
