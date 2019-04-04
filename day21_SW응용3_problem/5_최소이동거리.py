@@ -21,47 +21,48 @@ A도시에는 E개의 일방통행 도로 구간이 있으며, 각 구간이 만
 
 각 줄마다 "#T" (T는 테스트 케이스 번호)를 출력한 뒤, 테스트 케이스에 대한 답을 출력한다.
 '''
-
 T = int(input())
-for case in range(1, T+1):
+
+def getMinIdx():
+    minV = 999999
+    minIdx = 0
+    for i in range(N + 1):
+        if visit[i] == 0 and D[i] < minV:
+            minIdx = i
+            minV = D[i]
+    return minIdx
+
+
+def dijkstra(goal):
+    D[0] = 0 
+
+    for i in range(N + 1):
+        if adj[0][i]:
+            D[i] = adj[0][i]
+    visit[0] = 1
+
+    while True:
+        node = getMinIdx()
+        visit[node] = 1 
+        if node == goal:
+            return D[goal]
+
+        for x in range(N + 1):
+            if adj[node][x]: 
+                if D[x] > (D[node] + adj[node][x]):
+                    D[x] = D[node] + adj[node][x]
+
+
+for tc in range(1, T + 1):
     N, E = map(int, input().split())
-    routes = []
-    maps = [[0 for x in range(N+1)] for y in range(N+1)]
-    for e in range(E):
-        s, e, w = map(int, input().split())
-        routes.append([w, s, e])
-        maps[s][e] = 1
-        maps[e][s] = 1
+    adj = [[0 for _ in range(N + 1)] for _ in range(N + 1)]
+    visit = [0] * (N + 1)
+    D = [99999999] * (N + 1)
 
-    routes.sort()
-    add = 0
-    start = [0] * N
-    end = [0] * N
-    visited=[]
-    for route in routes:
-        if route[2] == E:
-            add += route[0]
-            break
-
-        else:
-            w = route[0]
-            s = route[1]
-            e = route[2]
-            if e not in visited:
-                visited.append(e)
-            else:
-                load = [s]
-                while load:
-                    f = load.pop(0)
-                    for t in range(N):
-                        if maps[f][t] == 1:
-                            if f == e:
-                                e = 0
-                                break
-                            else:
-                                load.append(t)
-            add += e
-    print(add)
+    for i in range(E):
+        n1, n2, w = map(int, input().split())
+        adj[n1][n2] = w 
+    print('#{} {}'.format(tc, dijkstra(N)))
 
 
 

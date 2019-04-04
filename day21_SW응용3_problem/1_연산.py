@@ -19,37 +19,33 @@ sys.stdin = open("1_input.txt")
 
 각 줄마다 "#T" (T는 테스트 케이스 번호)를 출력한 뒤, 답을 출력한다.
 '''
-T = int(input())
-
-for case in range(1, T + 1):
+t = int(input())
+for case in range(1, t + 1):
     N, M = map(int, input().split())
-    queue = deque()
-    queue.append([N, 0])
-    visited = [N]
-
-    while queue:
-        N, cnt = queue.popleft()
-        if N == M:
-            result = cnt
-            break
-
-        else:
-            for i in range(4):
-                if M in visited:
-                    break
-                if i == 0 and N*2 not in visited:
-                    visited.append(N*2)
-                    queue.append([N * 2, cnt + 1])
-                if i == 1 and N+1 not in visited:
-                    visited.append(N+1)
-                    queue.append([N + 1, cnt + 1])
-                if i == 2 and N-1 not in visited:
-                    if N - 1 >= 0:
-                        visited.append(N-1)
-                        queue.append([N - 1, cnt + 1])
-                    else:
-                        break
-                if i == 3 and N-10 not in visited and N - 10 >= 0:
-                    visited.append(N-10)
-                    queue.append([N - 10, cnt + 1])
-    print("#{} {}" .format(case, result))
+    
+    visited = [0] * (M*2)
+    check_list = [0] * (M*2)
+    arr = [1, -1, -10, 2]
+    
+    top = 0
+    queue = []
+    queue = [N]
+    visited[N] = 1
+    while check_list[M] == 0:
+        n = queue[top]
+        top += 1
+        for i in range(4):
+            if arr[i] != 2:
+                temp = n + arr[i]
+            else:
+                temp = n * 2
+            if temp > 0 and temp <= 2 * M:
+                if visited[temp] == 0:
+                    visited[temp] = 1
+                    check_list[temp] = check_list[n] + 1
+                    queue.append(temp)
+                else:
+                    if check_list[temp] > 1 + check_list[n]:
+                        check_list[temp] = 1 + check_list[n]
+                        queue.append(temp)
+    print('#{} {}'.format(case, check_list[M]))
