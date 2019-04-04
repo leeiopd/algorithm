@@ -33,9 +33,10 @@ for case in range(1, T+1):
     add = 0
     top = 0
 
-    for k in range(V+1):
-        for i in range(V+1):
-            for j in range(V+1):
+    for k in range(V):
+        for i in range(V):
+            for j in range(V):
+                maps[i][j] = min(maps[i][k] + maps[k][j], maps[i][j])
 
 
     print("#{} {}" .format(case, add))
