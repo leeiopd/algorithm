@@ -33,6 +33,7 @@ for case in range(1, T+1):
         if m == 2:
             days += 29
         elif m in ones:
+            
             days += 31
         else:
             days += 30
