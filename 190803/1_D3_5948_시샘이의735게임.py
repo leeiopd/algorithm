@@ -21,14 +21,22 @@ sys.stdin = open('5948.txt')
 T = int(input())
 
 
+def game(deep, tmp, result):
+    if deep == 3:
+        if sum(tmp) not in result:
+            result.append(sum(tmp))
+        return
+    else:
+        for i in range(7):
+            if nums[i] not in tmp:
+                tmp[deep] = nums[i]
+                game(deep+1, tmp, result)
+
+
 for case in range(1, T+1):
     nums = list(map(int, input().split()))
-    nums.sort()
-    resultList = []
-    for n in range(5):
-        for m in range(n, 6):
-            for l in range(m, 7):
-                tmp = nums[n] + nums[m] + nums[l]
-                if tmp not in resultList:
-                    resultList.append(tmp)
-    print(sorted(resultList)[-5])
+    tmp = [0, 0, 0]
+    result = []
+    game(0, tmp, result)
+    result.sort()
+    print(f'#{case} {result[-5]}')
