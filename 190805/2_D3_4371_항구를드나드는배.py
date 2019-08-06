@@ -40,4 +40,17 @@ for case in range(1, T+1):
     N = int(input())
     days = []
     for n in range(N):
-        days.append(int(input()))
+        days.append(int(input())-1)
+    days.pop(0)
+    for i in range(N-1):
+        if days[i]:
+            boat = days[i]
+            for j in range(i+1, N-1):
+                if days[j] and days[j] % boat == 0:
+                    days[j] = 0
+
+    result = 0
+    for day in days:
+        if day:
+            result += 1
+    print('#{} {}'.format(case, result))
