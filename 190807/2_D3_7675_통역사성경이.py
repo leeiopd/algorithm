@@ -49,23 +49,27 @@ for case in range(1, T+1):
     for say in says:
         tmp += say + ' '
         if tmp[-2] in end:
-            varbs.append(tmp[:-1])
+            varbs.append(list(tmp[:-1].split()))
             tmp = ''
+
     results = []
-    for varb in varbs:
-        temp_list = list(varb.split())
-        print(temp_list)
-        for temp in temp_list:
-            result = 0
-            flag = 0
-            for i in range(len(tmp)):
-                if i == 0 and tmp[i].islower():
-                    flag = 1
-                    break
-                elif tmp[i].isdecimal():
-                    flag = 1
-                    break
-            if not flag:
+    for i in range(N):
+        result = 0
+        for j in range(len(varbs[i])):
+            flag = 1
+            for k in range(len(varbs[i][j])):
+                if k == 0:
+                    if not varbs[i][j][k].isupper():
+                        flag = 0
+                if k != 0:
+                    if varbs[i][j][k].isupper():
+                        flag = 0
+                if k != len(varbs[i][j]) + 1:
+                    if not varbs[i][j][k].isalpha():
+                        if not varbs[i][j][k] in end:
+                            flag = 0
+            if flag:
                 result += 1
         results.append(result)
-    print(results)
+    solv = ' '.join(map(str, results))
+    print('#{} {}'.format(case, solv))
