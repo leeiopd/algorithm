@@ -22,7 +22,6 @@
 다음과 같은 경우 1회의 교환 횟수가 주어졌을 때 반드시 1회 교환을 수행하므로 결과값은 49가 된다.
 
 
-
 94의 경우 2회 교환하게 되면 원래의 94가 된다.
 
 정해진 횟수만큼 숫자판을 교환했을 때 받을 수 있는 가장 큰 금액을 계산해보자.
@@ -49,27 +48,45 @@ sys.stdin = open('1244.txt')
 T = int(input())
 
 
-def game(nums, result, x):
-    if x == N:
-        tmp = ''
-        for num in nums:
-            tmp += num
-        tmp = int(tmp)
-        if tmp > result[0]:
-            result[0] = tmp
-        return
+def game(result, x=0, y=0):
+    if N[0] <= len(cards):
+        if x == N[0]:
+            number = int(''.join(cards))
+            if number > result[0]:
+                result[0] = number
+        else:
+            for i in range(x, len(cards)-1):
+                for j in range(i+1, len(cards)):
+                    if cards[0] != 0:
+                        cards[i], cards[j] = cards[j], cards[i]
+                        game(result, x+1, y)
+                        cards[i], cards[j] = cards[j], cards[i]
     else:
-        for i in range(len(nums)):
-            for j in range(len(nums)):
-                nums[i], nums[j] = nums[j], nums[i]
-                game(nums, result, x+1)
-                nums[i], nums[j] = nums[j], nums[i]
+        if x + y == N[0]:
+            number = int(''.join(cards))
+            if number > result[0]:
+                result[0] = number
+        else:
+            if x < len(cards)-1:
+                for i in range(x, len(cards)-1):
+                    for j in range(i+1, len(cards)):
+                        if cards[0] != 0:
+                            cards[i], cards[j] = cards[j], cards[i]
+                            game(result, x+1, y)
+                            cards[i], cards[j] = cards[j], cards[i]
+            else:
+                for k in range(y, len(cards)-1):
+                    for r in range(k+1, len(cards)):
+                        if cards[0] != 0:
+                            cards[k], cards[r] = cards[r], cards[k]
+                            game(result, x, y+1)
+                            cards[k], cards[r] = cards[r], cards[k]
 
 
 for case in range(1, T+1):
-    nums, N = input().split()
-    N = int(N)
-    nums = list(map(str, nums))
+    cards, N = input().split()
+    N = [int(N)]
+    cards = list(map(str, cards))
     result = [0]
-    game(nums, result, 0)
+    game(result)
     print('#{} {}'.format(case, result[0]))
