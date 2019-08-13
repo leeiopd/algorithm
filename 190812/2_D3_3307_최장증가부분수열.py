@@ -28,25 +28,16 @@ sys.stdin = open('3307.txt')
 
 T = int(input())
 
-
-def check(Max, x, deep=1):
-    if deep > Max[0]:
-        Max[0] = deep
-
-    if deep + len(nums[deep+1:]) < Max[0]:
-        return
-
-    for i in range(x+1, len(nums)):
-        if nums[x] <= nums[i]:
-            # print(nums[x], nums[i], deep+1)
-            check(Max, i, deep+1)
-
-
 for case in range(1, T+1):
     N = int(input())
     nums = list(map(int, input().split()))
-    Max = [0]
-    for i in range(len(nums)):
-        check(Max, i)
-        # print(Max[0])
-    print('#{} {}'.format(case, Max[0]))
+    result = 0
+    num_list = [0] * N
+    for i in range(N):
+        if num_list[i] == 0:
+            num_list[i] = 1
+        for j in range(i):
+            if nums[i] > nums[j]:
+                if num_list[i] < num_list[j] + 1:
+                    num_list[i] = num_list[j] + 1
+    print(f'#{case} {max(num_list)}')
