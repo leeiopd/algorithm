@@ -80,7 +80,7 @@ def checkR(x, y, D):
         for i in range(N-1, x, -1):
             if maps[y][i] == D:
                 Xr = i
-            elif maps[y][i] == 0:
+            if maps[y][i] == 0:
                 Xr = x
     return Xr-x
 
@@ -91,7 +91,7 @@ def checkL(x, y, D):
         for i in range(1, x):
             if maps[y][i] == D:
                 Xl = i
-            elif maps[y][i] == 0:
+            if maps[y][i] == 0:
                 Xl = x
     return x - Xl
 
@@ -102,7 +102,7 @@ def checkU(x, y, D):
         for i in range(1, y):
             if maps[i][x] == D:
                 Yu = i
-            elif maps[i][x] == 0:
+            if maps[i][x] == 0:
                 Yu = y
     return y - Yu
 
@@ -113,7 +113,7 @@ def checkD(x, y, D):
         for i in range(N-1, y, -1):
             if maps[i][x] == D:
                 Yd = i
-            elif maps[i][x] == 0:
+            if maps[i][x] == 0:
                 Yd = y
     return Yd - y
 
@@ -130,15 +130,13 @@ def checkRU(x, y, D):
         else:
             break
 
-    X = x
-    Y = y
     check = 0
-    for i in range(1, cnt+1):
-        X += 1
-        Y -= 1
+    for i in range(cnt, 0, -1):
+        X = x + i
+        Y = y - i
         if maps[Y][X] == 0:
             check = 0
-        elif maps[Y][X] == D:
+        if maps[Y][X] == D:
             check = i
     return check
 
@@ -155,16 +153,14 @@ def checkLU(x, y, D):
         else:
             break
 
-    X = x
-    Y = y
     check = 0
-    for i in range(1, cnt+1):
-        X -= 1
-        Y -= 1
+    for i in range(cnt, 0, -1):
+        X = x - i
+        Y = y - i
 
         if maps[Y][X] == 0:
             check = 0
-        elif maps[Y][X] == D:
+        if maps[Y][X] == D:
             check = i
     return check
 
@@ -180,15 +176,14 @@ def checkRD(x, y, D):
             cnt += 1
         else:
             break
-    X = x
-    Y = y
+
     check = 0
-    for i in range(1, cnt+1):
-        X += 1
-        Y += 1
+    for i in range(cnt, 0, -1):
+        X = x + i
+        Y = y + i
         if maps[Y][X] == 0:
             check = 0
-        elif maps[Y][X] == D:
+        if maps[Y][X] == D:
             check = i
     return check
 
@@ -204,12 +199,11 @@ def checkLD(x, y, D):
             cnt += 1
         else:
             break
-    X = x
-    Y = y
+
     check = 0
-    for i in range(1, cnt+1):
-        X -= 1
-        Y += 1
+    for i in range(cnt, 0, -1):
+        X = x - i
+        Y = y + i
         if maps[Y][X] == 0:
             check = 0
         elif maps[Y][X] == D:
@@ -227,58 +221,50 @@ def checkMap(x, y, D):
     RDcnt = checkRD(x, y, D)
     LDcnt = checkLD(x, y, D)
 
-    for u in range(1, Ucnt):
+    for u in range(1, Ucnt+1):
         X = x
         Y = y - u
         if maps[Y][X] != D:
             maps[Y][X] = D
-            checkMap(X, Y, D)
-    for d in range(1, Dcnt):
+    for d in range(1, Dcnt+1):
         X = x
         Y = y + d
         if maps[Y][X] != D:
             maps[Y][X] = D
-            checkMap(X, Y, D)
-    for r in range(1, Rcnt):
+    for r in range(1, Rcnt+1):
         X = x + r
         Y = y
         if maps[Y][X] != D:
             maps[Y][X] = D
-            checkMap(X, Y, D)
-    for l in range(1, Lcnt):
+    for l in range(1, Lcnt+1):
         X = x - l
         Y = y
         if maps[Y][X] != D:
             maps[Y][X] = D
-            checkMap(X, Y, D)
 
-    for ru in range(1, RUcnt):
+    for ru in range(1, RUcnt+1):
         X = x + ru
         Y = y - ru
         if maps[Y][X] != D:
             maps[Y][X] = D
-            checkMap(X, Y, D)
 
-    for lu in range(1, LUcnt):
+    for lu in range(1, LUcnt+1):
         X = x - lu
         Y = y - lu
         if maps[Y][X] != D:
             maps[Y][X] = D
-            checkMap(X, Y, D)
 
-    for rd in range(1, RDcnt):
+    for rd in range(1, RDcnt+1):
         X = x + rd
         Y = y + rd
         if maps[Y][X] != D:
             maps[Y][X] = D
-            checkMap(X, Y, D)
 
-    for ld in range(1, LDcnt):
+    for ld in range(1, LDcnt+1):
         X = x - ld
         Y = y + ld
         if maps[Y][X] != D:
             maps[Y][X] = D
-            checkMap(X, Y, D)
 
 
 def count():
@@ -312,7 +298,6 @@ for case in range(1, T+1):
         y = turn[1]
         D = turn[2]
         maps[y][x] = D
-        checkMap(x, y, D)
 
     black, white = count()
     print('#{} {} {}'.format(case, black, white))
