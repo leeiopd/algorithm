@@ -34,6 +34,7 @@ sys.stdin = open("02_input.txt")
 
 T = int(input())
 
+
 def start(maps):
     for y in range(N):
         for x in range(N):
@@ -48,7 +49,7 @@ def check(x, y, i):
     Y = y + dy[i]
 
     if i == 0:
-        if X < N :
+        if X < N:
             if maps[Y][X] == 0 or maps[Y][X] == 3:
                 return X, Y
     elif i == 1:
@@ -64,6 +65,7 @@ def check(x, y, i):
             if maps[Y][X] == 0 or maps[Y][X] == 3:
                 return X, Y
     return False
+
 
 def go(maps, x, y):
     global cnt, flag
@@ -81,6 +83,7 @@ def go(maps, x, y):
         if flag == 1:
             return
     cnt -= 1
+
 
 for case in range(1, T+1):
     N = int(input())

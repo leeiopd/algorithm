@@ -6,13 +6,13 @@
 주어진 미로의 출발점으로부터 도착지점까지 갈 수 있는 길이 있는지 판단하는 프로그램을 작성하라.
 
 아래의 예시에서는 도달 가능하다.
- 
+
 
 
 
 아래의 예시에서는 출발점이 (1, 1)이고, 도착점이 (11, 11)이며 도달이 불가능하다.
- 
- 
+
+
 
 위의 예시는 공간상의 이유로 100x100이 아닌 16x16으로 주어졌음에 유의한다.
 
@@ -26,42 +26,71 @@
 
 [출력]
 
-#부호와 함께 테스트 케이스의 번호를 출력하고, 공백 문자 후 도달 가능 여부를 1 또는 0으로 표시한다 (1 - 가능함, 0 - 가능하지 않음).
+# 부호와 함께 테스트 케이스의 번호를 출력하고, 공백 문자 후 도달 가능 여부를 1 또는 0으로 표시한다 (1 - 가능함, 0 - 가능하지 않음).
 '''
 import sys
 sys.stdin = open('1227.txt')
 
-T = int(input())
+T = 10
 
 
-def game(x, y):
-    if maps[y][x] == 3:
-        result[0] = 1
-        return
-    else:
-        if maps[y][x-1] == 0:
-            maps[y][x] = 1
-            game(x-1, y)
+def game(start_x, start_y):
+    global flag
+    route.append([start_x, start_y])
 
-        if maps[y][x+1] == 0:
-            maps[y][x] = 1
-            game(x+1, y)
+    while route:
+        x, y = map(int, route.pop(-1))
 
-        if maps[y-1][x] == 0:
-            maps[y][x] = 1
-            game(x, y-1)
+        for i in range(4):
+            X = x + dx[i]
+            Y = y + dy[i]
 
-        if maps[y+1][x] == 0:
-            maps[y][x] = 1
-            game(x, y+1)
+            if check(X, Y):
+                if maps[Y][X] == 0 or maps[Y][X] == 3:
+                    if maps[Y][X] == 3:
+                        flag = True
+                        return
+                    else:
+                        maps[Y][X] = 9
+                    route.append([X, Y])
 
 
-for case in range(1, T+1):
-    maps = []
-    for i in range(100):
-        maps.append(list(map(int, input())))
+def check(x, y):
+    if x < 1:
+        return False
+    if x > 99:
+        return False
+    if y < 1:
+        return False
+    if y > 99:
+        return False
+    return True
 
-    start_x = 1
-    start_y = 1
-    result = [0]
+
+def findStart():
+    for y in range(size):
+        for x in range(size):
+            if maps[y][x] == 2:
+                return x, y
+
+
+for t in range(1, T+1):
+    case = int(input())
+    size = 100
+
+    maps = [0] * size
+
+    for i in range(size):
+        maps[i] = list(map(int, input()))
+
+    dx = [1, -1, 0, 0]
+    dy = [0, 0, 1, - 1]
+    start_x,  start_y = findStart()
+    route = []
+    flag = False
     game(start_x, start_y)
+
+    if flag:
+        print('#{} 1'.format(case))
+    else:
+        print('#{} 0'.format(case))
