@@ -43,48 +43,4 @@ for case in range(1, T+1):
     Xflag = 0
 
     for cal in cals:
-        if cal in nums:
-            change[level].append(cal)
-
-        if cal == '+':
-            if Xflag == 1:
-                while arithmetic[level]:
-                    change[level].append(arithmetic[level].pop(0))
-            Xflag = 0
-            arithmetic[level].append(cal)
-
-        if cal == '*':
-            Xflag = 1
-            temp = ['*']
-            while arithmetic[level]:
-                temp.append(arithmetic[level].pop(0))
-            while temp:
-                arithmetic[level].append(temp.pop(0))
-        if cal == '(':
-            level += 1
-        if cal == ')':
-            while arithmetic[level]:
-                change[level].append(arithmetic[level].pop(0))
-            while change[level]:
-                change[level-1].append(change[level].pop(0))
-            level -= 1
-
-    while arithmetic[level]:
-        change[level].append(arithmetic[level].pop(0))
-    print(change)
-    Ntemp = []
-    for i in change[0]:
-        if i in nums:
-            Ntemp.append(int(i))
-        if i == '+':
-            a = Ntemp.pop(-1)
-            b = Ntemp.pop(-1)
-            c = a + b
-            Ntemp.append(c)
-        if i == '*':
-            a = Ntemp.pop(-1)
-            b = Ntemp.pop(-1)
-            c = a * b
-            Ntemp.append(c)
-        print(Ntemp)
     print('#{} {}'.format(case, Ntemp[0]))
