@@ -44,6 +44,7 @@ T = int(input())
 
 def game(N, x=0):
     global Min
+    print(temp)
     if N == x:
         add = 0
         for j in range(N):
@@ -58,6 +59,25 @@ def game(N, x=0):
             game(N, x+1)
 
 
+'''
+def game(x=0):
+    global Min
+    if x >=  N:
+        return
+
+    add = 0
+    for i in range(N):
+        if temp[i]:
+            add += heights[i]
+
+    if add >= B and add - B <= Min:
+        Min = add - B
+    
+    else:
+        for j in range(2):
+            temp[x] = j
+            game(x+1)
+'''
 
 
 
