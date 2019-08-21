@@ -42,43 +42,20 @@ sys.stdin = open('1486.txt')
 T = int(input())
 
 
-def game(N, x=0):
+def game(x=0):
     global Min
-    print(temp)
-    if N == x:
+    if x == N:
         add = 0
-        for j in range(N):
-            if temp[j]:
-                add += heights[j]
+        for i in range(N):
+            if temp[i]:
+                add += heights[i]
         if add >= B and add - B < Min:
             Min = add - B
 
     else:
         for i in range(2):
             temp[x] = i
-            game(N, x+1)
-
-
-'''
-def game(x=0):
-    global Min
-    if x >=  N:
-        return
-
-    add = 0
-    for i in range(N):
-        if temp[i]:
-            add += heights[i]
-
-    if add >= B and add - B <= Min:
-        Min = add - B
-    
-    else:
-        for j in range(2):
-            temp[x] = j
             game(x+1)
-'''
-
 
 
 for case in range(1, T+1):
@@ -87,5 +64,5 @@ for case in range(1, T+1):
 
     temp = [0] * N
     Min = 999999999999999999999
-    game(N)
+    game()
     print('#{} {}'.format(case, Min))
