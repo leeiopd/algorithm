@@ -65,61 +65,36 @@ def powerSet(x=0):
 def game(x=0):
     global result
     if x == N:
-        result += 1
-        if result >= 1000000007:
-            result -= 1000000007
+
     else:
-        for j in range(4):
-            if peopleList[x][j]:
-                leader = j
-
         if x == 0:
-            for i in range(len(powerSetList)):
-                if powerSetList[i][leader] and powerSetList[i][0]:
-                    resultSet.append(powerSetList[i])
-                    game(x+1)
-                    resultSet.pop(-1)
+            for i in range(i):
+                if leaderList[0][i]:
 
+
+def leaderCheck():
+    for i in range(N):
+        if peoples[i] == 'A':
+            leaderList[i] = [1, 0, 0, 0]
+        elif peoples[i] == 'B':
+            leaderList[i] = [0, 1, 0, 0]
+        elif peoples[i] == 'C':
+            leaderList[i] = [0, 0, 1, 0]
         else:
-            for i in range(len(powerSetList)):
-                if powerSetList[i][leader]:
-                    flag = 0
-                    for k in range(4):
-                        if resultSet[-1][k]:
-                            if powerSetList[i][k]:
-                                flag = 1
-                    if flag:
-                        resultSet.append(powerSetList[i])
-                        game(x+1)
-                        resultSet.pop(-1)
-
-
-def peopleCheck():
-    while peoples:
-        people = peoples.pop(0)
-        if people == 'A':
-            peopleList.append([1, 0, 0, 0])
-
-        if people == 'B':
-            peopleList.append([0, 1, 0, 0])
-
-        if people == 'C':
-            peopleList.append([0, 0, 1, 0])
-
-        if people == 'D':
-            peopleList.append([0, 0, 0, 1])
+            leaderList[i] = [0, 0, 0, 1]
 
 
 temp = [0] * 4
 powerSetList = []
 powerSet()
+powerSetList.pop(0)
 
 for case in range(1, T+1):
     peoples = list(map(str, input()))
     N = len(peoples)
 
-    peopleList = []
-    peopleCheck()
+    leaderList = [0] * N
+    leaderCheck()
 
     resultSet = []
     result = 0

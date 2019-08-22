@@ -66,14 +66,14 @@ def notBombChange():
                             maps[Y][X] += 1
 
 
-def click(x, y):
+def zeroClick(x, y):
     for i in range(8):
         X = x + dx[i]
         Y = y + dy[i]
         if 0 <= X < N and 0 <= Y < N:
             if maps[Y][X] == 0:
                 maps[Y][X] = -9
-                click(x, y)
+                zeroClick(X, Y)
             else:
                 maps[Y][X] = -9
 
@@ -87,21 +87,22 @@ for case in range(1, T+1):
 
     for n in range(N):
         maps.append(list(map(str, input())))
-
+    minClick = 9999999999999999999999
     bombChange()
     notBombChange()
+    for i in range(N):
+        print(maps[i])
     cnt = 0
     for y in range(N):
         for x in range(N):
             if maps[y][x] == 0:
                 cnt += 1
                 maps[y][x] = -9
-                click(x, y)
+                zeroClick(x, y)
 
     for y in range(N):
         for x in range(N):
             if maps[y][x] > 0:
                 cnt += 1
 
-    for k in range(N):
-        print(maps[k])
+    print('#{} {}'.format(case, cnt))
