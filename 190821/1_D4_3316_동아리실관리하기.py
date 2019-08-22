@@ -29,7 +29,7 @@ N일 동안의 동아리 활동을 할 수 있는 경우의 수를 출력하는 
 위의 그림에서 가능한 경우에는 1일차와 2일차에 A가 열쇠를 전달해 주면 된다.
 
 하지만 불가능 한 경우에는 1일차 있었던 사람이 2일차에 아무도 없기 때문에 동아리 실을 유지할 수 없게 된다.
- 
+
 
 [입력]
 
@@ -65,11 +65,30 @@ def powerSet(x=0):
 def game(x=0):
     global result
     if x == N:
+        result += 1
+        print(result)
 
     else:
+        for i in range(4):
+            if leaderList[x][i]:
+                leader = i
+                break
         if x == 0:
-            for i in range(i):
-                if leaderList[0][i]:
+            for j in range(15):
+                if powerSetList[j][0] and powerSetList[j][leader]:
+                    resultSet[x] = powerSetList[j]
+                    game(x+1)
+        else:
+            for j in range(15):
+                flag = 0
+                if powerSetList[j][leader]:
+                    for k in range(4):
+                        if resultSet[x-1][k] and powerSetList[j][k]:
+                            flag = 1
+                            break
+                    if flag:
+                        resultSet[x] = powerSetList[j]
+                        game(x+1)
 
 
 def leaderCheck():
@@ -96,7 +115,7 @@ for case in range(1, T+1):
     leaderList = [0] * N
     leaderCheck()
 
-    resultSet = []
+    resultSet = [0] * N
     result = 0
     game()
     result = result % 1000000007
