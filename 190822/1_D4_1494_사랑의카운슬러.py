@@ -38,35 +38,17 @@ T = int(input())
 
 def powerSet(x=0):
     if x == N:
-        tmp = [0] * N
-        for i in range(N):
-            tmp[i] = temp[i]
-        setLists.append(tmp)
-        return
-    else:
-        for i in range(N):
-            if i not in temp:
-                temp[x] = i
-                if x % 2 and check(temp, x+1):
-                    temp[x] = -1
-                    continue
-                powerSet(x+1)
-                temp[x] = -1
+        if sum(temp) == N//2:
+            tmp = [0] * N
+            for i in range(N):
+                if temp[i]:
+                    tmp[i] = 1
+            setLists.append(tmp)
 
-
-def check(temp, x):
-    x = 0
-    y = 0
-    for i in range(x//2):
-        a = temp[i]
-        b = temp[i+1]
-        x += position[a][0] - position[b][0]
-        y += position[a][1] - position[b][0]
-    V = x**2 + y**2
-    if V > result:
-        return True
     else:
-        return False
+        for i in range(2):
+            temp[x] = i
+            powerSet(x+1)
 
 
 for case in range(1, T+1):
@@ -76,6 +58,26 @@ for case in range(1, T+1):
         position.append(list(map(int, input().split())))
     temp = [-1] * N
     setLists = []
-    result = 9999999999999999999
     powerSet()
     print(setLists)
+    M = len(setLists)
+
+    result = 9999999999999999999999
+    for setList in setLists:
+        s_x = 0
+        s_y = 0
+        f_x = 0
+        f_y = 0
+        for i in range(N):
+            if setList[i]:
+                s_x += position[i][0]
+                s_y += position[i][1]
+            else:
+                f_x += position[i][0]
+                f_y += position[i][1]
+        X = f_x - s_x
+        Y = f_y - s_y
+        V = X ** 2 + Y ** 2
+        if V < result:
+            result = V
+    print('#{} {}'.format(case, result))
