@@ -39,6 +39,7 @@ for case in range(1, T+1):
 
     sets = {}
 
+    # 입력 문자별 cnt
     for w in W:
         if not sets:
             sets = {w: 1}
@@ -48,6 +49,8 @@ for case in range(1, T+1):
             sets[w] += 1
 
     result = 0
+
+    # 입력 문자별 개수를 기준으로 팰린드롭 수 cnt
     for value in sets.values():
         cnt = 0
         for i in range(1, value+1):

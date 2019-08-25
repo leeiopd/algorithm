@@ -28,20 +28,25 @@
 [출력]
 
 각 테스트케이스 별로 순서대로 한 줄씩 답을 출력하는데, 지불해야 할 최소의 금액을 출력한다.
-
 '''
 import sys
 sys.stdin = open('4050.txt')
-
 T = int(input())
-
 for case in range(1, T+1):
     N = int(input())
     values = list(map(int, input().split()))
+
+    # 가격 정렬 역순
     values.sort(reverse=True)
+
+    # index를 위해 0번 항목 추가
     values = [0] + values
+
+    # 3의 배수 index의 가격 = 0
     for n in range(N+1):
         if n % 3 == 0:
             values[n] = 0
+
+    # 총 가격 합계
     result = sum(values)
     print('#{} {}'.format(case, result))
