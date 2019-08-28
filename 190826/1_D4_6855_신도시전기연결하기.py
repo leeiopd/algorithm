@@ -41,31 +41,33 @@ sys.stdin = open('6855.txt')
 T = int(input())
 
 
-def dfs(cnt=0, x=0):
+def dfs(x=0, k=0):
     global result
-    if cnt > result:
-        return
     if x == K:
-        if result > cnt:
-            result = cnt
-        return
+        temp = [999999999999] * N
+        for i in range(K):
+            for j in range(N):
+                lenth = abs(house[tmp[i]] - house[j])
+                if temp[j] > lenth:
+                    temp[j] = lenth
+        if result > sum(temp):
+            result = sum(temp)
+
     else:
-        for i in range(last, -1, -1):
+        for i in range(k, N):
             if i not in tmp:
                 tmp[x] = i
-                stack = 0
-                
-                for h in house:
-                    stack += abs(i-h)
-                dfs(cnt+stack, x+1)
+                dfs(x+1, k+1)
                 tmp[x] = -1
 
 
 for case in range(1, T+1):
     N, K = map(int, input().split())
     house = list(map(int, input().split()))
-    last = house[-1]
-    tmp = [-1] * K
-    result = 999999999999999999999
-    dfs()
-    print(result)
+    if K >= N:
+        print('#{} {}'.format(case, 0))
+    else:
+        tmp = [-1] * K
+        result = 999999999999999999999
+        dfs()
+        print('#{} {}'.format(case, result))
