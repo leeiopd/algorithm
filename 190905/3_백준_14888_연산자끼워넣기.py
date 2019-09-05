@@ -30,45 +30,37 @@ N = int(input())
 
 nums = list(map(int, input().split()))
 
-actsTmp = list(map(int, input().split()))
+acts = list(map(int, input().split()))
 
-def dfs(x, cnt):
+
+def dfs(x, cnt, add, sub, mul, div):
     global max_result
     global min_result
-    if x == A:
+    if x == N-1:
         if cnt > max_result:
             max_result = cnt
         if cnt < min_result:
             min_result = cnt
+        return
     else:
-        for a in range(A):
-            if a not in actTmp:
-                actTmp[x] = a
-                if acts[a] == '+':
-                    dfs(x + 1, cnt + nums[x + 1])
-                elif acts[a] == '-':
-                    dfs(x + 1, cnt - nums[x + 1])
-                elif acts[a] == '*':
-                    dfs(x + 1, cnt * nums[x + 1])
-                else:
-                    if cnt < 0:
-                        K = (cnt * -1) // nums[x + 1]
-                        K *= - 1
-                        dfs(x + 1, K)
-                    else:
-                        dfs(x + 1, cnt // nums[x + 1])
-                actTmp[x] = -1
+        if add:
+            dfs(x+1, cnt+nums[x+1], add-1, sub, mul, div)
+        if sub:
+            dfs(x+1, cnt-nums[x+1], add, sub-1, mul, div)
+        if mul:
+            dfs(x+1, cnt*nums[x+1], add, sub, mul-1, div)
+        if div:
+            if cnt < 0:
+                K = cnt*(-1)
+                K //= nums[x+1]
+                K *= -1
+                dfs(x+1, K, add, sub, mul, div-1)
+            else:
+                dfs(x+1, cnt//nums[x+1], add, sub, mul, div-1)
 
-# 덧셈(+)의 개수, 뺄셈(-)의 개수, 곱셈(×)의 개수, 나눗셈(÷)의 개수
-acts = []
-acts += ['+'] * actsTmp[0]
-acts += ['-'] * actsTmp[1]
-acts += ['*'] * actsTmp[2]
-acts += ['%'] * actsTmp[3]
-A = len(acts)
-actTmp = [-1 for a in range(A)]
+
 max_result = -9999999999999999999
 min_result = 999999999999999999999
-dfs(0, nums[0])
+dfs(0, nums[0], acts[0], acts[1], acts[2], acts[3])
 print(max_result)
 print(min_result)
