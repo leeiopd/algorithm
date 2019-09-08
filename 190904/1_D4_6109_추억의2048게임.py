@@ -58,153 +58,121 @@ sys.stdin = open('6109.txt')
 T = int(input())
 
 
-def upMove(x, y):
-    global maps
-    while True:
-        if maps[y][x] != 0:
-            Y = y - 1
-            if 0 <= Y < N:
-                if maps[Y][x] != 0:
-                    if maps[Y][x] == maps[y][x]:
-                        maps[Y][x] = maps[y][x] * 2
-                        maps[y][x] = -1
-                        return
-                    elif maps[Y][x] == -1:
-                        maps[Y][x] = maps[y][x]
-                        maps[y][x] = 0
-                        return
-                    return
-                else:
-                    maps[Y][x] = maps[y][x]
-                    maps[y][x] = 0
+def upGame(x, y):
+    Y = y-1
+    if 0 <= Y:
+        if maps[Y][x] > 0:
+            if maps[Y][x] == maps[y][x]:
+                maps[Y][x] = maps[y][x] * 2
+                maps[y][x] = -1
+                return
             else:
                 return
-        y -= 1
-        if y < 0 or y >= N or x < 0 or x >= N:
+        elif maps[Y][x] == -1:
+            maps[Y][x] = maps[y][x]
+            maps[y][x] = 0
             return
+        else:
+            maps[Y][x] = maps[y][x]
+            maps[y][x] = 0
+            upGame(x, Y)
 
 
-def downMove(x, y):
-    global maps
-    while True:
-        if maps[y][x] != 0:
-            Y = y + 1
-            if 0 <= Y < N:
-                if maps[Y][x] != 0:
-                    if maps[Y][x] == maps[y][x]:
-                        maps[Y][x] = maps[y][x] * 2
-                        maps[y][x] = -1
-                        return
-                    elif maps[Y][x] == -1:
-                        maps[Y][x] = maps[y][x]
-                        maps[y][x] = 0
-                        return
-                    return
-                else:
-                    maps[Y][x] = maps[y][x]
-                    maps[y][x] = 0
+def downGame(x, y):
+    Y = y+1
+    if Y < N:
+        if maps[Y][x] > 0:
+            if maps[Y][x] == maps[y][x]:
+                maps[Y][x] = maps[y][x] * 2
+                maps[y][x] = -1
+                return
             else:
                 return
-        y += 1
-        if y < 0 or y >= N or x < 0 or x >= N:
+
+        elif maps[Y][x] == -1:
+            maps[Y][x] = maps[y][x]
+            maps[y][x] = 0
             return
+        else:
+            maps[Y][x] = maps[y][x]
+            maps[y][x] = 0
+            downGame(x, Y)
 
 
-def rightMove(x, y):
-    global maps
-    while True:
-        if maps[y][x] != 0:
-            X = x + 1
-            if 0 <= X < N:
-                if maps[y][X] != 0:
-                    if maps[y][X] == maps[y][x]:
-                        maps[y][X] = maps[y][x] * 2
-                        maps[y][x] = 0
-                        maps[y][X-1] = -1
-                        return
-                    elif maps[y][X] == -1:
-                        maps[y][X] = maps[y][x]
-                        maps[y][x] = 0
-                        return
-                    return
-                else:
-                    maps[y][X] = maps[y][x]
-                    maps[y][x] = 0
+def rightGame(x, y):
+    X = x + 1
+    if X < N:
+        if maps[y][X] > 0:
+            if maps[y][X] == maps[y][x]:
+                maps[y][X] = maps[y][x] * 2
+                maps[y][x] = -1
+                return
             else:
                 return
-        x += 1
-        if y < 0 or y >= N or x < 0 or x >= N:
+
+        elif maps[y][X] == -1:
+            maps[y][X] = maps[y][x]
+            maps[y][x] = 0
             return
+        else:
+            maps[y][X] = maps[y][x]
+            maps[y][x] = 0
+            rightGame(X, y)
 
 
-def leftMove(x, y):
-    global maps
-    while True:
-        if maps[y][x] != 0:
-            X = x - 1
-            if 0 <= X < N:
-                if maps[y][X] != 0:
-                    if maps[y][X] == maps[y][x]:
-                        maps[y][X] = maps[y][x] * 2
-                        maps[y][x] = 0
-                        maps[y][X+1] = -1
-                        return
-                    elif maps[y][X] == -1:
-                        maps[y][X] = maps[y][x]
-                        maps[y][x] = 0
-                        return
-                    return
-                else:
-                    maps[y][X] = maps[y][x]
-                    maps[y][x] = 0
+def leftGame(x, y):
+    X = x - 1
+    if 0 <= X:
+        if maps[y][X] > 0:
+            if maps[y][X] == maps[y][x]:
+                maps[y][X] = maps[y][x] * 2
+                maps[y][x] = -1
+                return
             else:
                 return
-        x -= 1
-        if y < 0 or y >= N or x < 0 or x >= N:
+
+        elif maps[y][X] == -1:
+            maps[y][X] = maps[y][x]
+            maps[y][x] = 0
             return
-
-
-def game(x, y, S):
-    if S == 'up':
-        upMove(x, y)
-    elif S == 'down':
-        downMove(x, y)
-    elif S == 'right':
-        rightMove(x, y)
-    else:
-        leftMove(x, y)
+        else:
+            maps[y][X] = maps[y][x]
+            maps[y][x] = 0
+            leftGame(X, y)
 
 
 for case in range(1, T+1):
-    N, S = map(str, input().split())
+    N, D = map(str, input().split())
     N = int(N)
     maps = []
-
     for n in range(N):
         maps.append(list(map(int, input().split())))
 
-    if S == 'up':
-        for y in range(1, N):
+    if D == 'up':
+        for y in range(N):
             for x in range(N):
-                game(x, y, S)
-    elif S == 'down':
-        for y in range(N-2, -1, -1):
+                if maps[y][x]:
+                    upGame(x, y)
+    if D == 'down':
+        for y in range(N-1, -1, -1):
             for x in range(N):
-                game(x, y, S)
-    elif S == 'right':
+                if maps[y][x]:
+                    downGame(x, y)
+    if D == 'right':
         for x in range(N-1, -1, -1):
             for y in range(N):
-                game(x, y, S)
-    else:
-        for x in range(1, N):
+                if maps[y][x]:
+                    rightGame(x, y)
+    if D == 'left':
+        for x in range(N):
             for y in range(N):
-                game(x, y, S)
-
+                if maps[y][x]:
+                    leftGame(x, y)
     for y in range(N):
         for x in range(N):
             if maps[y][x] == -1:
                 maps[y][x] = 0
 
     print('#{}'.format(case))
-    for n in range(N):
-        print(' '.join(map(str, maps[n])))
+    for i in range(N):
+        print(' '.join(map(str, maps[i])))
