@@ -35,51 +35,58 @@ sys.stdin = open('6855.txt')
 
 T = int(input())
 
+
+def change(nums):
+    ninth = []
+    flag = 0
+    if nums < 0:
+        nums += 1
+        flag = 1
+        nums *= -1
+    while True:
+        ninth.append(nums % 9)
+        nums = nums//9
+        if nums < 9:
+            ninth.append(nums)
+            break
+    ninth = ninth[::-1]
+    if ninth[0] == 0:
+        ninth.pop(0)
+    nums = ''.join(map(str, ninth))
+    nums = int(nums)
+    if flag:
+        nums *= -1
+    return nums
+
+
+def diff(A, B):
+    if A > B:
+        A, B = B, A
+    if A < 0:
+        A *= -1
+        A = str(A)[::-1]
+        B = str(B)[::-1]
+
+        long = len(A)
+        add = 0
+        ans = []
+        for l in range(long):
+            a = int(A[l])
+            b = int(B[l])
+            if a + b + add > 9:
+                ans.append(a+b + add - 9)
+                add = 1
+            else:
+                ans.append(a+b+add)
+                add = 0
+
+
 for case in range(1, T+1):
     A, B = map(int, input().split())
-    checkA = 0
-    checkB = 0
-    if A < 0:
-        A = A*(-1)
-        checkA = 1
-    if B < 0:
-        B = B*(-1)
-        checkB = 1
-    A = str(A)
-    tempA = ''
-    for a in A:
-        numa = int(a)
-        if numa > 4:
-            numa -= 1
-        numa = str(numa)
-        tempA += numa
+    # 0, 1, 2, 3, 5, 6, 7, 8, 9 -- 9 진수
+    A = change(A)
+    B = change(B)
 
-    B = str(B)
-    tempB = ''
-    for b in B:
-        numb = int(b)
-        if numb > 4:
-            numb -= 1
-        numb = str(numb)
-        tempB += numb
+    print(A, B)
 
-    longA = len(tempA)
-    longB = len(tempB)
-
-    cntA = 0
-
-    for i in range(longA-1, -1, -1):
-        cntA += int(tempA[i]) * (9**i)
-
-    cntB = 0
-
-    for i in range(longB-1, -1, -1):
-        cntB += int(tempB[i]) * (9**i)
-
-    if checkA:
-        cntA = cntA * (-1)
-    if checkB:
-        cntB = cntB * (-1)
-
-    result = cntB - cntA
-    print(result)
+    diff(A, B)
