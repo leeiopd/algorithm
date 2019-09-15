@@ -31,62 +31,62 @@ A와 B를 이루는 숫자에는 4가 들어있지 않다.
 각 줄마다 "#T" (T는 테스트 케이스 번호)를 출력한 뒤,  A층에서 B층으로 올라가려면 몇 층을 올라가야 하는지 출력하라.
 '''
 import sys
-sys.stdin = open('6855.txt')
+sys.stdin = open('4530.txt')
 
 T = int(input())
 
 
-def change(nums):
-    ninth = []
+# 9진수에서 9대신 4가 빠진 모양이 주어짐 -> 9진수 계산 문제
+
+
+# 4가 없는 9진수의 모양을 9가 빠진 9진수의 모양으로 변형 해 줌
+def changeNine(N):
+    ans = ''
     flag = 0
-    if nums < 0:
-        nums += 1
-        flag = 1
-        nums *= -1
-    while True:
-        ninth.append(nums % 9)
-        nums = nums//9
-        if nums < 9:
-            ninth.append(nums)
-            break
-    ninth = ninth[::-1]
-    if ninth[0] == 0:
-        ninth.pop(0)
-    nums = ''.join(map(str, ninth))
-    nums = int(nums)
-    if flag:
-        nums *= -1
-    return nums
-
-
-def diff(A, B):
-    if A > B:
-        A, B = B, A
-    if A < 0:
-        A *= -1
-        A = str(A)[::-1]
-        B = str(B)[::-1]
-
-        long = len(A)
-        add = 0
-        ans = []
-        for l in range(long):
-            a = int(A[l])
-            b = int(B[l])
-            if a + b + add > 9:
-                ans.append(a+b + add - 9)
-                add = 1
+    for n in N:
+        if n == '-':
+            flag = 1
+        else:
+            if int(n) > 4:
+                k = str(int(n)-1)
             else:
-                ans.append(a+b+add)
-                add = 0
+                k = n
+            ans += k
+    if flag:
+        ans = '-' + ans
+    return ans
+
+
+# 9진수를 결과를 위한 10진수로 바꾸어줌
+def changeTen(nums):
+    flag = 0
+    if nums[0] == '-':
+        flag = 1
+        nums = nums[1:]
+    nums = nums[::-1]
+    cnt = 0
+    ans = 0
+    while cnt < len(nums):
+        ans += int(nums[cnt]) * (9 ** cnt)
+        cnt += 1
+    if flag:
+        ans *= (-1)
+    return ans
 
 
 for case in range(1, T+1):
     A, B = map(int, input().split())
-    # 0, 1, 2, 3, 5, 6, 7, 8, 9 -- 9 진수
-    A = change(A)
-    B = change(B)
 
-    print(A, B)
+    strA = str(A)
+    strB = str(B)
 
-    diff(A, B)
+    newA = changeNine(strA)
+    newB = changeNine(strB)
+
+    TenA = changeTen(newA)
+    TenB = changeTen(newB)
+
+    result = TenB - TenA
+    if A*B < 0:
+        result -= 1
+    print('#{} {}'.format(case, result))

@@ -24,7 +24,6 @@
 
 두 번째 줄에는 하나의 정수 X(1 ≤ X ≤ 106)이 주어진다.
 
-
 [출력]
 
 각 테스트 케이스마다 ‘#x’(x는 테스트케이스 번호를 의미하며 1부터 시작한다)를 출력하고,
@@ -38,37 +37,55 @@ sys.stdin = open('1808.txt')
 T = int(input())
 
 
-def dfs(ans, cnt=1):
+# 버튼으로 만들수 있는 숫자 리스트 생성
+def makeNumFunc(num=0, cnt=0):
+    if num > X:
+        return
+    if cnt > 7:
+        return
+    for i in nums:
+        N = num + i
+        if N:
+            madeNums.append(N)
+            makeNumFunc(N*10, cnt+1)
+
+# 만들어진 숫자 리스트로 X에 나누면서 결과 뽑기
+
+
+def findAns(A, cnt=0):
     global result
-    print(X)
-    if int(ans) > X:
-        return
-    if cnt >= result:
-        return
-    if int(ans) == X:
+    # 주어진 X 가 1이어서 cnt == 0 일때의 상황을 방지
+    if cnt and A == 1:
         if cnt < result:
             result = cnt
-        return
-
-    for b in btn:
-        if cnt <= result - 1:
-            dfs(ans+str(b), cnt+1)
-            if b != 1:
-                M = int(ans) * b
-                if M < X:
-                    dfs(str(M), cnt+2)
+            return
+    for i in range(len(madeNums)-1, -1, -1):
+        # 1로 계속 나누는 상황 방지 stack over flow // 큰 수들로 나누는 상황 방지 // 나눌수 있는 수인지 확인
+        if madeNums[i] != 1 and madeNums[i] <= A and A % madeNums[i] == 0:
+            K = len(str(madeNums[i]))
+            findAns(A//madeNums[i], cnt+K+1)
 
 
 for case in range(1, T+1):
-    nums = list(map(int, input().split()))
+    btn = list(map(int, input().split()))
     X = int(input())
-    btn = []
-    result = 9999999999999999
-    for n in range(10):
-        if nums[n]:
-            btn.append(n)
-    btn = btn[::-1]
-    for b in btn:
-        if b != 0:
-            dfs(str(b))
-    print(result)
+    nums = []
+    for b in range(len(btn)):
+        if btn[b]:
+            nums.append(b)
+
+    madeNums = []
+    makeNumFunc()
+    madeNums.sort()
+
+    # 주어진 X가 버튼을 눌러서 나오는 숫자인지 확인
+    if X in madeNums:
+        result = len(str(X))+1
+    else:
+        result = 9999999
+
+    findAns(X)
+
+    if result == 9999999:
+        result = -1
+    print('#{} {}'.format(case, result))
