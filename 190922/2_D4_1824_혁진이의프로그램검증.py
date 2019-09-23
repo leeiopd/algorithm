@@ -68,3 +68,53 @@ T = int(input())
 
 for case in range(1, T+1):
     R, C = map(int, input().split())
+    maps = []
+    for r in range(R):
+        maps.append(list(map(str, input())))
+
+    x = 0
+    y = 0
+    memory = 0
+
+    dx = [1, -1, 0, 0]
+    dy = [0, 0, 1, -1]
+
+    arrow = 0
+
+    while True:
+        if maps[y][x] == '<':
+            arrow = 1
+        elif maps[y][x] == '>':
+            arrow = 0
+        elif maps[y][x] == '^':
+            arrow = 2
+        elif maps[y][x] == 'v':
+            arrow = 3
+        elif maps[y][x] == '_':
+            if memory == 0:
+                arrow = 0
+            else:
+                arrow = 1
+        elif maps[y][x] == '|':
+            if memory == 0:
+                arrow = 3
+            else:
+                arrow = 2
+        elif maps[y][x] == '?':
+
+        elif maps[y][x] == '.':
+            continue
+        elif maps[y][x] == '@':
+            break
+        elif maps[y][x] == '+':
+            if memory == 15:
+                memory = 0
+            else:
+                momory += 1
+        elif maps[y][x] == '-':
+            if memory == 0:
+                memory = 15
+            else:
+                momory -= 1
+        else:
+            memory = int(maps[y][x])
