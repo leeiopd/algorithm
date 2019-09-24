@@ -21,14 +21,14 @@ Samsung Collegiate Programming Cup은 Samsung이 매년마다 개최하는 대�
 
 - 명령을 처리하다 보면 이동 방향이 상하좌우로 바뀔 수 있다.
 
-     만약 다음 이동이 2차원 격자의 바깥으로 이동하는 방향이면, 반대편에 있는 위치로 이동한다. 
+     만약 다음 이동이 2차원 격자의 바깥으로 이동하는 방향이면, 반대편에 있는 위치로 이동한다.
 
      예를 들어, 첫 번째 줄의 가장 오른쪽 칸에서 오른쪽 방향으로 이동하면 첫 번째 줄의 가장 왼쪽 칸으로 이동한다.
 
      혁셈블리어에서는 메모리가 단 하나 있으며, 0에서 15사이의 정수를 하나 저장할 수 있다. 가장 처음에는 0이 저장되어 있다.
 
 사용 가능한 명령은 아래와 같다:
- 
+
 
 문자	수행 명령
 <	이동 방향을 왼쪽으로 바꾼다.
@@ -66,55 +66,107 @@ sys.stdin = open('1824.txt')
 
 T = int(input())
 
+
+def Dfs(x, y, memory, arrow):
+    global result
+    if result:
+        return
+    if check[y][x][arrow] == 10:
+        return
+
+    check[y][x][arrow] += 1
+
+    if maps[y][x] == '<':
+        arrow = 1
+        X = x + dx[arrow]
+        X %= C
+        Dfs(X, y, memory, arrow)
+    elif maps[y][x] == '>':
+        arrow = 0
+        X = x + dx[arrow]
+        X %= C
+        Dfs(X, y, memory, arrow)
+    elif maps[y][x] == '^':
+        arrow = 2
+        Y = y + dy[arrow]
+        Y %= R
+        Dfs(x, Y, memory, arrow)
+    elif maps[y][x] == 'v':
+        arrow = 3
+        Y = y + dy[arrow]
+        Y %= R
+        Dfs(x, Y, memory, arrow)
+    elif maps[y][x] == '_':
+        if memory == 0:
+            arrow = 0
+        else:
+            arrow = 1
+        X = x + dx[arrow]
+        X %= C
+        Dfs(X, y, memory, arrow)
+    elif maps[y][x] == '|':
+        if memory == 0:
+            arrow = 3
+        else:
+            arrow = 2
+        Y = y + dy[arrow]
+        Y %= R
+        Dfs(x, Y, memory, arrow)
+    elif maps[y][x] == '?':
+        for i in range(4):
+            X = x + dx[i]
+            Y = y + dy[i]
+            X %= C
+            Y %= R
+            Dfs(X, Y, memory, i)
+    elif maps[y][x] == '.':
+        X = x + dx[arrow]
+        Y = y + dy[arrow]
+        X %= C
+        Y %= R
+        Dfs(X, Y, memory, arrow)
+    elif maps[y][x] == '@':
+        result = 1
+        return
+    elif maps[y][x] == '+':
+        if memory == 15:
+            memory = 0
+        else:
+            memory += 1
+        X = x + dx[arrow]
+        Y = y + dy[arrow]
+        X %= C
+        Y %= R
+        Dfs(X, Y, memory, arrow)
+    elif maps[y][x] == '-':
+        if memory == 0:
+            memory = 15
+        else:
+            memory -= 1
+        X = x + dx[arrow]
+        Y = y + dy[arrow]
+        X %= C
+        Y %= R
+        Dfs(X, Y, memory, arrow)
+    else:
+        memory = int(maps[y][x])
+        X = x + dx[arrow]
+        Y = y + dy[arrow]
+        X %= C
+        Y %= R
+        Dfs(X, Y, memory, arrow)
+
+
 for case in range(1, T+1):
     R, C = map(int, input().split())
     maps = []
+    check = [[[0, 0, 0, 0] for c in range(C)] for r in range(R)]
     for r in range(R):
         maps.append(list(map(str, input())))
 
-    x = 0
-    y = 0
-    memory = 0
-
     dx = [1, -1, 0, 0]
-    dy = [0, 0, 1, -1]
+    dy = [0, 0, -1, 1]
+    result = 0
 
-    arrow = 0
-
-    while True:
-        if maps[y][x] == '<':
-            arrow = 1
-        elif maps[y][x] == '>':
-            arrow = 0
-        elif maps[y][x] == '^':
-            arrow = 2
-        elif maps[y][x] == 'v':
-            arrow = 3
-        elif maps[y][x] == '_':
-            if memory == 0:
-                arrow = 0
-            else:
-                arrow = 1
-        elif maps[y][x] == '|':
-            if memory == 0:
-                arrow = 3
-            else:
-                arrow = 2
-        elif maps[y][x] == '?':
-
-        elif maps[y][x] == '.':
-            continue
-        elif maps[y][x] == '@':
-            break
-        elif maps[y][x] == '+':
-            if memory == 15:
-                memory = 0
-            else:
-                momory += 1
-        elif maps[y][x] == '-':
-            if memory == 0:
-                memory = 15
-            else:
-                momory -= 1
-        else:
-            memory = int(maps[y][x])
+    Dfs(0, 0, 0, 0)
+    print('#{} {}'.format(case, result))
