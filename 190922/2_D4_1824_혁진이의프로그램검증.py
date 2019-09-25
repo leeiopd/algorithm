@@ -66,107 +66,119 @@ sys.stdin = open('1824.txt')
 
 T = int(input())
 
-
-def Dfs(x, y, memory, arrow):
-    global result
-    if result:
-        return
-    if check[y][x][arrow] == 10:
-        return
-
-    check[y][x][arrow] += 1
-
-    if maps[y][x] == '<':
-        arrow = 1
-        X = x + dx[arrow]
-        X %= C
-        Dfs(X, y, memory, arrow)
-    elif maps[y][x] == '>':
-        arrow = 0
-        X = x + dx[arrow]
-        X %= C
-        Dfs(X, y, memory, arrow)
-    elif maps[y][x] == '^':
-        arrow = 2
-        Y = y + dy[arrow]
-        Y %= R
-        Dfs(x, Y, memory, arrow)
-    elif maps[y][x] == 'v':
-        arrow = 3
-        Y = y + dy[arrow]
-        Y %= R
-        Dfs(x, Y, memory, arrow)
-    elif maps[y][x] == '_':
-        if memory == 0:
-            arrow = 0
-        else:
-            arrow = 1
-        X = x + dx[arrow]
-        X %= C
-        Dfs(X, y, memory, arrow)
-    elif maps[y][x] == '|':
-        if memory == 0:
-            arrow = 3
-        else:
-            arrow = 2
-        Y = y + dy[arrow]
-        Y %= R
-        Dfs(x, Y, memory, arrow)
-    elif maps[y][x] == '?':
-        for i in range(4):
-            X = x + dx[i]
-            Y = y + dy[i]
-            X %= C
-            Y %= R
-            Dfs(X, Y, memory, i)
-    elif maps[y][x] == '.':
-        X = x + dx[arrow]
-        Y = y + dy[arrow]
-        X %= C
-        Y %= R
-        Dfs(X, Y, memory, arrow)
-    elif maps[y][x] == '@':
-        result = 1
-        return
-    elif maps[y][x] == '+':
-        if memory == 15:
-            memory = 0
-        else:
-            memory += 1
-        X = x + dx[arrow]
-        Y = y + dy[arrow]
-        X %= C
-        Y %= R
-        Dfs(X, Y, memory, arrow)
-    elif maps[y][x] == '-':
-        if memory == 0:
-            memory = 15
-        else:
-            memory -= 1
-        X = x + dx[arrow]
-        Y = y + dy[arrow]
-        X %= C
-        Y %= R
-        Dfs(X, Y, memory, arrow)
-    else:
-        memory = int(maps[y][x])
-        X = x + dx[arrow]
-        Y = y + dy[arrow]
-        X %= C
-        Y %= R
-        Dfs(X, Y, memory, arrow)
-
+dx = [1, -1, 0, 0]
+dy = [0, 0, -1, 1]
 
 for case in range(1, T+1):
     R, C = map(int, input().split())
     maps = []
-    check = [[[0, 0, 0, 0] for c in range(C)] for r in range(R)]
     for r in range(R):
-        maps.append(list(map(str, input())))
+        maps.append(input())
+    flag = 0
+    for y in range(R):
+        if '@' in maps[y]:
+            flag = 1
 
-    dx = [1, -1, 0, 0]
-    dy = [0, 0, -1, 1]
-    result = 0
+    if not flag:
+        print('#{} NO'.format(case))
+    else:
+        tmp = [[0, 0, 0, 0]]
+        check = [[[0, 0, 0, 0] for c in range(C)] for r in range(R)]
+        result = 'NO'
+        while tmp:
+            if len(tmp) >= 1000:
+                break
+            x, y, memory, arrow = map(int, tmp.pop())
+            check[y][x][arrow] += 1
 
-    Dfs(0, 0, 0, 0)
-    print('#{} {}'.format(case, result))
+            if maps[y][x] == '<':
+                arrow = 1
+                X = x + dx[arrow]
+                X %= C
+                if check[y][X][arrow] <= 20:
+                    tmp.append([X, y, memory, arrow])
+            elif maps[y][x] == '>':
+                arrow = 0
+                X = x + dx[arrow]
+                X %= C
+                if check[y][X][arrow] <= 20:
+                    tmp.append([X, y, memory, arrow])
+            elif maps[y][x] == '^':
+                arrow = 2
+                Y = y + dy[arrow]
+                Y %= R
+                if check[Y][x][arrow] <= 20:
+                    tmp.append([x, Y, memory, arrow])
+            elif maps[y][x] == 'v':
+                arrow = 3
+                Y = y + dy[arrow]
+                Y %= R
+                if check[Y][x][arrow] <= 20:
+                    tmp.append([x, Y, memory, arrow])
+            elif maps[y][x] == '_':
+                if memory == 0:
+                    arrow = 0
+                else:
+                    arrow = 1
+                X = x + dx[arrow]
+                X %= C
+                if check[y][X][arrow] <= 20:
+                    tmp.append([X, y, memory, arrow])
+            elif maps[y][x] == '|':
+                if memory == 0:
+                    arrow = 3
+                else:
+                    arrow = 2
+                Y = y + dy[arrow]
+                Y %= R
+                if check[Y][x][arrow] <= 20:
+                    tmp.append([x, Y, memory, arrow])
+            elif maps[y][x] == '?':
+                for i in range(4):
+                    X = x + dx[i]
+                    Y = y + dy[i]
+                    X %= C
+                    Y %= R
+                    if check[Y][X][arrow] <= 20:
+                        tmp.append([X, Y, memory, i])
+            elif maps[y][x] == '.':
+                X = x + dx[arrow]
+                Y = y + dy[arrow]
+                X %= C
+                Y %= R
+                if check[Y][X][arrow] <= 20:
+                    tmp.append([X, Y, memory, arrow])
+            elif maps[y][x] == '@':
+                result = 'YES'
+                break
+            elif maps[y][x] == '+':
+                if memory == 15:
+                    memory = 0
+                else:
+                    memory += 1
+                X = x + dx[arrow]
+                Y = y + dy[arrow]
+                X %= C
+                Y %= R
+                if check[Y][X][arrow] <= 20:
+                    tmp.append([X, Y, memory, arrow])
+            elif maps[y][x] == '-':
+                if memory == 0:
+                    memory = 15
+                else:
+                    memory -= 1
+                X = x + dx[arrow]
+                Y = y + dy[arrow]
+                X %= C
+                Y %= R
+                if check[Y][X][arrow] <= 20:
+                    tmp.append([X, Y, memory, arrow])
+            else:
+                memory = int(maps[y][x])
+                X = x + dx[arrow]
+                Y = y + dy[arrow]
+                X %= C
+                Y %= R
+                if check[Y][X][arrow] <= 20:
+                    tmp.append([X, Y, memory, arrow])
+        print('#{} {}'.format(case, result))
