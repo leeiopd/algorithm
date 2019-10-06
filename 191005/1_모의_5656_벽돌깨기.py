@@ -126,6 +126,7 @@ iii) 세 번째 구술
 
 (t 는 테스트 케이스의 번호를 의미하며 1 부터 시작한다)
 '''
+# ▶ 남은 벽돌의 개수를 구하라!
 import sys
 sys.stdin = open('5656.txt')
 
@@ -134,29 +135,30 @@ T = int(input())
 
 def game(w, h, K):
     global Bcnt
-    Bcnt += 1
-    nBric[h][w] = 0
+    if copy[h][w]:
+        Bcnt += 1
+        copy[h][w] = 0
     for k in range(1, K):
         uH = h-k
         dH = h+k
         rW = w+k
         lW = w-k
-        if uH >= 0 and nBric[uH][w]:
-            game(w, uH, nBric[uH][w])
-        if dH < H and nBric[dH][w]:
-            game(w, uH, nBric[dH][w])
-        if lW >= 0 and nBric[h][lW]:
-            game(w, uH, nBric[h][lW])
-        if rW < W and nBric[h][rW]:
-            game(w, uH, nBric[h][rW])
+        if uH >= 0:
+            game(w, uH, copy[uH][w])
+        if dH < H:
+            game(w, dH, copy[dH][w])
+        if lW >= 0:
+            game(lW, h, copy[h][lW])
+        if rW < W:
+            game(rW, h, copy[h][rW])
 
 
 def clear():
     for w in range(W):
         for h in range(H-1, 0, -1):
-            if nBric[h][w] == 0:
-                nBric[h][w] = nBric[h-1][w]
-                nBric[h-1][w] = 0
+            if copy[h][w] == 0:
+                copy[h][w] = copy[h-1][w]
+                copy[h-1][w] = 0
 
 
 for case in range(1, T+1):
@@ -166,36 +168,37 @@ for case in range(1, T+1):
     maps = []
     for h in range(H):
         maps.append(list(map(int, input().split())))
+    
+    brickCnt = 0
+    
+    for y in range(H):
+        for x in range(W):
+            if maps[y][x]:
+                brickCnt += 1
 
-    temp = [[maps, 0, 0]]
-    result = 0
-    resultBrick = [[0 for w in range(W)] for h in range(H)]
-    while temp:
-        bric, cnt, ans = temp.pop()
-        print(cnt, ans)
-        if cnt > N:
-            if ans > result:
-                result = ans
-                for y in range(H):
-                    for x in range(W):
-                        resultBrick[y][x] = bric[y][x]
+    queue = [[maps, 0, 0]]
+    maxBreakCnt = 0
+    while queue:
+        state, ballCnt, breakCnt = queue.pop(0)
+
+        if ballCnt == N:
+            if breakCnt > maxBreakCnt:
+                maxBreakCnt = breakCnt
+
         else:
-            for w in range(W):
-                for h in range(H):
-                    if bric[h][w] != 0:
-                        nBric = [[0 for w in range(W)] for h in range(H)]
-                        for y in range(H):
-                            for x in range(W):
-                                nBric[y][x] = bric[y][x]
-                        Bcnt = 0
-                        game(w, h, nBric[h][w])
-                        clear()
-                        temp.append([nBric, cnt + 1, ans + Bcnt])
+            for x in range(W):
+                for y in range(H):
+                    if state[y][x]:
+                        copy = [[0 for w in range(W)] for h in range(H)]
+                        for h in range(H):
+                            for w in range(W):
+                                copy[h][w] = state[h][w]
+                        if state[y][x] == 1:
+                            copy[y][x] = 0
+                            Bcnt = 1
+                        else:
+                            Bcnt = 0
+                            game(x, y, state[y][x])
+                        queue.append([copy, ballCnt+1, breakCnt+Bcnt])
                         break
-
-    checkCnt = 0
-    for w in range(W):
-        for h in range(H):
-            if resultBrick[h][w] != 0:
-                checkCnt += 1
-    print(checkCnt, result)
+    print(brickCnt - maxBreakCnt)
