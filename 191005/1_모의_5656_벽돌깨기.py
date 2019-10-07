@@ -157,8 +157,11 @@ def clear():
     for w in range(W):
         for h in range(H-1, 0, -1):
             if copy[h][w] == 0:
-                copy[h][w] = copy[h-1][w]
-                copy[h-1][w] = 0
+                for j in range(h - 1, -1, -1):
+                    if copy[j][w]:
+                        copy[h][w] = copy[j][w]
+                        copy[j][w] = 0
+                        break
 
 
 for case in range(1, T+1):
@@ -168,9 +171,9 @@ for case in range(1, T+1):
     maps = []
     for h in range(H):
         maps.append(list(map(int, input().split())))
-    
+
     brickCnt = 0
-    
+
     for y in range(H):
         for x in range(W):
             if maps[y][x]:
@@ -179,8 +182,10 @@ for case in range(1, T+1):
     queue = [[maps, 0, 0]]
     maxBreakCnt = 0
     while queue:
-        state, ballCnt, breakCnt = queue.pop(0)
-
+        state, ballCnt, breakCnt = queue.pop()
+        if breakCnt == brickCnt:
+            maxBreakCnt = breakCnt
+            break
         if ballCnt == N:
             if breakCnt > maxBreakCnt:
                 maxBreakCnt = breakCnt
@@ -199,6 +204,8 @@ for case in range(1, T+1):
                         else:
                             Bcnt = 0
                             game(x, y, state[y][x])
+                            clear()
                         queue.append([copy, ballCnt+1, breakCnt+Bcnt])
                         break
-    print(brickCnt - maxBreakCnt)
+    result = brickCnt - maxBreakCnt
+    print('#{} {}'.format(case, result))
