@@ -90,40 +90,55 @@ sys.stdin = open('5653.txt')
 T = int(input())
 
 dx = [-1, 1, 0, 0]
-dy = [0, 0, -1, 0]
+dy = [0, 0, -1, 1]
 
 
 def grow(x, y):
     for i in range(4):
         X = x + dx[i]
         Y = y + dy[i]
-        if 0 <= X and X < 1000 and 0 <= Y and Y < 1000:
+        if 0 <= X and X < Z and 0 <= Y and Y < Z:
             if maps[Y][X] == 0:
-                maps[Y][X] = [maps[y][x][0], 2 * maps[y][x]]
+                maps[Y][X] = [maps[y][x][0], 2 * maps[y][x][0] + 1]
             else:
-                if maps[Y][X] != -1:
-                    if maps[Y][X][0] * 2 == maps[Y][X][1]
+                if type(maps[Y][X]) == list:
+                    if maps[Y][X][0] * 2 - 1 == maps[Y][X][1]:
+                        if maps[Y][X][0] < maps[y][x][0]:
+                            maps[Y][X] = [maps[y][x][0], maps[y][x][0]*2 + 1]
 
 
 for case in range(1, T + 1):
     # 세로 N, 가로 M
     N, M, K = map(int, input().split())
-    maps = [[0 for x in range(1000)] for y in range(1000)]
+    Z = 10
+    maps = [[0 for x in range(Z)] for y in range(Z)]
     temp = []
     for n in range(N):
         temp.append(list(map(int, input().split())))
-
-    for n in range((1000//2)-(N//2), (1000//2) + (N//2)):
-        for m in range((1000//2) - (M//2), (1000//2) + (M//2)):
-            if temp[n - (1000//2)+(N//2)][m - (1000//2) + (M//2)]:
-                K = temp[n - (1000//2)+(N//2)][m - (1000//2) + (M//2)]
-                maps[n][m] = [K, 2 * K]
+    for n in range((Z//2)-(N//2), (Z//2) + (N//2)):
+        for m in range((Z//2) - (M//2), (Z//2) + (M//2)):
+            if temp[n - (Z//2)+(N//2)][m - (Z//2) + (M//2)]:
+                K = temp[n - (Z//2)+(N//2)][m - (Z//2) + (M//2)]
+                maps[n][m] = [K, 2 * K + 1]
 
     for k in range(K):
-        for y in range(1000):
-            for x in range(1000):
-                if maps[y][x]:
-                    if maps[y][x][1] > maps[y][x][0]:
-                        maps[y][x][1] -= 1
-                    elif maps[y][x][1] == maps[y][x][0]:
+        for y in range(Z):
+            for x in range(Z):
+                if type(maps[y][x]) == list:
+                    maps[y][x][1] -= 1
+        for y in range(Z):
+            for x in range(Z):
+                if type(maps[y][x]) == list:
+                    if maps[y][x][1] == maps[y][x][0]:
                         grow(x, y)
+                    elif maps[y][x][1] == 0:
+                        maps[y][x] = -1
+
+    result = 0
+
+    for y in range(Z):
+        for x in range(Z):
+            if maps[y][x]:
+                result += 1
+    print(maps)
+    print(result)
