@@ -84,9 +84,6 @@
 
 배양을 K시간 시킨 후 배양 용기에 있는 살아있는 줄기 세포(비활성 상태 + 활성 상태)의 개수를 출력한다. (T는 테스트케이스의 번호를 의미하며 1부터 시작한다. )
 '''
-import sys
-sys.stdin = open('5653.txt')
-
 T = int(input())
 
 dx = [-1, 1, 0, 0]
@@ -99,46 +96,69 @@ def grow(x, y):
         Y = y + dy[i]
         if 0 <= X and X < Z and 0 <= Y and Y < Z:
             if maps[Y][X] == 0:
-                maps[Y][X] = [maps[y][x][0], 2 * maps[y][x][0] + 1]
+                # 세포가 없는 지역
+                maps[Y][X] = [maps[y][x][0], maps[y][x][0] * 2]
             else:
+                # 세포가 존재하는 지역
                 if type(maps[Y][X]) == list:
-                    if maps[Y][X][0] * 2 - 1 == maps[Y][X][1]:
+                    # 새로 생성된 세포일 경우
+                    if maps[Y][X][0] * 2 == maps[Y][X][1]:
+                        # 세포의 생명력 비교
                         if maps[Y][X][0] < maps[y][x][0]:
-                            maps[Y][X] = [maps[y][x][0], maps[y][x][0]*2 + 1]
+                            # 세포의 생명력이 높은 쪽이 생성
+                            maps[Y][X] = [maps[y][x][0], maps[y][x][0] * 2]
 
 
 for case in range(1, T + 1):
     # 세로 N, 가로 M
     N, M, K = map(int, input().split())
-    Z = 10
+
+    # 줄기세포의 수명은 1~10이고 처음 주어지는 그리드의 한 변은 1~50범위이며 시간은 최대 300까지이므로
+    # 수명이 1이고 50*50 그리드를 가득 채우고 있다고 하더라도 2시간당 사방으로 한번씩 뻗어나가므로 상하좌우 150칸까지밖에 뻗지 못한다.
+    # 즉, 최대 범위는 350, (150,150)을 시작점으로 잡음
+
+    Z = 350
+    P = 150
     maps = [[0 for x in range(Z)] for y in range(Z)]
     temp = []
+
+    # 세포 상태 input
     for n in range(N):
         temp.append(list(map(int, input().split())))
-    for n in range((Z//2)-(N//2), (Z//2) + (N//2)):
-        for m in range((Z//2) - (M//2), (Z//2) + (M//2)):
-            if temp[n - (Z//2)+(N//2)][m - (Z//2) + (M//2)]:
-                K = temp[n - (Z//2)+(N//2)][m - (Z//2) + (M//2)]
-                maps[n][m] = [K, 2 * K + 1]
+
+    # 350X350 맵으로 옮겨 담기
+    for n in range(P, P+N):
+        for m in range(P, P+M):
+            if temp[n - P][m - P]:
+                T = temp[n - P][m - P]
+                maps[n][m] = [T, T * 2]
 
     for k in range(K):
+        # 시간 1초 지남
         for y in range(Z):
             for x in range(Z):
-                if type(maps[y][x]) == list:
-                    maps[y][x][1] -= 1
+                if maps[y][x] != 0 and maps[y][x] != -1:
+                    if maps[y][x][1]:
+                        maps[y][x][1] -= 1
+
+        # 세포 번식 check
         for y in range(Z):
             for x in range(Z):
-                if type(maps[y][x]) == list:
-                    if maps[y][x][1] == maps[y][x][0]:
+                if maps[y][x] != 0 and maps[y][x] != -1:
+                    if maps[y][x][0] - 1 == maps[y][x][1]:
                         grow(x, y)
-                    elif maps[y][x][1] == 0:
+
+        # 세포 사망 check
+        for y in range(Z):
+            for x in range(Z):
+                if maps[y][x] != 0 and maps[y][x] != -1:
+                    if maps[y][x][1] == 0:
                         maps[y][x] = -1
 
     result = 0
 
     for y in range(Z):
         for x in range(Z):
-            if maps[y][x]:
+            if maps[y][x] != 0 and maps[y][x] != -1:
                 result += 1
-    print(maps)
-    print(result)
+    print('#{} {}'.format(case, result))
