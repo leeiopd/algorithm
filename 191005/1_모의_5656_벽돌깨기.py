@@ -133,11 +133,14 @@ sys.stdin = open('5656.txt')
 T = int(input())
 
 
+# 벽돌의 폭팔을 진행하는 함수
 def game(w, h, K):
     global Bcnt
+    # 위치의 벽돌이 존재 할 때(벽돌이 없지만 폭팔 범위에 포함 될 때의 조건을 제외하기 위함)
     if copy[h][w]:
         Bcnt += 1
         copy[h][w] = 0
+    # 폭팔 범위까지 DFS로 동작
     for k in range(1, K):
         uH = h-k
         dH = h+k
@@ -153,6 +156,7 @@ def game(w, h, K):
             game(rW, h, copy[h][rW])
 
 
+# 폭팔 함수 실행 후 맵을 정리하는 함수
 def clear():
     for w in range(W):
         for h in range(H-1, 0, -1):
@@ -183,9 +187,13 @@ for case in range(1, T+1):
     maxBreakCnt = 0
     while queue:
         state, ballCnt, breakCnt = queue.pop()
+
+        # 맵의 모든 벽돌 claer 했을때 종료 조건
         if breakCnt == brickCnt:
             maxBreakCnt = breakCnt
             break
+
+        # 모든 구슬을 다 사용 했을때 종료 조건
         if ballCnt == N:
             if breakCnt > maxBreakCnt:
                 maxBreakCnt = breakCnt
@@ -193,19 +201,27 @@ for case in range(1, T+1):
         else:
             for x in range(W):
                 for y in range(H):
+                    # 구슬을 발사할 벽돌 발건
                     if state[y][x]:
+                        # 다음 상태를 위한 맵 복사
                         copy = [[0 for w in range(W)] for h in range(H)]
                         for h in range(H):
                             for w in range(W):
                                 copy[h][w] = state[h][w]
+                        # 벽돌의 숫자가 1일 때
                         if state[y][x] == 1:
                             copy[y][x] = 0
                             Bcnt = 1
+                        # 벽돌의 숫자가 1보다 클 때
                         else:
                             Bcnt = 0
+                            # DFS 시작
                             game(x, y, state[y][x])
+                            # 벽돌 정리
                             clear()
-                        queue.append([copy, ballCnt+1, breakCnt+Bcnt])
+                        # 상태 저장
+                        queue.append([copy, ballCnt + 1, breakCnt + Bcnt])
+                        # 다음 x 좌표 이동
                         break
     result = brickCnt - maxBreakCnt
     print('#{} {}'.format(case, result))

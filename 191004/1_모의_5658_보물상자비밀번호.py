@@ -47,6 +47,7 @@ numChange = {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7,
              '8': 8, '9': 9, 'A': 10, 'B': 11, 'C': 12, 'D': 13, 'E': 14, 'F': 15}
 
 
+# 16진수 -> 10진수
 def change(tmp):
     tmp = tmp[::-1]
     ans = 0
@@ -62,19 +63,24 @@ for case in range(1, T+1):
     N, K = map(int, input().split())
     nums = input()
 
+    # 한면에 존재하는 비밀번호 개수
     M = N//4
     numString = nums
+    # 회전시켜 나오는 모든 경우를 나열
     for i in range(M-1):
         temp = nums[-1]
         nums = temp + nums[:-1]
         numString += nums
-
     cnt = 0
     result = []
+    # 나열된 16진수를 분해하여 10진수 숫자 구하기
     while cnt < len(numString):
-        tmp = numString[cnt:cnt+M]
+        # 한 면에 보여지는 16진수 문자열 수만큼 자르기
+        tmp = numString[cnt: cnt + M]
+        # 잘라진 16진수를 10진수로 변환하여 담기
         result.append(change(tmp))
         cnt += M
+    # 정렬
     result.sort(reverse=True)
 
     print('#{} {}'.format(case, result[K-1]))

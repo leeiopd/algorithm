@@ -1,6 +1,8 @@
 import sys
 sys.stdin = open('13460.txt')
 
+# 종료 조건
+
 
 def check(maps):
     R = 0
@@ -10,14 +12,18 @@ def check(maps):
             R = 1
         if 'B' in maps[y]:
             B = 1
+        # 구슬이 두개 다 존재하면 실패 조건
         if R*B:
             return False
+    # 빨간 구슬만 탈출한 종료 조건
     if not R and B:
         return True
+    # 그 외 실패 조건
     else:
         return False
 
 
+# 오른쪽으로 기울였을 때
 def Rgame(maps):
     newM = [[0 for x in range(M)] for y in range(N)]
     for y in range(N):
@@ -55,6 +61,7 @@ def Rgame(maps):
         return False
 
 
+# 왼쪽으로 기울였을 때
 def Lgame(maps):
     newM = [[0 for x in range(M)] for y in range(N)]
     for y in range(N):
@@ -92,6 +99,7 @@ def Lgame(maps):
         return False
 
 
+# 위로 기울였을 때
 def Ugame(maps):
     newM = [[0 for x in range(M)] for y in range(N)]
     for y in range(N):
@@ -129,6 +137,7 @@ def Ugame(maps):
         return False
 
 
+# 아래로 기울였을 때
 def Dgame(maps):
     newM = [[0 for x in range(M)] for y in range(N)]
     for y in range(N):
@@ -168,28 +177,36 @@ def Dgame(maps):
 
 def Dfs(x, newM):
     global result
+    # 맵 상태를 저장
     if newM not in memory:
         memory.append(newM)
 
-        print(memory)
+    # 시행 횟수가 result보다 많을 때 함수 종료
     if x > result:
         return
+
+    # 종료 조건 확인
     if check(newM):
         if x < result:
             result = x
             return
+
+    # 오른쪽으로 기울이기 시행 후 다음 단계 진행
     Rtemp = Rgame(newM)
     if Rtemp:
         Dfs(x+1, Rtemp)
 
+    # 왼쪽으로 기울이기 시행 후 다음 단계 진행
     Ltemp = Lgame(newM)
     if Ltemp:
         Dfs(x+1, Ltemp)
 
+    # 위쪽으로 기울이기 시행 후 다음 단계 진행
     Utemp = Ugame(newM)
     if Utemp:
         Dfs(x+1, Utemp)
 
+    # 아래쪽으로 기울이기 시행 후 다음 단계 진행
     Dtemp = Dgame(newM)
     if Dtemp:
         Dfs(x+1, Dtemp)
