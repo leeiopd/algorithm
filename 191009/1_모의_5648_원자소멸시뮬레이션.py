@@ -101,58 +101,39 @@ sys.stdin = open('5648.txt')
 
 T = int(input())
 
-dx = [0, 0, -1, 1]
-dy = [-1, 1, 0, 0]
-
-
-def check():
-    for y in range(4001):
-        for x in range(4001):
-            if maps[y][x]:
-                return False
-    return True
-
-
-def game(x, y, i):
-    X = x + dx[i]
-    Y = y + dy[i]
-
-    if 0 <= X < 4001 and 0 <= Y < 4001:
-        if maps[Y][X] == 0:
-            maps[Y][X] = maps[y][x]
-            maps[y][x] = 0
-        else:
-            maps[Y][X] = [0, maps[y][x][1]+maps[Y][X][1]]
-            maps[y][x] = 0
-    else:
-        maps[y][x] = 0
-
+dx = [0, 0, -0.5, 0.5]
+dy = [0.5, -0.5, 0, 0]
 
 for case in range(1, T+1):
     N = int(input())
-    maps = [[0 for x in range(4001)] for y in range(4001)]
+    now = {}
     for n in range(N):
-        x, y, i, K = map(int, input().split())
-        x = (x + 1000) * 2
-        y = (y + 1000) * 2
-        maps[y][x] = [i, K]
-
-    cnt = 0
+        x, y, i, b = map(int, input().split())
+        now[(x, y)] = [i, b]
     result = 0
-    while True:
-        cnt += 1
+    for i in range(4002):
+        bomb = set()
+        next = {}
+        if len(now) <= 1:
+            break
+        for x, y in now:
+            X = x + dx[now[(x, y)][0]]
+            Y = y + dy[now[(x, y)][0]]
 
-        for y in range(4001):
-            for x in range(4001):
-                if maps[y][x]:
-                    game(x, y, maps[y][x][0])
+            if X < -1000 or X > 1000 or Y < -1000 or Y > 1000:
+                continue
 
-        for y in range(4001):
-            for x in range(4001):
-                if maps[y][x][0] == 0:
-                    result += maps[y][x][1]
-                    maps[y][x] = 0
+            if (X, Y) in next:
+                bomb.add((X, Y))
+                next[(X, Y)][1] += now[(x, y)][1]
+            else:
+                next[(X, Y)] = now[(x, y)]
 
-        if cnt == 100:
-            if check():
-                break
+        for x, y in bomb:
+            result += next[(x, y)][1]
+            del next[(x, y)]
+
+        now = next
+    print('#{} {}'.format(case, result))
+
+# 시간초과 어디서 나는지......
