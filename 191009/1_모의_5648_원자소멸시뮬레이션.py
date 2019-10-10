@@ -104,36 +104,57 @@ T = int(input())
 dx = [0, 0, -0.5, 0.5]
 dy = [0.5, -0.5, 0, 0]
 
+
+# 다음 칸으로 이동하는 함수
+def Move(x, y, d):
+    return x+dx[d], y+dy[d]
+
+
 for case in range(1, T+1):
     N = int(input())
+    # 현재 위치 원자 dict
     now = {}
     for n in range(N):
         x, y, i, b = map(int, input().split())
         now[(x, y)] = [i, b]
     result = 0
+
+    # 0.5씩 이동 -1000~1000 40000번 이동
     for i in range(4002):
+        # 폭팔 위치 저장
         bomb = set()
+        # 원자 다음위치 저장
         next = {}
+
+        # 원자가 하나 이하로 남았을때 종료
         if len(now) <= 1:
             break
-        for x, y in now:
-            X = x + dx[now[(x, y)][0]]
-            Y = y + dy[now[(x, y)][0]]
 
+        # 원자 이동
+        for x, y in now:
+            X, Y = Move(x, y, now[(x, y)][0])
+
+            # 범위를 벗어난 원자는 삭제
             if X < -1000 or X > 1000 or Y < -1000 or Y > 1000:
                 continue
 
+            # 이동할 위치에 원자가 이미 존재 한다면
             if (X, Y) in next:
+                # 폭팔 위치에 저장
                 bomb.add((X, Y))
+                # 에너지 방출량 합
                 next[(X, Y)][1] += now[(x, y)][1]
             else:
+                # 이동할 위치가 비어있다면
                 next[(X, Y)] = now[(x, y)]
 
+        # 원자 폭팔 시행
         for x, y in bomb:
+            # 에너지 방출량 합
             result += next[(x, y)][1]
+            # 폭팔한 원자 위치 삭제
             del next[(x, y)]
 
+        # 다음 시행을 위한 초기화
         now = next
     print('#{} {}'.format(case, result))
-
-# 시간초과 어디서 나는지......
