@@ -297,6 +297,7 @@ dx = [0, 0, 1, 0, -1]
 dy = [0, -1, 0, 1, 0]
 
 
+# 다음 좌표 이동
 def Next(x, y, d):
     X = x + dx[d]
     Y = y + dy[d]
@@ -304,6 +305,7 @@ def Next(x, y, d):
     return X, Y
 
 
+# 충전소의 좌표 목록을 만들어 줌
 def makeBC(X, Y, P, C):
     bcRange = []
     for y in range(1, 11):
@@ -316,36 +318,55 @@ def makeBC(X, Y, P, C):
 for case in range(1, T+1):
     M, A = map(int, input().split())
 
+    # 이동 명령, 0초때의 움직임을 추가
     moveInfoA = [0] + list(map(int, input().split()))
     moveInfoB = [0] + list(map(int, input().split()))
 
     maps = [[0 for x in range(11)] for y in range(11)]
 
+    # 충전소 정보 저장
     BC = {}
 
     for a in range(A):
         # c : 충전범위, p: 성능
         x, y, c, p = map(int, input().split())
         maps[y][x] = p
+        # 충전소 정보를 KEY = 충전량, 좌표정보 / VALUE = 해당 범위 좌표 목록 으로 만들어줌
         BC[p, x, y] = makeBC(x, y, p, c)
+
+    # 초기화
     Ax = 1
     Ay = 1
     Bx = 10
     By = 10
     result = 0
+
     for i in range(M+1):
+        # A의 위치에 해당하는 충전소 정보 저장
         Atemp = []
+
+        # A 이동
         Ax, Ay = Next(Ax, Ay, moveInfoA[i])
+
         for key, value in BC.items():
+            # A의 좌표가 충전소 범위에 해당 여부 확인
             if [Ax, Ay] in value:
+                # 충전소 정보를 저장
                 Atemp.append(key)
 
+        # B의 위치에 해당하는 충전소 정보 저장
         Btemp = []
+
+        # B 이동
         Bx, By = Next(Bx, By, moveInfoB[i])
+
         for key, value in BC.items():
+            # B의 좌표가 충전소 범위에 해당 여부 확인
             if [Bx, By] in value:
+                # 충전소 정보 저장
                 Btemp.append(key)
 
+        # A와 B 둘다 충전이 가능한 장소일 때
         if Atemp and Btemp:
             temp = 0
             Atemp.sort(reverse=True)
@@ -353,15 +374,22 @@ for case in range(1, T+1):
             for a in Atemp:
                 for b in Btemp:
                     if a != b:
+                        # A와 B가 각각 다른 충전소에서 충전할 경우 최고값 저장
                         if a[0] + b[0] > temp:
                             temp = a[0] + b[0]
+
+            # A와 B가 같은 충전소에서 충전을 해야 할 경우
             if not temp:
+                # 같은곳에서 나눠서 충전
                 temp = Atemp[0][0]
             result += temp
         else:
+            # A만 충전 가능 할 경우
             if Atemp:
                 Atemp.sort(reverse=True)
                 result += Atemp[0][0]
+
+            # B만 충전 가능 할 경우
             elif Btemp:
                 Btemp.sort(reverse=True)
                 result += Btemp[0][0]
