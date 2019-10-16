@@ -125,4 +125,5 @@ for case in range(1, T+1):
         for x in range(N):
             if maps[y][x] >= 2:
                 stairs.append([maps[y][x], x, y])
+
     print(stairs)
