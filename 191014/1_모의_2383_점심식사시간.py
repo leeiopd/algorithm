@@ -111,6 +111,11 @@ sys.stdin = open('2383.txt')
 
 T = int(input())
 
+
+def Dfs(maps):
+    print(sum(maps))
+
+
 for case in range(1, T+1):
     N = int(input())
 
@@ -119,11 +124,4 @@ for case in range(1, T+1):
     for n in range(N):
         maps.append(list(map(int, input().split())))
 
-    stairs = []
-
-    for y in range(N):
-        for x in range(N):
-            if maps[y][x] >= 2:
-                stairs.append([maps[y][x], x, y])
-
-    print(stairs)
+    Dfs(maps)
