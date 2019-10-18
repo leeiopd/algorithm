@@ -112,8 +112,18 @@ sys.stdin = open('2383.txt')
 T = int(input())
 
 
-def Dfs(maps):
-    print(sum(maps))
+def Dfs(copyMaps, cnt=0, Astair=[], Bstair=[]):
+    global result
+    if cnt > result:
+        return
+    CHECK_MEMBER = 0
+    for y in range(N):
+        CHECK_MEMBER += sum(copyMaps[y])
+    if not CHECK_MEMBER and not Astair and not Bstair:
+        if cnt < result:
+            result = cnt
+            return
+    print(copyMaps)
 
 
 for case in range(1, T+1):
@@ -123,5 +133,5 @@ for case in range(1, T+1):
 
     for n in range(N):
         maps.append(list(map(int, input().split())))
-
+    result = 999999999999999999999
     Dfs(maps)
