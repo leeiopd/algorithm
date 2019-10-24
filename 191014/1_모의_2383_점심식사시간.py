@@ -112,18 +112,29 @@ sys.stdin = open('2383.txt')
 T = int(input())
 
 
-def Dfs(copyMaps, cnt=0, Astair=[], Bstair=[]):
-    global result
-    if cnt > result:
+def Perm(cnt=0, Atemp=[], Btemp=[]):
+    if cnt == L:
+        if Atemp and Btemp:
+            Atemp.sort()
+            Btemp.sort()
+            if Atemp not in stairA and Btemp not in stairB:
+                stairA.append(Atemp)
+                stairB.append(Btemp)
+                return
         return
-    CHECK_MEMBER = 0
-    for y in range(N):
-        CHECK_MEMBER += sum(copyMaps[y])
-    if not CHECK_MEMBER and not Astair and not Bstair:
-        if cnt < result:
-            result = cnt
-            return
-    print(copyMaps)
+
+    X = peopleList[cnt][0]
+    Y = peopleList[cnt][1]
+
+    AL = abs(X - stairList[0][0]) + abs(Y - stairList[0][1])
+
+    Perm(cnt+1, Atemp+[AL], Btemp)
+
+    Perm(cnt+1, Atemp, Btemp+[AL])
+
+    BL = abs(X - stairList[1][0]) + abs(Y - stairList[1][1])
+    Perm(cnt+1, Atemp+[BL], Btemp)
+    Perm(cnt+1, Atemp, Btemp+[BL])
 
 
 for case in range(1, T+1):
@@ -133,5 +144,77 @@ for case in range(1, T+1):
 
     for n in range(N):
         maps.append(list(map(int, input().split())))
-    result = 999999999999999999999
-    Dfs(maps)
+    RESULT = 999999999999999999999
+
+    peopleList = []
+    stairList = []
+    for y in range(N):
+        for x in range(N):
+            if maps[y][x]:
+                if maps[y][x] == 1:
+                    peopleList.append([x, y])
+                else:
+                    stairList.append([x, y])
+    L = len(peopleList)
+    stairA = []
+    stairB = []
+    Perm()
+
+    for i in range(len(stairA)):
+        Alist = []
+        for j in range(len(stairA[i])):
+            Alist.append(stairA[i][j])
+        Blist = []
+        for j in range(len(stairB[i])):
+            Blist.append(stairB[i][j])
+        CNT = L
+        ANS = 0
+        AStairLine = []
+        BStairLine = []
+        while CNT:
+            ANS += 1
+            if ANS > RESULT:
+                break
+            if AStairLine:
+                for j in range(len(AStairLine)):
+                    AStairLine[j] -= 1
+                while AStairLine:
+                    if AStairLine[0] == 0:
+                        AStairLine.pop(0)
+                        CNT -= 1
+                    else:
+                        break
+            if BStairLine:
+                for j in range(len(BStairLine)):
+                    BStairLine[j] -= 1
+                while BStairLine:
+                    if BStairLine[0] == 0:
+                        BStairLine.pop(0)
+                        CNT -= 1
+                    else:
+                        break
+            if Alist:
+                for j in range(len(Alist)):
+                    Alist[j] -= 1
+                if not AStairLine or (AStairLine and len(AStairLine) < 3):
+                    while Alist:
+                        if Alist[0] < 1 and len(AStairLine) < 3:
+                            Alist.pop(0)
+                            AStairLine.append(3)
+                        else:
+                            break
+            if Blist:
+                for j in range(len(Blist)):
+                    Blist[j] -= 1
+                if not BStairLine or (BStairLine and len(BStairLine) < 3):
+                    while Blist:
+                        if Blist[0] < 1 and len(BStairLine) < 3:
+                            Blist.pop(0)
+                            BStairLine.append(3)
+                        else:
+                            break
+
+        if ANS < RESULT:
+            RESULT = ANS
+            print(stairA[i], stairB[i], RESULT)
+    print(RESULT)
