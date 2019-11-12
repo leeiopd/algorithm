@@ -41,7 +41,7 @@ N*N 크기의 정사각형 모양의 방에 사람들이 앉아 있다.
 지도 내에 1 은 사람을 나타내고, 2 이상 10 이하의 숫자는 계단의 입구를 나타내며 해당 숫자는 계단의 길이를 의미한다.
 
 [Fig. 2]에는 사람 6명이 있고, 계단은 2개가 있으며 길이는 각각 3과 5이다.
- 
+
 
 [Fig. 2]
 
@@ -112,109 +112,158 @@ sys.stdin = open('2383.txt')
 T = int(input())
 
 
-def Perm(cnt=0, Atemp=[], Btemp=[]):
-    if cnt == L:
-        if Atemp and Btemp:
-            Atemp.sort()
-            Btemp.sort()
-            if Atemp not in stairA and Btemp not in stairB:
-                stairA.append(Atemp)
-                stairB.append(Btemp)
-                return
+def Game(A, B):
+    A_line = []
+    B_line = []
+    Acnt = 0
+    for a in A:
+        A_line.append(a)
+    for b in B:
+        B_line.append(b)
+
+    # A 계단사용 시간 측정
+    if A_line:
+        A_line.sort()
+        A_stair = []
+        while A_line or A_stair:
+            Acnt += 1
+
+            # A계단을 사용하는 인원 이동
+            if A_line:
+                for i in range(len(A_line)):
+                    A_line[i] -= 1
+
+            # 계단 인원 이동
+            if A_stair:
+                for i in range(len(A_stair)):
+                    A_stair[i] -= 1
+
+            # 계단 탈출
+            while True:
+                if not A_stair:
+                    break
+                if A_stair[0] == 0:
+                    A_stair.pop(0)
+                else:
+                    break
+
+            # 계단 사용 시작
+            while True:
+                if A_line:
+                    if len(A_stair) >= 3:
+                        break
+                    if A_line[0] < 0:
+                        A_line.pop(0)
+                        A_stair.append(A_long)
+                    else:
+                        break
+                else:
+                    break
+
+    Bcnt = 0
+
+    # B 계단사용 시간 측정
+    if B_line:
+        B_line.sort()
+        B_stair = []
+        while B_line or B_stair:
+            Bcnt += 1
+
+            # B 계단을 사용하는 인원 이동
+            if B_line:
+                for i in range(len(B_line)):
+                    B_line[i] -= 1
+
+            # 계단 인원 이동
+            if B_stair:
+                for i in range(len(B_stair)):
+                    B_stair[i] -= 1
+
+            # 계단 탈출
+            while True:
+                if not B_stair:
+                    break
+                if B_stair[0] == 0:
+                    B_stair.pop(0)
+                else:
+                    break
+
+            # 계단 사용 시작
+            while True:
+                if B_line:
+                    if len(B_stair) >= 3:
+                        break
+                    if B_line[0] < 0:
+                        B_line.pop(0)
+                        B_stair.append(B_long)
+                    else:
+                        break
+                else:
+                    break
+    if Acnt > Bcnt:
+        time = Acnt
+    else:
+        time = Bcnt
+    return time
+
+
+def DFS(x, A_line, B_line):
+    global result
+    # 모든 인원 정렬 완료
+    if x == M:
+        time = Game(A_line, B_line)
+        if time < result:
+            result = time
         return
 
-    X = peopleList[cnt][0]
-    Y = peopleList[cnt][1]
+    people_X = peoples[x][0]
+    people_Y = peoples[x][1]
 
-    AL = abs(X - stairList[0][0]) + abs(Y - stairList[0][1])
+    # 계단까지의 거리 계산
+    toA_long = abs(people_X - Ax) + abs(people_Y - Ay)
+    toB_long = abs(people_X - Bx) + abs(people_Y - By)
 
-    Perm(cnt+1, Atemp+[AL], Btemp)
+    # A 계단사용
+    DFS(x+1, A_line+[toA_long], B_line)
 
-    Perm(cnt+1, Atemp, Btemp+[AL])
-
-    BL = abs(X - stairList[1][0]) + abs(Y - stairList[1][1])
-    Perm(cnt+1, Atemp+[BL], Btemp)
-    Perm(cnt+1, Atemp, Btemp+[BL])
+    # B 계단 사용
+    DFS(x+1, A_line, B_line+[toB_long])
 
 
 for case in range(1, T+1):
     N = int(input())
-
     maps = []
-
     for n in range(N):
         maps.append(list(map(int, input().split())))
-    RESULT = 999999999999999999999
+    result = 999999999999999999999999
+    A_long = 0
+    B_long = 0
+    peoples = []
 
-    peopleList = []
-    stairList = []
+    # 맵 정보 확인
     for y in range(N):
         for x in range(N):
-            if maps[y][x]:
-                if maps[y][x] == 1:
-                    peopleList.append([x, y])
+            # 사람이 서 있는 위치 확인
+            if maps[y][x] == 1:
+                peoples.append([x, y])
+
+            # 계단 위치, 길이 확인
+            elif maps[y][x] > 1:
+                if not A_long:
+                    Ax = x
+                    Ay = y
+                    A_long = maps[y][x]
                 else:
-                    stairList.append([x, y])
-    L = len(peopleList)
-    stairA = []
-    stairB = []
-    Perm()
+                    Bx = x
+                    By = y
+                    B_long = maps[y][x]
 
-    for i in range(len(stairA)):
-        Alist = []
-        for j in range(len(stairA[i])):
-            Alist.append(stairA[i][j])
-        Blist = []
-        for j in range(len(stairB[i])):
-            Blist.append(stairB[i][j])
-        CNT = L
-        ANS = 0
-        AStairLine = []
-        BStairLine = []
-        while CNT:
-            ANS += 1
-            if ANS > RESULT:
-                break
-            if AStairLine:
-                for j in range(len(AStairLine)):
-                    AStairLine[j] -= 1
-                while AStairLine:
-                    if AStairLine[0] == 0:
-                        AStairLine.pop(0)
-                        CNT -= 1
-                    else:
-                        break
-            if BStairLine:
-                for j in range(len(BStairLine)):
-                    BStairLine[j] -= 1
-                while BStairLine:
-                    if BStairLine[0] == 0:
-                        BStairLine.pop(0)
-                        CNT -= 1
-                    else:
-                        break
-            if Alist:
-                for j in range(len(Alist)):
-                    Alist[j] -= 1
-                if not AStairLine or (AStairLine and len(AStairLine) < 3):
-                    while Alist:
-                        if Alist[0] < 1 and len(AStairLine) < 3:
-                            Alist.pop(0)
-                            AStairLine.append(3)
-                        else:
-                            break
-            if Blist:
-                for j in range(len(Blist)):
-                    Blist[j] -= 1
-                if not BStairLine or (BStairLine and len(BStairLine) < 3):
-                    while Blist:
-                        if Blist[0] < 1 and len(BStairLine) < 3:
-                            Blist.pop(0)
-                            BStairLine.append(3)
-                        else:
-                            break
+    # 전체 사람 수
+    M = len(peoples)
 
-        if ANS < RESULT:
-            RESULT = ANS
-            print(stairA[i], stairB[i], RESULT)
-    print(RESULT)
+    # A, B 계단 줄서기
+    A_line = []
+    B_line = []
+
+    DFS(0, A_line, B_line)
+    print('#{} {}'.format(case, result))
