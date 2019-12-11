@@ -1,6 +1,4 @@
-import java.lang.reflect.Array;
 import java.util.*;
-
 
 public class Solution {
 	public static int maps[][] = new int[9][9];
@@ -10,31 +8,20 @@ public class Solution {
 		Scanner sc = new Scanner(System.in);
 
 		int T = sc.nextInt();
-		boolean result;
-		for (int testCase = 0; testCase <= T; testCase++) {
-			result = true;
-			for (int n = 0; n < 9; n++){
-				check[n] = 0;
-			}
+		for (int testCase = 1; testCase <= T; testCase++) {
 			for (int y = 0; y < 9; y++) {
 				for (int x = 0; x < 9; x++) {
 					maps[y][x] = sc.nextInt();
 				}
 			}
-			
+
 			if (check()==true) {
-				
+				System.out.println("#"+testCase+" 1");
+
 			}
 			else {
-				
+				System.out.println("#"+testCase+" 0");
 			}
-
-			
-			for (int n = 0; n < 9; n++){
-				System.out.print(check[n]);
-			}
-			System.out.print("\n");
-
 		}
 		sc.close();
 	}
@@ -42,7 +29,7 @@ public class Solution {
 		if (checkRow()==false) {
 			return false;
 		}
-		
+
 		if (checkCol() == false) {
 			return false;
 		}
@@ -54,34 +41,60 @@ public class Solution {
 				}
 			}				
 		}
-		
-		
+
+
 		return true;
 	}
-	
-	
+
+
 	public static boolean checkRow() {
 		for(int y = 0; y < 9; y++) {
+			for (int i = 0; i < 9; i++){
+				check[i] = 1;
+			}
 			for(int x = 0; x < 9; x++) {
-				check[maps[y][x]-1]++;
+				check[maps[y][x]-1] = 0;
+			}
+			for (int i = 0; i < 9; i++) {
+				if (check[i] == 1) {
+					return false;
+				}
 			}
 		}
+		return true;
 	}
 
 	public static boolean checkCol() {
 		for(int x = 0; x < 9; x++) {
+			for (int i = 0; i < 9; i++){
+				check[i] = 1;
+			}
 			for(int y = 0; y < 9; y++) {
-				check[maps[y][x]-1]++;
+				check[maps[y][x]-1] = 0;
+			}
+			for (int i = 0; i < 9; i++){
+				if (check[i] == 1) {
+					return false;
+				}
 			}
 		}
+		return true;
 	}
 
 	public static boolean checkBox(int X, int Y) {
-
+		for (int i = 0; i < 9; i++){
+			check[i] = 1;
+		}
 		for(int y = 0; y < 3; y++) {
 			for(int x = 0; x < 3; x++) {
-				check[maps[Y+y][X+x]-1]++;
+				check[maps[Y+y][X+x]-1] = 0;
 			}
 		}
+		for (int i = 0; i < 9; i++){
+			if (check[i] == 1) {
+				return false;
+			}
+		}
+		return true;
 	}
 }
