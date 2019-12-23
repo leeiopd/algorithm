@@ -16,11 +16,21 @@ public class Solution {
 			}
 			
 			for (int i = 2; i < N; i++) {
-				for (int j = 0; j <= i; j++ ) {
-					tri[i][j] 
+				for (int j = 1; j < i; j++ ) {
+					tri[i][j] = tri[i-1][j-1] + tri[i-1][j]; 
 				}
 			}
 			
+			System.out.println("#"+testCase);
+			
+			for (int i = 0; i < N; i++) {
+				for (int j = 0; j < i+1; j++) {
+					System.out.print(tri[i][j]+" ");
+				}
+				System.out.println();
+			}
+			
 		}
+		sc.close();
 	}
 }
