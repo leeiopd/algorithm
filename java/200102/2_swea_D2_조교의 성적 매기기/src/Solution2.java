@@ -66,10 +66,7 @@ public class Solution2 {
 			
 //			builder 변수에 string을 append() 메소드를 이용하여 추가
 			builder.append("#").append(i).append(" ").append(grade[index/(studentNum.length/10)]).append("\n");
-			
-			
 		}
 		System.out.println(builder);
-
 	}
 }
