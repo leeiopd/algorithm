@@ -3,31 +3,36 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.StringTokenizer;
 
 public class Solution {
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-
+		
 		int T = Integer.parseInt(bf.readLine());
-
+		
 		for (int tc = 1; tc <= T; tc++) {
-			String[] input = bf.readLine().split("");
-			int[] nums = new int[10];
-			int result = 0;
+			StringTokenizer st = new StringTokenizer(bf.readLine());
+			int N = Integer.parseInt(st.nextToken());
+			int M = Integer.parseInt(st.nextToken());
 			
-			for (int i = 0; i < input.length; i++) {
-				nums[Integer.parseInt(input[i])]++;
+			st = new StringTokenizer(bf.readLine());
+			
+			int[] nums = new int[N];
+			
+			for (int i = 0; i < M; i++) {
+				nums[Integer.parseInt(st.nextToken())-1]++;
 			}
 			
-			for (int i = 0; i < 10; i++) {
-				if (nums[i]%2 == 1) {
-					result++;
+			bw.write("#"+tc);
+			
+			for (int i = 0; i < N;i++) {
+				if (nums[i]==0) {
+					bw.write(" "+(i+1));
 				}
 			}
-			
-			bw.write("#"+tc+" "+result+"\n");
-			
+			bw.write("\n");
 		}
 		bw.flush();
 		bw.close();
