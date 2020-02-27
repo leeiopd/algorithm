@@ -1,81 +1,65 @@
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.util.StringTokenizer;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Solution {
-	public static void main(String[] args) throws IOException {
-		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+	
+	public static ArrayList<Integer> maps = new ArrayList<Integer>();
+	
+	public static void main(String[] args) {
 		
-		int[][] maps = new int[82][82];
-		
-		maps[1][1] = 1;
-		
-		for (int x = 2; x <= 80; x++) {
-			maps[1][x] = maps[1][x-1]+x; 
-		}
-		
-		for (int y = 2; y <= 80; y++) {
-			maps[y][1] = maps[y-1][1] + y-1;
-			int cnt = y;
-			for (int x = 2; x <= 80; x++) {
-				cnt++;
-				maps[y][x] = maps[y][x-1]+cnt;
-			}
+		Scanner sc = new Scanner(System.in);
+		maps.add(0);
+		for (int y = 1; y < 81; y++) {
+			maps.add(((y*(y-1))/2) + 1);
 		}
 		
 		
-		int T = Integer.parseInt(bf.readLine());
+		int T = sc.nextInt();
 		
 		for (int tc = 1; tc <= T; tc++) {
-			StringTokenizer st = new StringTokenizer(bf.readLine());
 			
-			int p = Integer.parseInt(st.nextToken());
-			int q = Integer.parseInt(st.nextToken());
+			int p = sc.nextInt();
+			int q = sc.nextInt();
 			
-			
-			if (p > q) {
-				int tmp = p;
-				p = q;
-				q = tmp;
-			}
-			
-			int aX = 0;
-			int aY = 0;
-			int bX = 0;
-			int bY = 0;
-			
-			int flag = 0;
-			
-			for(int Y = 1; Y <= 80; Y++) {
-				if (flag == 1) {
-					break;
-				}
-				for (int X = 1; X <= 80; X++) {
-					if (maps[Y][X] == p) {
-						aX = X;
-						aY = Y;
-					}
-					
-					if (maps[Y][X] == q) {
-						bX = X;
-						bY = Y;
-						
-						flag = 1;
-						break;
-					}
-				}
-			}
-			
-			int result = maps[aY+bY][aX + bX];
-			
-			bw.write("#"+tc+" "+result+"\n");
-			
+			System.out.println("#"+tc+" "+star(p, q));
 		}
-		bw.flush();
-		bw.close();
 	}
+	
+	static int star(int p, int q) {
+		int result = shap(add(and(p), and(q)));
+		return result;
+	}
+	
+	static int shap(int[] add) {
+		int y = add[0];
+		int x = add[1];
+		
+		return maps.get(y+x-1)+x-1;
+	}
+	
+	static int[] and(int p) {
+		int Y = 0;
+		int X = 0;
+		
+//		for (int y = 0; y < 81; y++) {
+//			if (maps.contains(p-y)) {
+//				Y = maps.indexOf(p-y)-y;
+//				X = 1+y;
+//				break;
+//			}
+//		}
+		
+		
+		
+		int[] nums = {Y, X};
+		return nums;
+	}
+	
+	static int[] add(int[] p, int[] q) {
+		int[] result  = new int[2];
+		result[0] = p[0]+q[0];
+		result[1] = p[1]+q[1];
+		return result;
+	}
+	
 }

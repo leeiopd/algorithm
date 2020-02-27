@@ -33,7 +33,7 @@ import sys
 sys.stdin = open("1493.txt")
 T = int(input())
 
-maps = [[0 for x in range(500)] for y in range(500)]
+maps = [[0 for x in range(80)] for y in range(80)]
 
 y_option = 1
 x_option = 1
@@ -46,7 +46,6 @@ for y in range(1, 1002):
     for x in range(1, 1002):
         maps[y][x+1] = maps[y][x] + x_option + x
     x_option += 1
-
 
 
 for case in range(1, T+1):
