@@ -11,12 +11,12 @@ public class Solution {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		int T = Integer.parseInt(bf.readLine());
+		StringTokenizer st;
+		String temp = "";
 		
 		for (int tc = 1; tc <= T; tc++) {
 			int N = Integer.parseInt(bf.readLine());
-			String temp = "";
-			StringTokenizer st;
-			
+			temp = "";
 			
 			while (true) {
 				if (N == temp.length()) {
@@ -39,15 +39,7 @@ public class Solution {
 				cnt++;
 				
 				String cntStr = String.valueOf(cnt);
-				flag = false;
-				for (int i = 0; i <= (N-cntStr.length()); i++) {
-					String check = temp.substring(i, i+cntStr.length());
-					if (check.equals(cntStr)) {
-						flag = true;
-						break;
-					}
-				}
-				if (flag == false) {
+				if (!temp.contains(cntStr)) {
 					result = cnt;
 					break;
 				}
