@@ -77,7 +77,6 @@ public class Solution {
 			fnc(cnt+1, visited, list);
 
 			visited[i] = false;
-
 		}
 
 	}
