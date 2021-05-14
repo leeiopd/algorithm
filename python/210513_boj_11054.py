@@ -18,7 +18,5 @@ result = [0] * N
 for i in range(N):
     result[i] = upDp[i] + downDp[i]
 
-
-print(downDp)
-print(max(result))
+print(max(result)-1)
             
