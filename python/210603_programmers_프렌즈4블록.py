@@ -11,7 +11,6 @@ def checkboard(m, n, board):
         for x in range(n-1):
             if board[y][x] and board[y][x] == board[y][x+1] and board[y][x] == board[y+1][x] and board[y][x] == board[y+1][x+1]:
                 deleteList.extend([[y, x], [y, x+1], [y+1, x], [y+1, x+1]])
-
     return deleteList
 
 
@@ -52,8 +51,8 @@ def solution(m, n, board):
         if not deleteList:
             break
         board = setBoard(m, n, deleteBlocks(board, deleteList))
-    print(board)
-    return print(countBoard(m, n, board))
+
+    return countBoard(m, n, board)
 
 
 solution(4, 5, ["CCBDE", "AAADE", "AAABF", "CCBBF"])
