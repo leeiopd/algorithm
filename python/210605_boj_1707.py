@@ -1,33 +1,37 @@
-import sys
 from collections import deque
+import sys
+input = sys.stdin.readline
+k = int(input())
 
-T = int(sys.stdin.readline())
 
-for _ in range(T):
-    V, E = map(int, sys.stdin.readline().split())
+def bfs(start):
+    bi[start] = 1
+    q = deque()
+    q.append(start)
+    while q:
+        a = q.popleft()
+        for i in s[a]:
+            if bi[i] == 0:
+                bi[i] = -bi[a]
+                q.append(i)
+            else:
+                if bi[i] == bi[a]:
+                    return False
+    return True
 
-    graph = [[0 for _ in range(V+1)] for _ in range(V+1)]
 
-    for _ in range(E):
-        f, t = map(int, sys.stdin.readline().split())
-        graph[f][t] = 1
-        graph[t][f] = 1
-
-    isBipartite = True
-
-    dq = deque()
-    dq.append(1)
-    visited = [0 for _ in range(V+1)]
-    visited[1] = 1
-    isBipartite = True
-    while dq:
-        f = dq.popleft()
-
-        for t in range(1, V+1):
-            if graph[f][t] and not visited[t]:
-                visited[t] = -1 * visited[f]
-                dq.append(t)
-            elif graph[f][t] and visited[t] == visited[f]:
-                isBipartite = False
-
-    print("YES" if isBipartite else "NO")
+for i in range(k):
+    v, e = map(int, input().split())
+    isTrue = True
+    s = [[] for i in range(v + 1)]
+    bi = [0 for i in range(v + 1)]
+    for j in range(e):
+        a, b = map(int, input().split())
+        s[a].append(b)
+        s[b].append(a)
+    for y in range(1, v + 1):
+        if bi[y] == 0:
+            if not bfs(y):
+                isTrue = False
+                break
+    print("YES"if isTrue else "NO")
