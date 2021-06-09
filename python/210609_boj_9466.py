@@ -10,7 +10,6 @@ for _ in range(T):
     for i in range(1, N+1):
         if visited[i]:
             continue
-
         f = i
         loop = [f]
         visited[f] = 1
@@ -18,7 +17,6 @@ for _ in range(T):
             t = picks[f]
             if visited[t]:
                 break
-
             f = t
             loop.append(f)
             visited[f] = 1

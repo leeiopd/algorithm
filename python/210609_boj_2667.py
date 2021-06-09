@@ -3,6 +3,25 @@ from collections import deque
 input = sys.stdin.readline
 
 
+def BFS(r, c):
+    dq = deque()
+    dq.append(r, c)
+    maps[r][c] = 0
+    cnt = 1
+
+    while dq:
+        y, x = dq.popleft()
+        for i in range(4):
+            X = x + dx[i]
+            Y = y + dy[i]
+
+            if 0 <= Y < N and 0 <= X < N and maps[Y][X]:
+                maps[Y][X] = 0
+                cnt += 1
+                dq.append((Y, X))
+    return cnt
+
+
 N = int(input())
 maps = []
 
@@ -17,21 +36,8 @@ blocks = []
 for r in range(N):
     for c in range(N):
         if maps[r][c]:
-            dq = deque()
-            dq.append((r, c))
-            maps[r][c] = 0
-            cnt = 1
-            while dq:
-                y, x = dq.popleft()
-                for i in range(4):
-                    X = x + dx[i]
-                    Y = y + dy[i]
+            blocks.append(BFS(r, c))
 
-                    if 0 <= Y < N and 0 <= X < N and maps[Y][X]:
-                        maps[Y][X] = 0
-                        cnt += 1
-                        dq.append((Y, X))
-            blocks.append(cnt)
 print(len(blocks))
 for b in sorted(blocks):
     print(b)
