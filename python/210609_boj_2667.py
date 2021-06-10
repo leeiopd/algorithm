@@ -5,7 +5,7 @@ input = sys.stdin.readline
 
 def BFS(r, c):
     dq = deque()
-    dq.append(r, c)
+    dq.append((r, c))
     maps[r][c] = 0
     cnt = 1
 
