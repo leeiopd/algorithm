@@ -8,6 +8,37 @@ maps = []
 for _ in range(R):
     maps.append(list(map(int, input().split())))
 
+
+def findMin(R, C):
+    min = 123456789
+    min_r = -1
+    min_c = -1
+    for r in range(R):
+        for c in range(C):
+            if (r+c) % 2 and maps[r][c] < min:
+                min = maps[r][c]
+                min_r = r
+                min_c = c
+    return min_r, min_c
+
+
+def DFS(x, y, cnt, res, maps):
+    global R, C
+    if cnt == R * C - 1:
+        print(res)
+        return
+
+    for i in range(4):
+        Y = y + dy[i]
+        X = x + dx[i]
+
+        if 0 <= Y < R and 0 <= X < C and maps[Y][X] != 0:
+            tmp = maps[Y][X]
+            maps[Y][X] = 0
+            DFS(X, Y, cnt+1, res+move[i], maps)
+            maps[Y][X] = tmp
+
+
 if R % 2:
     for r in range(R):
         if r % 2:
@@ -33,67 +64,12 @@ elif C % 2:
             print("R")
 
 else:
-    flag_1 = maps[0][0]
-    for r in range(R):
-        flag_1 += sum(maps[r][1:])
+    min_r, min_c = findMin(R, C)
+    maps[min_r][min_c] = 0
 
-    flag_2 = maps[0][0]
-    for r in range(1, R):
-        flag_2 += sum(maps[r])
+    dx = [1, 0, -1, 0]
+    dy = [0, 1, 0, -1]
+    move = {0: "R", 1: "D", 2: "L", 3: "U"}
 
-    flag_3 = maps[-1][-1]
-    for r in range(R-1):
-        flag_3 += sum(maps[r])
-
-    flag_4 = maps[-1][-1]
-    for r in range(R):
-        flag_4 += sum(maps[r][:-1])
-
-    max_flag = max(flag_1, flag_2, flag_3, flag_4)
-
-    if max_flag == flag_1:
-        print("R", end="")
-        for c in range(C-1):
-            if c % 2:
-                print("U"*(R-1), end="")
-            else:
-                print("D"*(R-1), end="")
-
-            if c != C-2:
-                print("R", end="")
-        print()
-
-    elif max_flag == flag_2:
-        print("D", end="")
-        for r in range(R-1):
-            if r % 2:
-                print("L"*(C-1), end="")
-            else:
-                print("R"*(C-1), end="")
-            if r != R-2:
-                print("D", end="")
-        print()
-
-    elif max_flag == flag_3:
-        for r in range(R-1):
-            if r % 2:
-                print("L"*(C-1), end="")
-            else:
-                print("R"*(C-1), end="")
-
-            if r != R-2:
-                print("D", end="")
-            else:
-                print("D")
-
-    else:
-        for c in range(C-1):
-            if c % 2:
-                print("U"*(R-1), end="")
-            else:
-                print("D"*(R-1), end="")
-
-            if c != C-2:
-                print("R", end="")
-            else:
-                print("R")
+    maps[0][0] = 0
+    DFS(0, 0, 1, "", maps)
