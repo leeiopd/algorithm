@@ -21,5 +21,4 @@ for i in range(1000000):
     if check(i):
         res = min(res, len(str(i))+abs(i-N))
 
-
 print(res)
