@@ -34,13 +34,6 @@ def change(idx, nums):
     return U, D, R, L
 
 
-def copyMaps(maps):
-    tmp = []
-    for n in maps:
-        tmp.append(n)
-    return tmp
-
-
 queue = deque()
 queue.append([idx, insNum, 0])
 res = -1
