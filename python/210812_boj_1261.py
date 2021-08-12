@@ -15,14 +15,12 @@ queue.append((0, 0, 0))
 
 visited = [[(M*N)+1 for _ in range(N)] for _ in range(M)]
 
-res = (M*N) + 1
-
 while queue:
     y, x, cnt = queue.popleft()
 
     if y == M-1 and x == N-1:
-        res = min(res, cnt)
-        continue
+        print(cnt)
+        break
 
     for i in range(4):
         Y = y + dy[i]
@@ -36,5 +34,3 @@ while queue:
                 visited[Y][X] = cnt
                 # queue.append((Y, X, cnt))
                 queue.appendleft((Y, X, cnt))
-
-print(res)
