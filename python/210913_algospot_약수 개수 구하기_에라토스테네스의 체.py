@@ -37,17 +37,25 @@ def getFactorsSmart():
             # 소수 [1, i] -> 2개
             factors[i] = 2
         else:
+            # i 의 가장작은 소인수
             p = minFactor[i]
 
-            m = int(i / p)
+            # 가작 작은 소인수로 나눈 수
+            m = i // p
 
+            # i 의 가장작은 소인수와 m 의 가장작은 소인수가 같지 않음
             if p != minFactor[m]:
                 minFactorPower[i] = 1
+
+            # i 의 가장작은 소인수와 m 의 가장작은 소인수가 같음
+            # i의 가장작은 소인수 = m 의 가장작은 소인수 + 1 승
             else:
                 minFactorPower[i] = minFactorPower[m] + 1
 
             a = minFactorPower[i]
-            factors[i] = int((factors[m]/a) * (a+1))
+
+            # m 의 가장작은 소인수의 개수를 대체(+1)하여 기록
+            factors[i] = (factors[m]//a) * (a+1)
 
 
 getFactorsSmart()
