@@ -35,8 +35,6 @@ def get_answer(r_list, p_list, n):
         temp[i] = r_list[i] * cnt - p_list[i]
     return temp
 
-    return cnt
-
 
 for _ in range(c):
     n = int(input())
