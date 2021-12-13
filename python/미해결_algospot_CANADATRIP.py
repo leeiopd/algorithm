@@ -13,7 +13,7 @@ for _ in range(T):
         L, M, G = map(int, input().split())
 
         road[L] += 1
-        for _ in range(M//G):
+        for _ in range(M // G):
             L -= G
             road[L] += 1
 
@@ -21,7 +21,7 @@ for _ in range(T):
     lo = 0
 
     while True:
-        half = (hi+lo) // 2
+        half = (hi + lo) // 2
         S = sum(road[:half])
         if S == K:
             half -= 1
