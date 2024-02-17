@@ -1,30 +1,18 @@
 const fs = require("fs")
 const input = parseInt(fs.readFileSync("/dev/stdin").toString().trim())
 
-/*
-X가 3으로 나누어 떨어지면, 3으로 나눈다.
-X가 2로 나누어 떨어지면, 2로 나눈다.
-1을 뺀다.
-*/
+const dp = new Array(input+1).fill(0)
 
-const MIN = 100000000;
-
-const memory = new Array(10).fill(100000000);
-
-const dfs = (n, time = 0) => {
-    if (memory[n] < time) return;
-
-    memory[n] = time;
-
-    if (n === 1) {
-        return;
+for (let i = 2; i <= input; i++){
+    dp[i] = dp[i-1] + 1
+    
+    if(i % 3 === 0){
+        dp[i] = Math.min(dp[i], dp[i/3]+1)
     }
+    
+    if(i % 2 === 0){
+        dp[i] = Math.min(dp[i], dp[i/2]+1)
+    }
+}
 
-    if (n % 3 === 0) dfs(parseInt(n / 3), time + 1);
-    if (n % 2 === 0) dfs(parseInt(n / 2), time + 1);
-    dfs(n - 1, time + 1);
-};
-
-dfs(input);
-
-console.log(memory[1]);
+console.log(dp[input])
